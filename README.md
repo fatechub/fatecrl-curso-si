@@ -36,9 +36,11 @@ Exemplo:
 > Não teve aula. Reunião dos professores
 
 ##### 09 (SEG) EVELINE
-##### 10 (TER) CHIARA [ACESSAR AULA](https://gist.github.com/anonymous/3fbda7e2d77fce2ae86c)
-##### 10 (QUAR) CIRO
 > - Não teve matéria, apenas introdução do conteúdo semestre.
+
+##### 10 (TER) CHIARA
+
+##### 10 (QUAR) CIRO
 > - PDF: [Plano de Ensino](http://fatecrl.edu.br/moodle/file.php/395/PlanoEnsino-DPS2-2015-1.pdf)
 > - PDF: [Tecnologias de Programação Web](http://fatecrl.edu.br/moodle/file.php/395/DPS2-01-Historico.pdf)
 
@@ -64,7 +66,6 @@ Exemplo:
 ##### 20 (SEX) GARCIA
 > - Continuação: Polimorfismo para método (GENERICS)
 > - [Códigos da Aula](https://www.facebook.com/groups/117115275154442/348203142045653/)
-> - **MATERIA COM FLAVIA**
 
 ##### 21 (SAB) ROSEMEIRE
 ##### 21 (SAB) MAURICIO
