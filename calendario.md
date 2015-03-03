@@ -42,5 +42,5 @@ layout: page
 #### 17/06 (Quarta)
 > [P3] ..., Ciro (C/CONSULTA)
 
-#### 27/04 (Sabádo)
+#### 27/06 (Sabádo)
 > [P3] ..., Rosemeire
