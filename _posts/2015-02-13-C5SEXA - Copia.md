@@ -1,0 +1,16 @@
+---
+title: Aula C5SEXA (Garcia)
+layout: post
+category : C5SEXA
+tags : [ciclo-5, garcia, aula]
+---
+
+<div class="alert alert-danger">Este post precisa ser melhorado. Contém apenas arquivo da aula (arquivo murilo). Pegar anotações com Cadu.</div>
+
+
+## Persistência com reflection
+
+*** 
+
+## Download arquivos aula
+[Fazer Download]({{ BASE_PATH }}/media/aula-2015-03-06-garcia.rar) 
