@@ -248,4 +248,5 @@ Esta situação:
 *** 
 
 ## Download arquivos aula
-[Fazer Download]({{ site.production_url }}/media/aula-2015-03-20-garcia.rar) 
+
+[Fazer Download]({{ site.production_url }}/media/aula-2015-03-20-garcia.zip) 
