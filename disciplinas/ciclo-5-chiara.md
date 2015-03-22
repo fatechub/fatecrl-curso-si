@@ -33,6 +33,15 @@ group: navigation
 
 ***
 
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/02</span>
+
+## Instalação do ADT (eclipse) ou o Android Toolkit (Android Studio)
+
+## Apostila Hello, Android (The Pragmatic Programmers)
+- Apostila: [Hello, Android (The Pragmatic Programmers).pdf](https://www.facebook.com/download/780007602089838/Hello%2C%20Android%20%28The%20Pragmatic%20Programmers%29.pdf)
+
+***
+
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 03/03</span>
 
 ## Contador V5

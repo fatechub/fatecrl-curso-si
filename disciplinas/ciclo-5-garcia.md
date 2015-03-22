@@ -9,6 +9,7 @@ group: navigation
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
 - [Repositório com exemplos de utilização de padrões de projeto implementados em Java.](https://github.com/MarcosX/Padr-es-de-Projeto)
+- [L1.pdf - Exercicio de Treino dado pelo Garcia Reflection]({{ site.production_url }}/media/L1.pdf) 
 
 ***
 
@@ -212,13 +213,25 @@ public String toString(){
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 06/03</span>
 
-<div class="alert alert-danger">Este post precisa ser melhorado. Contém apenas arquivo da aula (arquivo murilo). Pegar anotações com Cadu.</div>
-
-
 ## Persistência com reflection
+Códigos feito por Garcia e Adam (@annotations && Reflect)
+[Fazer Download]({{ site.production_url }}/media/Reflection.zip)
 
 ## Download arquivos aula
 [Fazer Download]({{ site.production_url }}/media/aula-2015-03-06-garcia.rar) 
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 13/03</span>
+
+
+## Padrão de Projeto: **DECORATOR**
+
+<div class="alert alert-danger">Ele deu o exercicio dos prefeitos e cargos, e pediu um UML. (Precisa passar para cá a resoluções Adam e Flávia) e o enunciado.</div>
+
+**Resposta Garcia com Decorator**
+[garcia-13-03-PadraoDecorator.rar]({{ site.production_url }}/media/garcia-13-03-PadraoDecorator.rar) 
+
 
 ***
 
@@ -226,12 +239,11 @@ public String toString(){
 
 <div class="alert alert-danger">Pegar foto da exemplificação da esplicação com o Felipe (uml do padrão)</div>
 
-
 ## Padrão de Projeto: **STRATEGY**
 Define uma família de algoritmos, encapsula e os torna intercambiaveis (variáveis).
 ***Principio***:Encapsule o que varia.
 
-## Exercício 1:
+### Exercício 1:
 
 Uma loja virtual prossue alguns produtos a venda. Os produtos são livors, DVDs e brinquedos. Cada produto possui nome e preço. A mesma loja oferece promoções diferentes a cada mês. Uma promoção reguçar desconta cada produto em 10% mais um desconto extra varia de 5% a 10% dependendo do mês. Uma liquidação desnconta 30% ao preço de cada produto. Há meses quenão há promoção descrita.
 Esta situação: 
@@ -240,7 +252,7 @@ Esta situação:
 
 
 
-### Arquivo  resolvido da forma errada pelo Gracia
+### Arquivo  resolvido da forma errada pelo Garcia
     Fere aregra de aberto e fechado:
     - dificil de debugar
     - cresce esponencialmente
