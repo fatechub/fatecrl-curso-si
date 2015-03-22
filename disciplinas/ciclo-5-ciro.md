@@ -10,6 +10,7 @@ group: navigation
 
 - [Moodle](http://fatecrl.edu.br/moodle/course/view.php?id=395)
 - [ciroct@gmail.com](ciroct@gmail.com)
+- [Download NetBeans](https://netbeans.org/)
 
 ***
 
