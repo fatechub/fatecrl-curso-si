@@ -104,8 +104,6 @@ O ARRAY LIST É UM EXEMPLO. Ele lista qualquer coisa que for definido.
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 20/02</span>
 
-<div class="alert alert-danger">Este post precisa ser melhorado, mais exemplos.</div>
-
 <div class="alert alert-info">Este inicio é uma atualizada sobre o que o ciro deu semestre passado. Isso ficou faltando (apenas pra ficar por dentro)</div>
 
 ## Bound
@@ -229,28 +227,23 @@ public String toString(){
 <div class="alert alert-danger">Pegar foto da exemplificação da esplicação com o Felipe (uml do padrão)</div>
 
 
-## PADRÃO DE PROJETO **STRATEGY**
+## Padrão de Projeto: **STRATEGY**
 Define uma família de algoritmos, encapsula e os torna intercambiaveis (variáveis).
 ***Principio***:Encapsule o que varia.
 
+## Exercício 1:
 
-***
+Uma loja virtual prossue alguns produtos a venda. Os produtos são livors, DVDs e brinquedos. Cada produto possui nome e preço. A mesma loja oferece promoções diferentes a cada mês. Uma promoção reguçar desconta cada produto em 10% mais um desconto extra varia de 5% a 10% dependendo do mês. Uma liquidação desnconta 30% ao preço de cada produto. Há meses quenão há promoção descrita.
+Esta situação: 
+- A) Desenhe o diagrama de classes;
+- B) Codifique com base em A).
 
-
-##Exercício dado:
-`
-    Uma loja virtual prossue alguns produtos a venda. Os produtos são livors, DVDs e brinquedos. Cada produto possui nome e preço. A mesma loja oferece promoções diferentes a cada mês. Uma promoção reguçar desconta cada produto em 10% mais um desconto extra varia de 5% a 10% dependendo do mês. Uma liquidação desnconta 30% ao preço de cada produto. Há meses quenão há promoção descrita.
-    Esta situação: 
-    - A) Desenhe o diagrama de classes;
-    - B) Codifique com base em A).
-`
 
 
 ### Arquivo  resolvido da forma errada pelo Gracia
     Fere aregra de aberto e fechado:
     - dificil de debugar
     - cresce esponencialmente
-    - 
 
 *** 
 

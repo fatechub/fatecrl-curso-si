@@ -44,13 +44,17 @@ Programinha simples criado em aula que incrementa e decrementa valor.
 - Text Field
 - Tratando eventos - clique em botão
 
-## TP Conversor Farenheit<>Celsius
+## Download arquivos aula
+[Fazer Download]({{ site.production_url }}/media/aula-2015-03-03-chiara-cV5.rar) 
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP 1 Conversor Farenheit<>Celsius</span>
+
 Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-versa.
 
 [Fazer Download]({{ site.production_url }}/media/gist4b521605740b07cb1fc8-c2e3ec1d74e8f76939031bdcf78859cfacb47af1.tar.gz) - ou - [ver no Gist](https://gist.github.com/flaviacs/4b521605740b07cb1fc8).
 
-## Download arquivos aula
-[Fazer Download]({{ site.production_url }}/media/aula-2015-03-03-chiara-cV5.rar) 
 
 ***
 
@@ -79,8 +83,6 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 ***
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 17/03</span>
-
-<div class="alert alert-info">Ele pediu trabalho. Em breve add os arquivos.</div>
 
 ## Componentes Visuais:
 - Basicamente o que já havia dado
