@@ -33,7 +33,7 @@ group: navigation
 <p class="text-center"><img src="{{ site.production_url }}/media/20150313191212.jpg" class="img-responsive"></p>
 
 - [Visualizar em yED]({{ site.production_url }}/media/fluxograma-cards-mapasite-toca-v1.graphml)
-- [Visualizar em PDF]({{ site.production_url }}/media/fluxograma-cards-mapasite-toca-v1.pdf)
+- [Visualizar em img]({{ site.production_url }}/media/fluxograma-cards-mapasite-toca-v1.jpg)
 
 ## Video: Usability Card Sorting for Website - Intellavia
 <iframe width="640" height="480" src="https://www.youtube.com/embed/TNvdgXCqEvM?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
@@ -54,5 +54,4 @@ group: navigation
 - [Fotos da organização final dos Cards - Grupo A e B](https://www.dropbox.com/sh/jf5qmv7v6m5mupa/AAAa9fq8wtdd-cQZgPnuwLWIa?dl=0)
 - [Video Grupo A](https://www.youtube.com/watch?v=dErgEtAYlkw&feature=youtu.be)
 - [Video Grupo B](https://www.youtube.com/watch?v=TGEFdKwgcWs&feature=youtu.be)
-
-<div class="alert alert-danger">Relatório pendente <b>Flávia</b></div>
+- [PDF relatório]({{ site.production_url }}/media/teste-card-sorting.pdf)
