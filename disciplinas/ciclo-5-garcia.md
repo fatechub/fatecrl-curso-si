@@ -6,10 +6,11 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
+<span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
 - [Repositório com exemplos de utilização de padrões de projeto implementados em Java.](https://github.com/MarcosX/Padr-es-de-Projeto)
 - [L1.pdf - Exercicio de Treino dado pelo Garcia Reflection]({{ site.production_url }}/media/L1.pdf) 
+- [6PPL2.pdf - Exercicio 2 de Treino dado pelo Garcia Reflection]({{ site.production_url }}/media/6PPL2.pdf) 
 
 ***
 
@@ -99,7 +100,7 @@ O ARRAY LIST É UM EXEMPLO. Ele lista qualquer coisa que for definido.
 *** 
 
 ## Download arquivos aula
-[Fazer Download]({{ site.production_url }}/media/aula-2015-02-13.rar) 
+[aula-2015-02-13.rar]({{ site.production_url }}/media/aula-2015-02-13.rar) 
 
 ***
 
@@ -207,18 +208,19 @@ public String toString(){
 *** 
 
 ## Download arquivos aula
-[Fazer Download]({{ site.production_url }}/media/aula-2015-02-20.rar) 
+[aula-2015-02-20.rar]({{ site.production_url }}/media/aula-2015-02-20.rar) 
 
 ***
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 06/03</span>
 
 ## Persistência com reflection
-Códigos feito por Garcia e Adam (@annotations && Reflect)
-[Fazer Download]({{ site.production_url }}/media/Reflection.zip)
+[Reflection.zip]({{ site.production_url }}/media/Reflection.zip)
+
+> Códigos feito por Garcia e Adam (@annotations && Reflect)
 
 ## Download arquivos aula
-[Fazer Download]({{ site.production_url }}/media/aula-2015-03-06-garcia.rar) 
+[aula-2015-03-06-garcia.rar]({{ site.production_url }}/media/aula-2015-03-06-garcia.rar) 
 
 ***
 
@@ -261,4 +263,4 @@ Esta situação:
 
 ## Download arquivos aula
 
-[Fazer Download]({{ site.production_url }}/media/aula-2015-03-20-garcia.zip) 
+[aula-2015-03-20-garcia.zip]({{ site.production_url }}/media/aula-2015-03-20-garcia.zip) 
