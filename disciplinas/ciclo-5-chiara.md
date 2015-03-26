@@ -6,11 +6,12 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
+<span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
 - [Moodle](http://fatecrl.edu.br/moodle/course/view.php?id=230) - senha: prdm20151
 - [Download Android Studio](http://developer.android.com/sdk/index.html)
 - [jorgechiara@yahoo.com.br](jorgechiara@yahoo.com.br)
+- [GitHub Branch: AndroidStudio (Projetos no AndroidStudio)](https://github.com/adammacias/fatec-si/tree/androidstudioprojects)
 
 ***
 
@@ -36,9 +37,10 @@ group: navigation
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/02</span>
 
 ## Instalação do ADT (eclipse) ou o Android Toolkit (Android Studio)
+[Download Android Studio](http://developer.android.com/sdk/index.html)
 
 ## Apostila Hello, Android (The Pragmatic Programmers)
-- Apostila: [Hello, Android (The Pragmatic Programmers).pdf](https://www.facebook.com/download/780007602089838/Hello%2C%20Android%20%28The%20Pragmatic%20Programmers%29.pdf)
+[Hello, Android (The Pragmatic Programmers).pdf](https://www.facebook.com/download/780007602089838/Hello%2C%20Android%20%28The%20Pragmatic%20Programmers%29.pdf)
 
 ***
 
@@ -54,15 +56,17 @@ Programinha simples criado em aula que incrementa e decrementa valor.
 - Tratando eventos - clique em botão
 
 ## Download arquivos aula
-[Fazer Download]({{ site.production_url }}/media/aula-2015-03-03-chiara-cV5.rar) 
+[aula-2015-03-03-chiara-cV5.rar]({{ site.production_url }}/media/aula-2015-03-03-chiara-cV5.rar) 
+
+> Projeto: ContadorV5
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP 1 Conversor Farenheit<>Celsius</span>
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP 1 Conversor Farenheit<>Celsius</span>
 
 Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-versa.
 
-[Fazer Download]({{ site.production_url }}/media/gist4b521605740b07cb1fc8-c2e3ec1d74e8f76939031bdcf78859cfacb47af1.tar.gz) - ou - [ver no Gist](https://gist.github.com/flaviacs/4b521605740b07cb1fc8).
+[converta-temperaturas.gz]({{ site.production_url }}/media/converta-temperaturas.gz) - ou - [https://gist.github.com/flaviacs/4b521605740b07cb1fc8](https://gist.github.com/flaviacs/4b521605740b07cb1fc8).
 
 
 ***
@@ -86,8 +90,9 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 {% endhighlight %}
 
 ## Download arquivos aula
-[Fazer Download]({{ site.production_url }}/media/aula-2015-03-10-chiara.rar) 
+[aula-2015-03-10-chiara.rar]({{ site.production_url }}/media/aula-2015-03-10-chiara.rar) 
 
+> Projeto: Sobre
 
 ***
 
@@ -97,4 +102,20 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 - Basicamente o que já havia dado
 
 ## Download arquivos aula
-[Fazer Download]({{ site.production_url }}/media/aula-2015-03-17-chiara.rar) 
+[aula-2015-03-17-chiara.rar]({{ site.production_url }}/media/aula-2015-03-17-chiara.rar) 
+
+> Projetos: Intent01, Intent2Quinto, Intent2QuintoEclipse
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/03</span>
+
+<div class="alert alert-danger">Pendente conteudo. Ele passou ListMenu algo assim. **Pendrive Flávia**</div>
+
+***
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP 2 Lista com várias tarefas</span>
+
+<div class="alert alert-danger">Publicar enunciado. **Pendrive Flávia**</div>
+
+<div class="alert alert-danger">Publicar solução no <a href="https://github.com/adammacias/fatec-si/tree/androidstudioprojects">branch androidstudioprojects</a></div>
