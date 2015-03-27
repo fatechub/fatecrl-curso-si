@@ -127,6 +127,7 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span>TP 2 LISTA COM VÁRIAS TAREFAS</span>
 
 [Enunciado: Intents Implícitas]({{ site.production_url }}/media/Intents_Implicitas.pdf) 
+
 > Projeto: Intent3Quinto
 
 <div class="alert alert-danger">Publicar solução no <a href="https://github.com/adammacias/fatec-si/tree/androidstudioprojects">branch androidstudioprojects</a></div>
