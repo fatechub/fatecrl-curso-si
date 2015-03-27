@@ -111,12 +111,21 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/03</span>
 
-<div class="alert alert-danger">Pendente conteudo. Ele passou ListMenu algo assim. **Pendrive Flávia**</div>
+## Componentes Visuais:
+- Colocar lista de ações para chamar várias views
 
-***
+## Anotações
+- 1. Extende para ListActivity
+- 2. Cria um vetor strings.
+- 3. Cria Adpter e faz um set list para ele.
+- 4. Sobrescreve o metodo onListItemClick()
 
-<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP 2 Lista com várias tarefas</span>
+## Download arquivos aula
+[--]({{ site.production_url }}/media/aula-2015-03-24-chiara.rar) 
 
-<div class="alert alert-danger">Publicar enunciado. **Pendrive Flávia**</div>
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span>TP 2 LISTA COM VÁRIAS TAREFAS</span>
+
+## Enunciado:
+[Enunciado: Intents Implícitas]({{ site.production_url }}/media/Intents_Implicitas.pdf) 
 
 <div class="alert alert-danger">Publicar solução no <a href="https://github.com/adammacias/fatec-si/tree/androidstudioprojects">branch androidstudioprojects</a></div>
