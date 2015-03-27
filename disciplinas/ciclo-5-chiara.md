@@ -115,17 +115,20 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 - Colocar lista de ações para chamar várias views
 
 ## Anotações
-- 1. Extende para ListActivity
-- 2. Cria um vetor strings.
-- 3. Cria Adpter e faz um set list para ele.
-- 4. Sobrescreve o metodo onListItemClick()
+1. Extende para ListActivity
+2. Cria um vetor strings.
+3. Cria Adpter e faz um set list para ele.
+4. Sobrescreve o metodo onListItemClick()
 
 ## Download arquivos aula
-[--]({{ site.production_url }}/media/aula-2015-03-24-chiara.rar) 
+[aula-2015-03-24-chiara.rar]({{ site.production_url }}/media/aula-2015-03-24-chiara.rar) 
+
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span>TP 2 LISTA COM VÁRIAS TAREFAS</span>
 
-## Enunciado:
 [Enunciado: Intents Implícitas]({{ site.production_url }}/media/Intents_Implicitas.pdf) 
+> Projeto: Intent3Quinto
 
 <div class="alert alert-danger">Publicar solução no <a href="https://github.com/adammacias/fatec-si/tree/androidstudioprojects">branch androidstudioprojects</a></div>
+
+***
