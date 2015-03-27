@@ -11,6 +11,7 @@ group: navigation
 - [Repositório com exemplos de utilização de padrões de projeto implementados em Java.](https://github.com/MarcosX/Padr-es-de-Projeto)
 - [L1.pdf - Exercicio de Treino dado pelo Garcia Reflection]({{ site.production_url }}/media/L1.pdf) 
 - [6PPL2.pdf - Exercicio 2 de Treino dado pelo Garcia Reflection]({{ site.production_url }}/media/6PPL2.pdf) 
+- [E-Book Use a Cabeça - Padrões de Projetos.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda)
 
 ***
 
