@@ -230,10 +230,31 @@ public String toString(){
 
 ## Padrão de Projeto: **DECORATOR**
 
-<div class="alert alert-danger">Ele deu o exercicio dos prefeitos e cargos, e pediu um UML. (Precisa passar para cá a resoluções Adam e Flávia) e o enunciado.</div>
+### Enunciado EmpresaPublica
 
-**Resposta Garcia com Decorator**
-[garcia-13-03-PadraoDecorator.rar]({{ site.production_url }}/media/garcia-13-03-PadraoDecorator.rar) 
+Em uma empresa públca, um cargo possui um nome e um valor de salário. 
+Os cargos de ingresso são auxiliar, especialista, e gerente.
+Se alguém com um cargo entrar para um cargo político (Secretário, Prefeito ou Vereador) o salário deve ser incorporado.
+Um cargo pode ter mais de uma incorporação, os sálarios base são calculados como se segue:
+
+- **Auxiliar** = Inicial + 1000
+- **Especialista** = Inicial + 2500
+- **Gerente** = Inicial + 3000
+
+e as incorporações:
+
+- **Prefeito** = Base + 4000
+- **Secretário** = Base + 2000
+- **Vereador** = Base + 5000
+
+Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito o cargo fica: especialista incorporado como prefeito incorporado como vereador.
+
+### Solução EmpresaPublica
+
+<div class="alert alert-danger">Adicionar UML yED do professor </div>
+
+- Branch eclipseProjects: [/DesignPatterns-Decorator](https://github.com/adammacias/fatec-si/tree/eclipseprojects/DesignPatterns-Decorator/src/empresapublicacargos)
+- Arquivos: [garcia-13-03-PadraoDecorator.rar]({{ site.production_url }}/media/garcia-13-03-PadraoDecorator.rar) 
 
 
 ***
