@@ -265,3 +265,43 @@ Esta situação:
 ## Download arquivos aula
 
 [aula-2015-03-20-garcia.zip]({{ site.production_url }}/media/aula-2015-03-20-garcia.zip) 
+
+
+***
+
+## Principio do aberto e fechado
+Todo código deve ser *aberto* para herança, e *Fechado* para modificação.
+
+## Padrão de Projetos (Chain of Responsibility)
+
+DEF: Evita **Acoplamento** (com if) entre o "Sender" de uma requisição Z, o recebedor dando a chance de mais de um objeto efetuar o tratamento. A cadeia de objetos trata a requisição conforme alguma requisição, caso não consiga o próximo elemento fica com a responsabilidade do tratamento.
+
+> Decorator, Chain e Strategy tem polimofismo
+
+### Definições
+
+- Diferença entre agregação e composição
+
+### Ex 1
+
+Exemplo: Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
+Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo
+
+
+## Design Pattern Adapter
+
+DEF: Converte a interface de uma classe em uma ao qual é esperada pelo cliente. O Adapter permite que classe com interfaces incompatíveis trabalhem juntas. 
+
+> Imita o DuckType
+
+### Ex 2
+
+Exemplo: Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, que não é Pato emite som e não consegue voar.
+Faça com que Peru e Pato trabalhem sob uma interface comum
+
+
+## Download arquivos aula
+
+[aula-2015-03-27-garcia.rar]({{ site.production_url }}/media/aula-2015-03-27-garcia.rar) 
+
+> Contém: "Versão" Garcia, "versão" Adam, anotações
