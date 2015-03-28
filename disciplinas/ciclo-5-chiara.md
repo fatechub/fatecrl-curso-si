@@ -47,19 +47,17 @@ group: navigation
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 03/03</span>
 
-## Contador V5
-Programinha simples criado em aula que incrementa e decrementa valor.
-
 ## Componentes Visuais:
 - Button
 - Text View
 - Text Field
 - Tratando eventos - clique em botão
 
-## Download arquivos aula
-[aula-2015-03-03-chiara-cV5.rar]({{ site.production_url }}/media/aula-2015-03-03-chiara-cV5.rar) 
+## Projeto: ContadorV5
 
-> Projeto: ContadorV5
+Programinha simples criado em aula que incrementa e decrementa valor.
+
+[aula-2015-03-03-chiara-cV5.rar]({{ site.production_url }}/media/aula-2015-03-03-chiara-cV5.rar) 
 
 ***
 
@@ -80,55 +78,67 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 - Configuração do arquivo string.xml (nomes dos botôes)
 - Criar Users Permissions
 
-## Anotações
+### Anotações
 - strings.xml: *localizado em*: **res** > **values** > **strings.xml**. É editado para as "variáveis de string" conter o valor dos nomes dos botões, txt... (os elementos das views (xml))
 - Permissões: *localizado em*: Arquivo **AndroidManifest.xml** > (aba) **Permissions**. É possível criar as exeções que serão usadas na aplicação. As permissões já estão prontas, precisa add.
 - Para finalizar uma Activity (arquivo view (xml)), use: *método* **finish**
 - Chamando uma page externa da aplicação (page web):
 {% highlight java %}
-  Uri uri = Uri.parse("http://www.google.com.br");
-  Intent it = new Intent(Intent.ACTION_VIEW, uri);
+Uri uri = Uri.parse("http://www.google.com.br");
+Intent it = new Intent(Intent.ACTION_VIEW, uri);
 {% endhighlight %}
 
-## Download arquivos aula
-[aula-2015-03-10-chiara.rar]({{ site.production_url }}/media/aula-2015-03-10-chiara.rar) 
+## Projeto: Intent1
 
-> Projeto: Sobre
+Botão que envia para Intent explícita: Sobre. 
+
+Botão que envia para Intent implícita: fatecrl.edu.br. 
+
+[aula-2015-03-10-chiara.rar]({{ site.production_url }}/media/aula-2015-03-10-chiara.rar) 
 
 ***
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 17/03</span>
 
-## Componentes Visuais:
-- Basicamente o que já havia dado
+## Diferença entre Intents Explícita e Implícita
 
-## Download arquivos aula
-[aula-2015-03-17-chiara.rar]({{ site.production_url }}/media/aula-2015-03-17-chiara.rar) 
+Explícita
 
-> Projetos: Intent01, Intent2Quinto, Intent2QuintoEclipse
+> *Interação entre componentes de uma mesma aplicação*.
+
+Implícita
+
+> *Interação entre componentes fora da aplicação, Internet, Chamadas e etc*.
+
+## Projeto: Intent1 - II
+
+Botão que envia para Intent explícita: Sobre. 
+
+Botão que envia para Intent implícita: Google.com.br. 
+
+[aula-2015-03-17-chiara.rar]({{ site.production_url }}/media/aula-2015-03-17-chiara.rar)
+
+## Projeto: Intent2Quinto
+
+Campo de texto simples, que envia valor para outra intent explícita "Sobre" e mostra o valor recebido, além disso, um Botão chamado "Fim", que finaliza o APP.
+
+[aula-2015-03-17-chiara.rar]({{ site.production_url }}/media/aula-2015-03-17-chiara.rar)
 
 ***
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/03</span>
 
-## Componentes Visuais:
-- Colocar lista de ações para chamar várias views
+## Projeto Intent3Quinto
 
-## Anotações
-1. Extende para ListActivity
-2. Cria um vetor strings.
-3. Cria Adpter e faz um set list para ele.
-4. Sobrescreve o metodo onListItemClick()
+> Componente Visual: ListActivity - Lista de ações para chamar multiplas views (Activitys)
 
-## Download arquivos aula
 [aula-2015-03-24-chiara.rar]({{ site.production_url }}/media/aula-2015-03-24-chiara.rar) 
 
-> Projeto: Intent3Quinto
+***
 
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span>TP 2 Android: Intents Implícitas</span>
 
-<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span>TP 2 LISTA COM VÁRIAS TAREFAS</span>
-
-[Enunciado: Intents Implícitas]({{ site.production_url }}/media/Intents_Implicitas.pdf) 
+- Enunciado [Intents_Implicitas.pdf]({{ site.production_url }}/media/Intents_Implicitas.pdf) 
 
 <div class="alert alert-danger">Publicar solução no <a href="https://github.com/adammacias/fatec-si/tree/androidstudioprojects">branch androidstudioprojects</a></div>
 
