@@ -285,15 +285,16 @@ A forma errada fere a regra de aberto e fechado:
 
 Uma loja virtual prossue alguns produtos a venda. Os produtos são livros, DVDs e brinquedos. Cada produto possui nome e preço. A mesma loja oferece promoções diferentes a cada mês. Uma promoção reguçar desconta cada produto em 10% mais um desconto extra varia de 5% a 10% dependendo do mês. Uma liquidação desnconta 30% ao preço de cada produto. Há meses quenão há promoção descrita.
 Esta situação: 
+
 - A) Desenhe o diagrama de classes;
 - B) Codifique com base em A).
 
 ### Solução 
 
-<div class="alert alert-danger">Branch eclipseProjects: PENDENTE **Adam**</div>
-
-- Branch eclipseProjects: **PENDENTE**
+- Branch eclipseProjects: [/DesignPatterns-Strategy](https://github.com/adammacias/fatec-si/tree/eclipseprojects/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia)
 - Arquivos: [aula-2015-03-20-garcia.zip]({{ site.production_url }}/media/aula-2015-03-20-garcia.zip) 
+
+<div class="alert alert-danger">Flavia, vc colocou duas vezes a solução do Garcia, faltou a nossa.</div>
 
 ***
 
