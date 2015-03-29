@@ -8,10 +8,16 @@ group: navigation
 
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
-- [Repositório com exemplos de utilização de padrões de projeto implementados em Java.](https://github.com/MarcosX/Padr-es-de-Projeto)
-- [L1.pdf - Exercicio de Treino dado pelo Garcia Reflection]({{ site.production_url }}/media/L1.pdf) 
-- [6PPL2.pdf - Exercicio 2 de Treino dado pelo Garcia Reflection]({{ site.production_url }}/media/6PPL2.pdf) 
-- [E-Book Use a Cabeça - Padrões de Projetos.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda)
+## **Lista 1 Exercicios Reflection** 
+- Enunciados: [L1.pdf]({{ site.production_url }}/media/L1.pdf)
+- Soluções: [/DesignPatterns-Lista1](https://github.com/adammacias/fatec-si/tree/eclipseprojects/DesignPatterns-Lista1/src)
+
+## **Lista 2 Exercicios Reflection** 
+- Enunciados: [6PPL2.pdf]({{ site.production_url }}/media/6PPL2.pdf) 
+
+## Utilidades
+- Repositório com exemplos de utilização de padrões de projeto implementados em Java. [MarcosX/Padr-es-de-Projeto](https://github.com/MarcosX/Padr-es-de-Projeto)
+- E-Book Use a Cabeça  [Padrões de Projetos.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda)
 
 ***
 
@@ -228,9 +234,9 @@ public String toString(){
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 13/03</span>
 
 
-## Padrão de Projeto: **DECORATOR**
+## Padrão de Projeto: (DECORATOR)
 
-### Enunciado EmpresaPublica
+### Exercício EmpresaPublica
 
 Em uma empresa públca, um cargo possui um nome e um valor de salário. 
 Os cargos de ingresso são auxiliar, especialista, e gerente.
@@ -249,7 +255,7 @@ e as incorporações:
 
 Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito o cargo fica: especialista incorporado como prefeito incorporado como vereador.
 
-### Solução EmpresaPublica
+### Solução
 
 <div class="alert alert-danger">Adicionar UML yED do professor </div>
 
@@ -263,66 +269,90 @@ Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito
 
 <div class="alert alert-danger">Pegar foto da exemplificação da esplicação com o Felipe (uml do padrão)</div>
 
-## Padrão de Projeto: **STRATEGY**
+## Padrão de Projeto (STRATEGY)
 Define uma família de algoritmos, encapsula e os torna intercambiaveis (variáveis).
-***Principio***:Encapsule o que varia.
 
-### Exercício 1:
+> ***Principio***: Encapsule o que varia.
 
-Uma loja virtual prossue alguns produtos a venda. Os produtos são livors, DVDs e brinquedos. Cada produto possui nome e preço. A mesma loja oferece promoções diferentes a cada mês. Uma promoção reguçar desconta cada produto em 10% mais um desconto extra varia de 5% a 10% dependendo do mês. Uma liquidação desnconta 30% ao preço de cada produto. Há meses quenão há promoção descrita.
+### Porque devemos usar?
+
+A forma errada fere a regra de aberto e fechado:
+
+- Dificil de debugar
+- Cresce esponencialmente
+
+### Exercício LojaVirtual:
+
+Uma loja virtual prossue alguns produtos a venda. Os produtos são livros, DVDs e brinquedos. Cada produto possui nome e preço. A mesma loja oferece promoções diferentes a cada mês. Uma promoção reguçar desconta cada produto em 10% mais um desconto extra varia de 5% a 10% dependendo do mês. Uma liquidação desnconta 30% ao preço de cada produto. Há meses quenão há promoção descrita.
 Esta situação: 
 - A) Desenhe o diagrama de classes;
 - B) Codifique com base em A).
 
+### Solução 
 
+<div class="alert alert-danger">Branch eclipseProjects: PENDENTE **Adam**</div>
 
-### Arquivo  resolvido da forma errada pelo Garcia
-    Fere aregra de aberto e fechado:
-    - dificil de debugar
-    - cresce esponencialmente
-
-*** 
-
-## Download arquivos aula
-
-[aula-2015-03-20-garcia.zip]({{ site.production_url }}/media/aula-2015-03-20-garcia.zip) 
-
+- Branch eclipseProjects: **PENDENTE**
+- Arquivos: [aula-2015-03-20-garcia.zip]({{ site.production_url }}/media/aula-2015-03-20-garcia.zip) 
 
 ***
 
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 27/03</span>
+
+## Agregação X Composição
+
+Na **Agregação**, a existência do Objeto-Parte faz sentido, mesmo não existindo o Objeto-Todo. Vejamos o exemplo Time-Atleta:
+
+![Imagem1](http://conteudo.imasters.com.br/18901/fig_02_agregacao.png)
+
+Um time é formado por atletas, ou seja, os atletas são parte integrante de um time, mas os atletas existem independentemente de um time existir. Nesse caso, chamamos esse relacionamento de AGREGAÇÃO.
+
+Já a **Composição** é uma agregação mais forte; nela, a existência do Objeto-Parte NÃO faz sentido se o Objeto-Todo não existir. Vejamos o exemplo Pedido-ItemPedido:
+
+![Imagem2](http://conteudo.imasters.com.br/18901/fig_03_composicao.png)
+
+[Fonte: imasters](http://imasters.com.br/artigo/18901/uml/uml-composicao-x-agregacao/)
+
 ## Principio do aberto e fechado
-Todo código deve ser *aberto* para herança, e *Fechado* para modificação.
+> Todo código deve ser *aberto* para herança, e *Fechado* para modificação. - Garcia
 
-## Padrão de Projetos (Chain of Responsibility)
+O princípio Aberto/Fechado poderia ser entendido como uma implementação que permite adicionar novas funcionalidades sem mexer no código existente. Em outras palavras:
 
-DEF: Evita **Acoplamento** (com if) entre o "Sender" de uma requisição Z, o recebedor dando a chance de mais de um objeto efetuar o tratamento. A cadeia de objetos trata a requisição conforme alguma requisição, caso não consiga o próximo elemento fica com a responsabilidade do tratamento.
+> Não precisamos alterar o conteúdo das classes, basta criar novas implementações de interfaces ou sobrescrever os métodos de classes existentes.
+
+[Fonte: Stackoverflow](http://pt.stackoverflow.com/a/15651)
+
+## Padrão de Projeto (CHAIN of Responsibility)
+
+Evita **Acoplamento** (com if) entre o "Sender" de uma requisição Z, o recebedor dando a chance de mais de um objeto efetuar o tratamento. A cadeia de objetos trata a requisição conforme alguma requisição, caso não consiga o próximo elemento fica com a responsabilidade do tratamento.
 
 > Decorator, Chain e Strategy tem polimofismo
 
-### Definições
+### Exercicio AprovacaoDeVerbas
 
-- Diferença entre agregação e composição
-
-### Ex 1
-
-Exemplo: Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
+Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
 Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo
 
+### Solução
 
-## Design Pattern Adapter
+<div class="alert alert-danger">Pendente UML</div>
 
-DEF: Converte a interface de uma classe em uma ao qual é esperada pelo cliente. O Adapter permite que classe com interfaces incompatíveis trabalhem juntas. 
+- Branch eclipseProjects: [/DesignPatterns-ChainOfResponsibility](https://github.com/adammacias/fatec-si/tree/eclipseprojects/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco)
+- Arquivos: [aula-2015-03-27-garcia.rar]({{ site.production_url }}/media/aula-2015-03-27-garcia.rar) 
+
+## Padrão de Projeto (ADAPTER)
+
+Converte a interface de uma classe em uma ao qual é esperada pelo cliente. O Adapter permite que classe com interfaces incompatíveis trabalhem juntas. 
 
 > Imita o DuckType
 
-### Ex 2
+### Exercicio PatoAdaptadoPeru
 
-Exemplo: Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, que não é Pato emite som e não consegue voar.
-Faça com que Peru e Pato trabalhem sob uma interface comum
+Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, que não é Pato emite som e não consegue voar. Faça com que Peru e Pato trabalhem sob uma interface comum
 
+### Solução
 
-## Download arquivos aula
+<div class="alert alert-danger">Pendente UML</div>
 
-[aula-2015-03-27-garcia.rar]({{ site.production_url }}/media/aula-2015-03-27-garcia.rar) 
-
-> Contém: "Versão" Garcia, "versão" Adam, anotações
+- Branch eclipseProjects: [/DesignPatterns-Adapter](https://github.com/adammacias/fatec-si/tree/eclipseprojects/DesignPatterns-Adapter/src/PatoAdaptadoPeru)
+- Arquivos: [aula-2015-03-27-garcia.rar]({{ site.production_url }}/media/aula-2015-03-27-garcia.rar) 
