@@ -208,26 +208,33 @@ public String toString(){
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 06/03</span>
 
 ## Annotations
+O conceito mais básico é: anotações são metadados.
+
+São dados adicionais que você relaciona com classes, métodos, atributos, parâmetros e variáveis.
+
+Os dados podem ser usados em tempo de compilação e de execução, conforme definição da anotação.
+
+> *É um marcador que pode ser salvo no bytecode* - Garcia
+
+Alguns Annotations: *@Override, @SupressWarnings e @ManagedBean*.
  
-### Annotation GenericCreateTableDB - Simula Persistência com Reflection
-> @Table(nome=X), @Column(nome=X), @Varchar(qut=X)
+### Exemplos
 
-- [/GenericCreateTableDB](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/GenericCreateTableDB)
+> GenericCreateTableDB - Simula Persistência com Reflection
 
-### Annotation: ValidarNotNullEMaiorIdade
-> @NotNull(conteudo=X), @isMaior(idade=Y)
+[/GenericCreateTableDB](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/GenericCreateTableDB) @Table(nome=X), @Column(nome=X), @Varchar(qut=X)
 
-- [/ValidarNotNullEMaiorIdade](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ValidarNotNullEMaiorIdade)
+> ValidarNotNullEMaiorIdade
 
-### Annotation: Autor
-> @autor(nome=X, tempo=Y)
+[/ValidarNotNullEMaiorIdade](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ValidarNotNullEMaiorIdade) @NotNull(conteudo=X), @isMaior(idade=Y)
 
-- [/autor](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/autor)
+> Autor
 
-### Annotation: Ordem
-> @ordem(numero=X)
+[/autor](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/autor) @autor(nome=X, tempo=Y)
 
-- [/ordem](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ordem)
+> Annotation: Ordem
+
+[/ordem](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ordem) @ordem(numero=X)
  
 
 ***
@@ -316,7 +323,7 @@ Já a **Composição** é uma agregação mais forte; nela, a existência do Obj
 [Fonte: imasters](http://imasters.com.br/artigo/18901/uml/uml-composicao-x-agregacao/)
 
 ## Principio do aberto e fechado
-> Todo código deve ser *aberto* para herança, e *Fechado* para modificação. - Garcia
+> *Todo código deve ser **aberto** para herança, e **fechado** para modificação.* - Garcia
 
 O princípio Aberto/Fechado poderia ser entendido como uma implementação que permite adicionar novas funcionalidades sem mexer no código existente. Em outras palavras:
 
