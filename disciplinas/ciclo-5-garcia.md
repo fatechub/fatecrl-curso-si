@@ -16,6 +16,7 @@ group: navigation
 - Enunciados: [6PPL2.pdf]({{ site.production_url }}/media/6PPL2.pdf) 
 
 ## Utilidades
+- Artigo com problemas e soluções Padrões de Projeto por Brizemp [brizeno.wordpress.com/padroes/](https://brizeno.wordpress.com/padroes/)
 - Repositório com exemplos de utilização de padrões de projeto implementados em Java. [MarcosX/Padr-es-de-Projeto](https://github.com/MarcosX/Padr-es-de-Projeto)
 - E-Book Use a Cabeça  [Padrões de Projetos.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda)
 
@@ -38,15 +39,13 @@ group: navigation
 4. [Orientação a aspectos](http://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_aspecto)
 5. Topicos especiais
 
-***
- 
+
 ## Referências bibliográficas
 
 1. java reflection in action. Ira Foreman e Nate Foreman - 2004.
 2. Design Patterns: Elements of Rensable (?) object-oriented software. Eric Gamma, Rich Helm, Ralph Jhonson e John vissides (?). (Gang of Four ou GOF).
 3. Use a cabeça: Design patterns. Eric Freeman e Elisabeth Freeman.
 
-***
 
 ## Polimorfismo de Subtipos
 
@@ -87,12 +86,9 @@ Animal a  = new Gato()           |       g.arranhar()   [✓]
 - [Teoria dos tipos](http://pt.wikipedia.org/wiki/Teoria_dos_tipos)
 - [Alocação de memória](http://pt.wikipedia.org/wiki/Aloca%C3%A7%C3%A3o_de_mem%C3%B3ria)
 
-***
  
 ## Principio de POO
 Programe para uma abstração, nunca para uma implementação.
-
-***
 
 ## Polimorfismo Para Método (GENERICS)
 Criar um tipo novo que englobe o outro. O foco é na estrutura do novo tipo e não no tipo englobado.
@@ -103,8 +99,6 @@ O ARRAY LIST É UM EXEMPLO. Ele lista qualquer coisa que for definido.
  
 - ArrayList `<string>`
 - ArrayList `<ninja>`
-
-*** 
 
 ## Download arquivos aula
 [aula-2015-02-13.rar]({{ site.production_url }}/media/aula-2015-02-13.rar) 
@@ -149,8 +143,6 @@ List< ? super Number > a = New arrayList< objeto >;
                     Não poderá chegar na classe *String* nem *Integer* porque é acima. 
 </pre>
 
-***
-
 ## Regra PECS
 
 - *Super*: Só add();
@@ -164,8 +156,6 @@ public Class PortaJoia_ {
 }
 {% endhighlight %}
  
-*** 
-
 <div class="alert alert-info">Matéria do semestre</div>
 
 ## Reflection: 
@@ -192,8 +182,6 @@ Visto em php
 - Annotations   { Marcador para conversas com o compilador}
 - Modifier      { abstrct, pretect, public, defout }
  
-***
-
 ## Boilerplate
 Repetição trecho de código em várias partes do arquivo mudando apenas pequenas coisas, como por exemplo um syso:
 
@@ -212,8 +200,6 @@ public String toString(){
 }
 {% endhighlight %}
 
-*** 
-
 ## Download arquivos aula
 [aula-2015-02-20.rar]({{ site.production_url }}/media/aula-2015-02-20.rar) 
 
@@ -221,13 +207,28 @@ public String toString(){
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 06/03</span>
 
-## Persistência com reflection
-[Reflection.zip]({{ site.production_url }}/media/Reflection.zip)
+## Annotations
+ 
+### Annotation GenericCreateTableDB - Simula Persistência com Reflection
+> @Table(nome=X), @Column(nome=X), @Varchar(qut=X)
 
-> Códigos feito por Garcia e Adam (@annotations && Reflect)
+- [/GenericCreateTableDB](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/GenericCreateTableDB)
 
-## Download arquivos aula
-[aula-2015-03-06-garcia.rar]({{ site.production_url }}/media/aula-2015-03-06-garcia.rar) 
+### Annotation: ValidarNotNullEMaiorIdade
+> @NotNull(conteudo=X), @isMaior(idade=Y)
+
+- [/ValidarNotNullEMaiorIdade](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ValidarNotNullEMaiorIdade)
+
+### Annotation: Autor
+> @autor(nome=X, tempo=Y)
+
+- [/autor](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/autor)
+
+### Annotation: Ordem
+> @ordem(numero=X)
+
+- [/ordem](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ordem)
+ 
 
 ***
 
