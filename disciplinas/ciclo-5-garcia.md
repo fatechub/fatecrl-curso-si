@@ -72,36 +72,30 @@ Animal a  = new Gato()           |       g.arranhar()   [✓]
 
 </pre>
 
-**Memória: Alocação** 
-
-<pre>
-                #1b7C                                #2K7D
-                 __________                           __________
-                |          |                         |          |
-                |__________|                         |__________|
-                    |                                     |
-                g._/                                   a./
-</pre>
-
 - [Teoria dos tipos](http://pt.wikipedia.org/wiki/Teoria_dos_tipos)
 - [Alocação de memória](http://pt.wikipedia.org/wiki/Aloca%C3%A7%C3%A3o_de_mem%C3%B3ria)
 
  
-## Principio de POO
+## Princípio de POO (Programação Orientada a Objetos)
 Programe para uma abstração, nunca para uma implementação.
 
-## Polimorfismo Para Método (GENERICS)
+Dica de leitura: [~viviane.silva/Princípio-de-POO](http://www2.ic.uff.br/~viviane.silva/2010.1/es1/util/aula11_a.pdf)
+
+## Polimorfismo para Método (GENERICS)
 Criar um tipo novo que englobe o outro. O foco é na estrutura do novo tipo e não no tipo englobado.
 
 **Ex.:** Movimentar a mochila na cadeira, você pode fazer isso independente do que houver na mochila.
 
 O ARRAY LIST É UM EXEMPLO. Ele lista qualquer coisa que for definido.
- 
-- ArrayList `<string>`
-- ArrayList `<ninja>`
 
-## Download arquivos aula
-[aula-2015-02-13.rar]({{ site.production_url }}/media/aula-2015-02-13.rar) 
+{% highlight java %}
+ArrayList <String>
+ArrayList <Ninja>
+{% endhighlight %}
+
+### Projeto ListaT
+- Branch eclipseProjects: [Reflection/ListaT](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Reflection/src/ListaT)
+- Arquivos: [aula-2015-02-13.rar]({{ site.production_url }}/media/aula-2015-02-13.rar) 
 
 ***
 
@@ -110,10 +104,10 @@ O ARRAY LIST É UM EXEMPLO. Ele lista qualquer coisa que for definido.
 <div class="alert alert-info">Este inicio é uma atualizada sobre o que o ciro deu semestre passado. Isso ficou faltando (apenas pra ficar por dentro)</div>
 
 ## Bound
-Usado para fazer restição. 
+Usado para fazer restrição. 
 
 #### Upper boud
-Ele não passa 'Joia', caso haja uma classe acima ele nao pega.
+Ele não passa 'Joia', caso haja uma classe acima ele não pega.
 
 Se for usado uma string dará erro. Só serão aceitos os "filhos" (subclasse  Joia).
 
@@ -143,51 +137,48 @@ List< ? super Number > a = New arrayList< objeto >;
                     Não poderá chegar na classe *String* nem *Integer* porque é acima. 
 </pre>
 
-## Regra PECS
+#### Regra PECS
 
-- *Super*: Só add();
-- *Extends*: só faz get();
-
-**Exemplo com arrayList:**
-
-{% highlight java %}
-public Class PortaJoia_ {
-  ...
-}
-{% endhighlight %}
+- `super` Só add();
+- `extends` só faz get();
  
 <div class="alert alert-info">Matéria do semestre</div>
 
-## Reflection: 
-Visto em php
+## Reflection
+Conhecido como *BlackMagic*, **Reflection** possibilita a exposição de quaisquer membro existente dentro uma classe em *RunTime*. 
 
-{% highlight php %}
-<?php
-  class Cachorro{}
-  $c = "cachorro";
-  $d = new $c();
-?>
+> *É nada mais do que a habilidade de enxergar um *.class*' (no java).* - Garcia
+
+É um pacote que te dá permissão de ver informações do seu *.class*. como:
+
+- **MetaDado**
+- **MetaObjeto (meta classe)** Representam informações da classe
+- **Classes**
+- **Type**
+- **Method** Métodos.
+- **Field** Atributos.
+- **Annotations** Marcador para conversas com o compilador.
+- **Modifier** abstract, protected, public, private, default.
+ 
+### Vantagens
+Criação de aplicativos mais dinâmicos, Redução na quantidade de repetição de código (Boilerplate), Minimização de erros e Facilidade de manutenção.
+
+### Desvantagens
+Domínio mais avançado de lógica de programação, Exigência de um maior nível de atenção ao codificar e Geração de código complexo.
+
+### Iniciando Reflection...
+{% highlight java %}
+myClass (Object o){
+  Class< ? > clazz = o.getClass();
+}
 {% endhighlight %}
 
-- Conhecido como *blackmagic*
-- É nada mais do que a habilidade de enxergar um *.class*' (no java).
-- É um pacote que te d´´a premissão de ver informações no seu *.class*.:
-
-- MetaDado
-- MetaObjeto (meta classe) { representam informações da classe }
-- Classes
-- Type          
-- Method        
-- Field         
-- Annotations   { Marcador para conversas com o compilador}
-- Modifier      { abstrct, pretect, public, defout }
- 
-## Boilerplate
-Repetição trecho de código em várias partes do arquivo mudando apenas pequenas coisas, como por exemplo um syso:
+### Exemplo de Boilerplate
+Evitamos repetição trecho de código em várias partes do arquivo mudando apenas pequenas coisas, como por exemplo um toString():
 
 {% highlight java %}
 public String toString(){
-  syso "ClasseNome";
+  return "ClasseNome";
 }
 {% endhighlight %}
 
@@ -195,13 +186,17 @@ public String toString(){
 
 {% highlight java %}
 public String toString(){
-  Class < ? > c = this.Class(); // Pega todas as infos do .class
-  return c.getSimpleName(); // Ele apresentará a classe pelo seu nome. Não apresentará o endereço de memória ao lado.
+  Class < ? > c = this.Class(); // Pega infos. da Classe.
+  return c.getSimpleName(); // Mostra nome da Classe.
 }
 {% endhighlight %}
 
-## Download arquivos aula
-[aula-2015-02-20.rar]({{ site.production_url }}/media/aula-2015-02-20.rar) 
+### Slides: Introdução à Metaprogramação com Java Reflection API
+<iframe src="//www.slideshare.net/slideshow/embed_code/14082634" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//pt.slideshare.net/guilherme_farto/introduo-metaprogramao-com-java-reflection-api" title="Introdução à Metaprogramação com Java Reflection API" target="_blank">Introdução à Metaprogramação com Java Reflection API</a> </strong> from <strong><a href="//www.slideshare.net/guilherme_farto" target="_blank">Guilherme de Cleva Farto</a></strong> </div>
+
+### Projeto PortaJoias
+- Branch eclipseProjects: [Reflection/PortaJoias](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Reflection/src/PortaJoias)
+- Arquivos: [aula-2015-02-20.rar]({{ site.production_url }}/media/aula-2015-02-20.rar)
 
 ***
 
@@ -217,25 +212,30 @@ Os dados podem ser usados em tempo de compilação e de execução, conforme def
 > *É um marcador que pode ser salvo no bytecode* - Garcia
 
 Alguns Annotations: *@Override, @SupressWarnings e @ManagedBean*.
+
+### Mostrando métodos de uma class que possuem annotation @MyAnno.
+{% highlight java %}
+Method[] ms = clazz.getDeclaredMethods();
+for(Method v : ms){
+  if( v.ifAnnotationPresent(MyAnno.class) ){
+    syso( v.getName() + "Possuí annotation @MyAnno" );
+  }
+  else {
+    syso( v.getName() + "Não possuí annotation @MyAnno" );
+  }
+}
+{% endhighlight %}
  
 ### Exemplos
 
-> GenericCreateTableDB - Simula Persistência com Reflection
-
-[/GenericCreateTableDB](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/GenericCreateTableDB) @Table(nome=X), @Column(nome=X), @Varchar(qut=X)
-
-> ValidarNotNullEMaiorIdade
-
-[/ValidarNotNullEMaiorIdade](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ValidarNotNullEMaiorIdade) @NotNull(conteudo=X), @isMaior(idade=Y)
-
-> Autor
-
-[/autor](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/autor) @autor(nome=X, tempo=Y)
-
-> Annotation: Ordem
-
-[/ordem](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ordem) @ordem(numero=X)
- 
+- #### GenericCreateTableDB - Simula Persistência com Reflection
+[/GenericCreateTableDB](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/GenericCreateTableDB) *@Table(nome=X), @Column(nome=X), @Varchar(qut=X)*
+- #### ValidarNotNullEMaiorIdade
+[/ValidarNotNullEMaiorIdade](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ValidarNotNullEMaiorIdade) *@NotNull(conteudo=X), @isMaior(idade=Y)*
+- #### Autor
+[/autor](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/autor) *@autor(nome=X, tempo=Y)*
+- #### Annotation: Ordem
+[/ordem](https://github.com/adammacias/fatec-si/tree/eclipseprojects/Annotations/src/ordem) *@ordem(numero=X)*
 
 ***
 
