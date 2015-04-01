@@ -15,6 +15,12 @@ group: navigation
 ## **Lista 2 Exercicios Reflection** 
 - Enunciados: [6PPL2.pdf]({{ site.production_url }}/media/6PPL2.pdf) 
 
+## **Provas de PP Semestres anteriores** 
+- [Fotos DropBox](https://www.dropbox.com/sh/ov3oiz051aw26ob/AAC2iiLYDetFZQo9Ie0ezs-ia?dl=0) 
+
+## **Cardeno de PP Mayara** 
+- [Fotos DropBox](https://www.dropbox.com/sh/58os50tjxmrhjpz/AAB21tpAbRYvJ6iwk8Yc3w1ta?dl=0)
+
 ## Utilidades
 - Artigo com problemas e soluções Padrões de Projeto por Brizemp [brizeno.wordpress.com/padroes/](https://brizeno.wordpress.com/padroes/)
 - Repositório com exemplos de utilização de padrões de projeto implementados em Java. [MarcosX/Padr-es-de-Projeto](https://github.com/MarcosX/Padr-es-de-Projeto)
