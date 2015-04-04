@@ -53,11 +53,11 @@ group: navigation
 - Text Field
 - Tratando eventos - clique em botão
 
-## Projeto: ContadorV5
+## Projeto: Contador (incrementa e decrementa)
 
 Programinha simples criado em aula que incrementa e decrementa valor.
 
-[aula-2015-03-03-chiara-cV5.rar]({{ site.production_url }}/media/aula-2015-03-03-chiara-cV5.rar) 
+- Branch: [androidstudioprojects/Contador](https://github.com/adammacias/fatec-si/tree/androidstudioprojects/Contador)  
 
 ***
 
@@ -65,7 +65,7 @@ Programinha simples criado em aula que incrementa e decrementa valor.
 
 Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-versa.
 
-[converta-temperaturas.gz]({{ site.production_url }}/media/converta-temperaturas.gz) - ou - [https://gist.github.com/flaviacs/4b521605740b07cb1fc8](https://gist.github.com/flaviacs/4b521605740b07cb1fc8).
+- Branch: [androidstudioprojects/TP1-ConversorTemperaturaFC](https://github.com/adammacias/fatec-si/tree/androidstudioprojects/TP1-ConversorTemperaturaFC)  
 
 
 ***
@@ -88,13 +88,11 @@ Uri uri = Uri.parse("http://www.google.com.br");
 Intent it = new Intent(Intent.ACTION_VIEW, uri);
 {% endhighlight %}
 
-## Projeto: Intent1
+## Projeto: Intents Request Value
 
-Botão que envia para Intent explícita: Sobre. 
+Digite um texto em um campo e envia para outra Intent. 
 
-Botão que envia para Intent implícita: fatecrl.edu.br. 
-
-[aula-2015-03-10-chiara.rar]({{ site.production_url }}/media/aula-2015-03-10-chiara.rar) 
+- Branch: [androidstudioprojects/IntentsRequestValue](https://github.com/adammacias/fatec-si/tree/androidstudioprojects/IntentsRequestValue)  
 
 ***
 
@@ -110,36 +108,41 @@ Implícita
 
 > *Interação entre componentes fora da aplicação, Internet, Chamadas e etc*.
 
-## Projeto: Intent1 - II
+# Projeto: Intents Explicitas And Implicitas
 
-Botão que envia para Intent explícita: Sobre. 
+Botão que envia para Intent explícita: IntentDois. 
 
-Botão que envia para Intent implícita: Google.com.br. 
+Botão que envia para Intent implícita: google.com.br. 
 
-[aula-2015-03-17-chiara.rar]({{ site.production_url }}/media/aula-2015-03-17-chiara.rar)
-
-## Projeto: Intent2Quinto
-
-Campo de texto simples, que envia valor para outra intent explícita "Sobre" e mostra o valor recebido, além disso, um Botão chamado "Fim", que finaliza o APP.
-
-[aula-2015-03-17-chiara.rar]({{ site.production_url }}/media/aula-2015-03-17-chiara.rar)
+- Branch: [androidstudioprojects/IntentsExplicitasAndImplicitas](https://github.com/adammacias/fatec-si/tree/androidstudioprojects/IntentsExplicitasAndImplicitas)  
 
 ***
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/03</span>
 
-## Projeto Intent3Quinto
+## Projeto ListActivity
 
 > Componente Visual: ListActivity - Lista de ações para chamar multiplas views (Activitys)
 
 [aula-2015-03-24-chiara.rar]({{ site.production_url }}/media/aula-2015-03-24-chiara.rar) 
+
+<div class="alert alert-danger">Falta adicionar no branch do AS</div>
 
 ***
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span>TP 2 Android: Intents Implícitas</span>
 
 - Enunciado [Intents_Implicitas.pdf]({{ site.production_url }}/media/Intents_Implicitas.pdf) 
-
-<div class="alert alert-danger">Publicar solução no <a href="https://github.com/adammacias/fatec-si/tree/androidstudioprojects">branch androidstudioprojects</a></div>
+- Solução Branch: [androidstudioprojects/TP2-IntentsImplicitas](https://github.com/adammacias/fatec-si/tree/androidstudioprojects/TP2-IntentsImplicitas)  
+- Solução Felipe Lage: [androidstudioprojects/Intents-LAGE.zip](https://github.com/adammacias/fatec-si/blob/androidstudioprojects/Intents-LAGE.zip)  
 
 ***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 31/03</span>
+
+# Projeto: ActionBar
+
+Exibe links no ActionBar (Barra de Menu) com icones ou não. 
+
+- Branch: [androidstudioprojects/ActionBar](https://github.com/adammacias/fatec-si/tree/androidstudioprojects/ActionBar)  
+
