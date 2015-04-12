@@ -5,17 +5,11 @@ layout: page
 ---
 {% include JB/setup %}
 
-#### 06/04 (Segunda)
-> [P1] Inglês, Eveline
+#### 17/04 (Sexta)
+> [P1] Design Patterns, Garcia
 
-#### 07/04 (Terça)
-> [P1] Programação para dispositivos móveis - Chiara (C/CONSULTA)
-
-#### 08/04 (Quarta)
-> [P1] ..., Ciro (C/CONSULTA)
-
-#### 18/04 (Sabádo)
-> [P1] ..., Rosemeire (Prova valendo 20% da nota)
+#### 18/04 (Sábado)
+> [P1] Apresentação de trabalho toca dos bichos, Rosemeire (Prova valendo 20% da nota)
 
 #### 25/05 (Segunda)
 > [P2] Inglês, Eveline
@@ -29,7 +23,7 @@ layout: page
 #### 10/06 (Quarta)
 > [TP] ..., Ciro - Projeto usando API + Java Server Face (Possivelmente mesmo TP com Chiara)
 
-#### 13/06 (Sabádo)
+#### 13/06 (Sábado)
 > [TP] ..., Rosemeire (Substituindo a P2 e valendo 80% da nota)
 
 #### 15/06 (Segunda)
@@ -42,5 +36,5 @@ layout: page
 #### 17/06 (Quarta)
 > [P3] ..., Ciro (C/CONSULTA)
 
-#### 27/06 (Sabádo)
+#### 27/06 (Sábado)
 > [P3] ..., Rosemeire

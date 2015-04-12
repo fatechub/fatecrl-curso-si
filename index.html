@@ -22,8 +22,8 @@ group: navigation
     {% endif %}
   
     <li>
-    	<h4><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <small>(DIA {{ post.date | date: "%e" }})</small></h4>
-    	<p><a href="{{ BASE_PATH }}{{ post.url }}">{{ BASE_PATH }}{{ post.url }}</a></p>
+      <h4><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <small>(DIA {{ post.date | date: "%e" }})</small></h4>
+      <p><a href="{{ BASE_PATH }}{{ post.url }}">{{ BASE_PATH }}{{ post.url }}</a></p>
     </li>
   
     {% if forloop.last %}
