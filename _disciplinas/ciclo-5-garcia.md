@@ -247,10 +247,25 @@ for(Method v : ms){
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 13/03</span>
 
-
 ## Padrão de Projeto: (DECORATOR)
 
-### Exercício EmpresaPublica
+> O padrão Decorator é utilizado quando precisa-se anexar responsabilidades dinamicamente sem precisar de uma grande hierarquia de subclasses.
+
+O Decorator é mais utilizado quando quisermos adicionar responsabilidades a objetos dinamicamente, e quando a extensão por subclasses é impraticável, pois teríamos muitas alterações e dessa forma diversas subclasses.
+
+<caption>Foto: UML Padrão Decorator - yEd <a href="{{ site.baseurl }}/media/PP-Decorator.graphml" target="_blank">PP-Decorator.graphml</a></caption>
+<img src="{{ site.baseurl }}/media/PP-Decorator.png" class="img-responsive">
+
+### Projeto: JanelaDecorator
+
+Exemplo JanelaDecorator baseado no artigo [Padrão de Projeto Decorator em Java por devmedia](http://www.devmedia.com.br/padrao-de-projeto-decorator-em-java/26238)
+
+- Solução JAVA: [/DesignPatterns-Decorator/src/janeladecorada](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/janeladecorada)
+
+<caption>Foto: UML Projeto Janela (Padrão Decorator) - yEd <a href="{{ site.baseurl }}/media/PP-Decorator-Janela.graphml" target="_blank">PP-Decorator-Janela.graphml</a></caption>
+<img src="{{ site.baseurl }}/media/PP-Decorator-Janela.png" class="img-responsive">
+
+### Exercício: EmpresaPublica
 
 Em uma empresa públca, um cargo possui um nome e um valor de salário. 
 Os cargos de ingresso são auxiliar, especialista, e gerente.
@@ -269,13 +284,9 @@ e as incorporações:
 
 Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito o cargo fica: especialista incorporado como prefeito incorporado como vereador.
 
-#### Solução
-
-<div class="alert alert-danger">Adicionar UML yED do professor </div>
-
-- Branch eclipseProjects: [/DesignPatterns-Decorator](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/empresapublicacargos)
-- Arquivos: [garcia-13-03-PadraoDecorator.rar]({{ site.production_url }}/media/garcia-13-03-PadraoDecorator.rar) 
-
+- Solução PNG yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.baseurl }}/media/PP-Decorator-Cargo.png)
+- Solução UML yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.baseurl }}/media/PP-Decorator-Cargo.graphml)
+- Solução JAVA: [/DesignPatterns-Decorator/src/empresapublicacargos](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/empresapublicacargos)
 
 ***
 
