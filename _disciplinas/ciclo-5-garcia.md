@@ -254,7 +254,7 @@ for(Method v : ms){
 O Decorator é mais utilizado quando quisermos adicionar responsabilidades a objetos dinamicamente, e quando a extensão por subclasses é impraticável, pois teríamos muitas alterações e dessa forma diversas subclasses.
 
 <caption>Foto: UML Padrão Decorator - yEd <a href="{{ site.production_url }}/media/PP-Decorator.graphml" target="_blank">PP-Decorator.graphml</a></caption>
-<img src="{{ site.sit }}/media/PP-Decorator.png" class="img-responsive">
+<img src="{{ site.production_url }}/media/PP-Decorator.png" class="img-responsive">
 
 ### Projeto: JanelaDecorator
 
