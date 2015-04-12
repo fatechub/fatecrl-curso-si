@@ -253,8 +253,8 @@ for(Method v : ms){
 
 O Decorator é mais utilizado quando quisermos adicionar responsabilidades a objetos dinamicamente, e quando a extensão por subclasses é impraticável, pois teríamos muitas alterações e dessa forma diversas subclasses.
 
-<caption>Foto: UML Padrão Decorator - yEd <a href="{{ site.baseurl }}/media/PP-Decorator.graphml" target="_blank">PP-Decorator.graphml</a></caption>
-<img src="{{ site.baseurl }}/media/PP-Decorator.png" class="img-responsive">
+<caption>Foto: UML Padrão Decorator - yEd <a href="{{ site.production_url }}/media/PP-Decorator.graphml" target="_blank">PP-Decorator.graphml</a></caption>
+<img src="{{ site.sit }}/media/PP-Decorator.png" class="img-responsive">
 
 ### Projeto: JanelaDecorator
 
@@ -262,8 +262,8 @@ Exemplo JanelaDecorator baseado no artigo [Padrão de Projeto Decorator em Java 
 
 - Solução JAVA: [/DesignPatterns-Decorator/src/janeladecorada](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/janeladecorada)
 
-<caption>Foto: UML Projeto Janela (Padrão Decorator) - yEd <a href="{{ site.baseurl }}/media/PP-Decorator-Janela.graphml" target="_blank">PP-Decorator-Janela.graphml</a></caption>
-<img src="{{ site.baseurl }}/media/PP-Decorator-Janela.png" class="img-responsive">
+<caption>Foto: UML Projeto Janela (Padrão Decorator) - yEd <a href="{{ site.production_url }}/media/PP-Decorator-Janela.graphml" target="_blank">PP-Decorator-Janela.graphml</a></caption>
+<img src="{{ site.production_url }}/media/PP-Decorator-Janela.png" class="img-responsive">
 
 ### Exercício: EmpresaPublica
 
@@ -284,8 +284,8 @@ e as incorporações:
 
 Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito o cargo fica: especialista incorporado como prefeito incorporado como vereador.
 
-- Solução PNG yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.baseurl }}/media/PP-Decorator-Cargo.png)
-- Solução UML yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.baseurl }}/media/PP-Decorator-Cargo.graphml)
+- Solução PNG yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.production_url }}/media/PP-Decorator-Cargo.png)
+- Solução UML yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.production_url }}/media/PP-Decorator-Cargo.graphml)
 - Solução JAVA: [/DesignPatterns-Decorator/src/empresapublicacargos](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/empresapublicacargos)
 
 ***
