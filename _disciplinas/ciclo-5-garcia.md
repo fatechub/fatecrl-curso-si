@@ -255,13 +255,11 @@ O Decorator é mais utilizado quando quisermos adicionar responsabilidades a obj
 
 #### Consequências
 
-- Mais flexibilidade do que herança
-  - Adição ou remoção de responsabilidades em tempo de execução
-  - Adição da mesma propriedade mais de uma vez
-- Evita o excesso de funcionalidades nas classes
-- Decorator e seu componente não são idênticos
-- Comparações tornam-se mais complexas
-- Resulta em um design que tem vários pequenos objetos, todos parecidos
+- **A)** Mais flexibilidade do que herança. (Adição ou remoção de responsabilidades em tempo de execução) && (Adição da mesma propriedade mais de uma vez)
+- **B)** Evita o excesso de funcionalidades nas classes
+- **C)** Decorator e seu componente não são idênticos
+- **D)** Comparações tornam-se mais complexas
+- **E)** Resulta em um design que tem vários pequenos objetos, todos parecidos
 
 #### Dica
 Possíveis palavras chaves para você identificar o padrão decorator: "Incorporar", "Compor", "Acoplamento", "Juntar", "Mesclar", "Incluir", "Adicionar".
@@ -326,19 +324,24 @@ Este sistema deve aderir ao princípio do aberto/fechado.
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 20/03</span>
 
-<div class="alert alert-danger">Pegar foto da exemplificação da esplicação com o Felipe (uml do padrão)</div>
-
 ## Padrão de Projeto (STRATEGY)
 Define uma família de algoritmos, encapsula e os torna intercambiaveis (variáveis).
 
+O Strategy é utilizado quando você tem um determinado algoritmo, rotina ou algo deste tipo, e que pode mudar em determinadas ocasiões. Suponhamos que você por exemplo tem uma classe de cálculo de juros e que em uma determinada data do ano, a taxa de juros diminui por conta de uma promoção. Então em cenários como este você, utilizaria o Strategy para auxiliar na solução desta demanda sem causar grande impacto para efetuar a mudança.
+
 > ***Principio***: Encapsule o que varia.
 
-### Porque devemos usar?
+#### Consequências
+- **A)** Não fere a regra de aberto e fechado. 
+- **B)** Facilidade ao debugar. 
+- **C)** Não cresce esponencialmente
 
-A forma errada fere a regra de aberto e fechado:
+#### UML
 
-- Dificil de debugar
-- Cresce esponencialmente
+- Padrão Strategy UML png [/media/PP-Strategy.png]({{ site.production_url }}/media/PP-Strategy.png)
+- Padrão Strategy UML yEd [/media/PP-Strategy.graphml]({{ site.production_url }}/media/PP-Strategy.graphml)
+
+<img src="{{ site.production_url }}/media/PP-Strategy.png" class="img-responsive">
 
 ### Exercício LojaVirtual:
 
@@ -348,12 +351,9 @@ Esta situação:
 - A) Desenhe o diagrama de classes;
 - B) Codifique com base em A).
 
-#### Solução 
-
-- Branch eclipseProjects: [/DesignPatterns-Strategy](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia)
-- Arquivos: [aula-2015-03-20-garcia.zip]({{ site.production_url }}/media/aula-2015-03-20-garcia.zip) 
-
-<div class="alert alert-danger">Flavia, vc colocou duas vezes a solução do Garcia, faltou a nossa.</div>
+- Solução UML png: [/media/PP-Strategy-Promocao.png]({{ site.production_url }}/media/PP-Strategy-Promocao.png)
+- Solução UML yEd: [/media/PP-Strategy-Promocao.graphml]({{ site.production_url }}/media/PP-Strategy-Promocao.graphml)
+- Solução JAVA: [/DesignPatterns-Strategy](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia)
 
 ***
 
