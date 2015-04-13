@@ -10,7 +10,7 @@ group: navigation
 
 ## **Lista 1 Exercicios Reflection** 
 - Enunciados: [L1.pdf]({{ site.production_url }}/media/L1.pdf)
-- Soluções: [/DesignPatterns-Lista1](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Lista1/src)
+- Soluções: [/Reflection-Lista1](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/Reflection-Lista1/src)
 
 ## **Lista 2 Exercicios Reflection** 
 - Enunciados: [6PPL2.pdf]({{ site.production_url }}/media/6PPL2.pdf) 
@@ -249,20 +249,39 @@ for(Method v : ms){
 
 ## Padrão de Projeto: (DECORATOR)
 
-> O padrão Decorator é utilizado quando precisa-se anexar responsabilidades dinamicamente sem precisar de uma grande hierarquia de subclasses.
+> Utilizado quando precisa-se anexar responsabilidades dinamicamente sem precisar de uma grande hierarquia de subclasses.
 
 O Decorator é mais utilizado quando quisermos adicionar responsabilidades a objetos dinamicamente, e quando a extensão por subclasses é impraticável, pois teríamos muitas alterações e dessa forma diversas subclasses.
 
-<caption>Foto: UML Padrão Decorator - yEd <a href="{{ site.production_url }}/media/PP-Decorator.graphml" target="_blank">PP-Decorator.graphml</a></caption>
+#### Consequências
+
+- Mais flexibilidade do que herança
+  - Adição ou remoção de responsabilidades em tempo de execução
+  - Adição da mesma propriedade mais de uma vez
+- Evita o excesso de funcionalidades nas classes
+- Decorator e seu componente não são idênticos
+- Comparações tornam-se mais complexas
+- Resulta em um design que tem vários pequenos objetos, todos parecidos
+
+#### Dica
+Possíveis palavras chaves para você identificar o padrão decorator: "Incorporar", "Compor", "Acoplamento", "Juntar", "Mesclar", "Incluir", "Adicionar".
+
+#### UML
+
+- Padrão Decorator UML png [/media/PP-Decorator.png]({{ site.production_url }}/media/PP-Decorator.png)
+- Padrão Decorator UML yEd [/media/PP-Decorator.graphml]({{ site.production_url }}/media/PP-Decorator.graphml)
+
 <img src="{{ site.production_url }}/media/PP-Decorator.png" class="img-responsive">
 
 ### Projeto: JanelaDecorator
 
 Exemplo JanelaDecorator baseado no artigo [Padrão de Projeto Decorator em Java por devmedia](http://www.devmedia.com.br/padrao-de-projeto-decorator-em-java/26238)
 
+- Solução UML png: [/media/PP-Decorator-Janela.png]({{ site.production_url }}/media/PP-Decorator-Janela.png)
+- Solução UML yEd: [/media/PP-Decorator-Janela.graphml]({{ site.production_url }}/media/PP-Decorator-Janela.graphml)
 - Solução JAVA: [/DesignPatterns-Decorator/src/janeladecorada](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/janeladecorada)
 
-<caption>Foto: UML Projeto Janela (Padrão Decorator) - yEd <a href="{{ site.production_url }}/media/PP-Decorator-Janela.graphml" target="_blank">PP-Decorator-Janela.graphml</a></caption>
+<caption>Foto: UML Projeto Janela (Padrão Decorator)</caption>
 <img src="{{ site.production_url }}/media/PP-Decorator-Janela.png" class="img-responsive">
 
 ### Exercício: EmpresaPublica
@@ -284,11 +303,26 @@ e as incorporações:
 
 Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito o cargo fica: especialista incorporado como prefeito incorporado como vereador.
 
-- Solução PNG yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.production_url }}/media/PP-Decorator-Cargo.png)
+- Solução UML png: [/media/PP-Decorator-Cargo.png]({{ site.production_url }}/media/PP-Decorator-Cargo.png)
 - Solução UML yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.production_url }}/media/PP-Decorator-Cargo.graphml)
 - Solução JAVA: [/DesignPatterns-Decorator/src/empresapublicacargos](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/empresapublicacargos)
 
+
+### Exercício: PacotesViagem (SIMULADO P1)
+
+Em  uma agência de viagem, são vendidos destinos para Cruzeiro, Praia ou Campo. Toda viagem possui uma descrição e um preç base. 
+A estes pacotes podem ser inclusos pacotes de Bebidas, Passeios extras, e serviços de Massagem contratados pela agência. 
+Todo pacote possui uma descrição e um preço. 
+Cada preço varia de acordo com o pacote. Faça um sistema que mostre a descrição da viagem contratada (destino + pacotes) e o preço total do contrato. 
+Este sistema deve aderir ao princípio do aberto/fechado. 
+
+- Solução UML png: [/media/PP-Decorator-PacotesViagens.png]({{ site.production_url }}/media/PP-Decorator-PacotesViagens.png)
+- Solução UML yEd: [/media/PP-Decorator-PacotesViagens.graphml]({{ site.production_url }}/media/PP-Decorator-PacotesViagens.graphml)
+- Solução JAVA: [/DesignPatterns-Decorator/src/pacotesviagem](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/pacotesviagem)
+
+
 ***
+
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 20/03</span>
 
