@@ -25,6 +25,7 @@ group: navigation
 - Artigo com problemas e soluções Padrões de Projeto por Brizemp [brizeno.wordpress.com/padroes/](https://brizeno.wordpress.com/padroes/)
 - Repositório com exemplos de utilização de padrões de projeto implementados em Java. [MarcosX/Padr-es-de-Projeto](https://github.com/MarcosX/Padr-es-de-Projeto)
 - E-Book Use a Cabeça  [Padrões de Projetos.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda)
+- Design pattern samples in Java. [github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
 ***
 
@@ -301,8 +302,8 @@ e as incorporações:
 
 Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito o cargo fica: especialista incorporado como prefeito incorporado como vereador.
 
-- Solução UML png: [/media/PP-Decorator-Cargo.png]({{ site.production_url }}/media/PP-Decorator-Cargo.png)
-- Solução UML yEd: [/media/PP-Decorator-Cargo.graphml]({{ site.production_url }}/media/PP-Decorator-Cargo.graphml)
+- Solução UML png: [/media/PP-Decorator-Cargos.png]({{ site.production_url }}/media/PP-Decorator-Cargos.png)
+- Solução UML yEd: [/media/PP-Decorator-Cargos.graphml]({{ site.production_url }}/media/PP-Decorator-Cargos.graphml)
 - Solução JAVA: [/DesignPatterns-Decorator/src/empresapublicacargos](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/empresapublicacargos)
 
 
@@ -353,7 +354,7 @@ Esta situação:
 
 - Solução UML png: [/media/PP-Strategy-Promocao.png]({{ site.production_url }}/media/PP-Strategy-Promocao.png)
 - Solução UML yEd: [/media/PP-Strategy-Promocao.graphml]({{ site.production_url }}/media/PP-Strategy-Promocao.graphml)
-- Solução JAVA: [/DesignPatterns-Strategy](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia)
+- Solução JAVA: [/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia)
 
 ***
 
@@ -388,17 +389,31 @@ Evita **Acoplamento** (com if) entre o "Sender" de uma requisição Z, o recebed
 
 > Decorator, Chain e Strategy tem polimofismo
 
-### Exercicio AprovacaoDeVerbas
+#### Estrutura
+Existem três partes do padrão Chain of Responsibility: sender, receiver e request. O sender faz o request. O receiver é uma cadeia de um ou mais objetos que escolhe se quer lidar com o request ou transmiti-lo. O request em si pode ser um objeto que encapsula todos os dados apropriados. [(Fonte: iMasters)](http://imasters.com.br/artigo/24337/javascript/padrao-de-projeto-de-software-javascript-chain-of-responsibility/)
+
+#### Consequências
+
+- **A)** Fornece um acoplamento mais fraco por evitar a associação explícita do remetente de uma solicitação ao seu receptor e dar a mais de um objeto a oportunidade de tratar a solicitação
+
+#### Dica
+Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Transferir Responsabilidade para o proximo", "Deixar o outro ou algo tentar, manusear, arcar, manobrar, controlar".
+
+#### UML
+
+- Padrão Decorator UML png [/media/PP-CHAIN.png]({{ site.production_url }}/media/PP-CHAIN.png)
+- Padrão Decorator UML yEd [/media/PP-CHAIN.graphml]({{ site.production_url }}/media/PP-CHAIN.graphml)
+
+<img src="{{ site.production_url }}/media/PP-CHAIN.png" class="img-responsive">
+
+### Projeto: AprovacaoDeVerbas
 
 Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
 Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo
 
-#### Solução
-
-<div class="alert alert-danger">Pendente UML</div>
-
-- Branch eclipseProjects: [/DesignPatterns-ChainOfResponsibility](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco)
-- Arquivos: [aula-2015-03-27-garcia.rar]({{ site.production_url }}/media/aula-2015-03-27-garcia.rar) 
+- Solução UML png: [/media/PP-CHAIN -BancoAprovaVerba.png]({{ site.production_url }}/media/PP-CHAIN -BancoAprovaVerba.png)
+- Solução UML yEd: [/media/PP-CHAIN -BancoAprovaVerba.graphml]({{ site.production_url }}/media/PP-CHAIN -BancoAprovaVerba.graphml)
+- Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco)
 
 ## Padrão de Projeto (ADAPTER)
 
