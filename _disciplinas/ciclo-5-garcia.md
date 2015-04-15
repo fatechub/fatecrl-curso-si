@@ -6,8 +6,6 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="alert alert-danger">ADAM COLOCAR EXERCICIO REFLECTION SIMULADO P1</div>
-
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
 ## **Lista 1 Exercicios Reflection** 
@@ -204,8 +202,17 @@ public String toString(){
 <iframe src="//www.slideshare.net/slideshow/embed_code/14082634" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//pt.slideshare.net/guilherme_farto/introduo-metaprogramao-com-java-reflection-api" title="Introdução à Metaprogramação com Java Reflection API" target="_blank">Introdução à Metaprogramação com Java Reflection API</a> </strong> from <strong><a href="//www.slideshare.net/guilherme_farto" target="_blank">Guilherme de Cleva Farto</a></strong> </div>
 
 ### Projeto PortaJoias
-- Branch eclipseProjects: [Reflection/PortaJoias](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/Reflection/src/PortaJoias)
-- Arquivos: [aula-2015-02-20.rar]({{ site.production_url }}/media/aula-2015-02-20.rar)
+- Solução JAVA: [Reflection/PortaJoias](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/Reflection/src/PortaJoias)
+
+### Projeto: Interceptor (SIMULADO P1)
+
+(Interceptação de métodos) Crie uma annotation @Interceptor que possua como valor String um nome de método (`met`) e um Class (`cl`) que representa uma classe.
+Faça uma classe `Foo` com os métodos privados `void fazAlgo()` que mostra na tela o nome do método e `void fazNada()` que mostra a mensagem nada, apenas para teste.
+Faça uma classe `Bar` com um método `void hello()` publico que mostra uma mensagem de boas-vindas. Este método deve ser marcado com a annotation **@Interceptor** de modo a ter o nome do método de sua escolha (*fazNada, fazAlgo*) e um `Foo.class`.
+Faça uma classe `Delegator` que possua o método `void voidExecutor(Object, String)` que recebe um Object de referencia e um nome de método. Se o método não existir, exiba um erro. Se existir procure pela annotation **@Interceptor** e execute o método definido nesta annotation. Após a execução do método definido na annotation. o método em questão de dentro de voidExecutor deve ser chamado tambem.
+
+- Solução JAVA: [/Reflection/src/Interceptor](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/Reflection/src/Interceptor)
+
 
 ***
 
