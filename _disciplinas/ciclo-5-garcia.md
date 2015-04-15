@@ -6,6 +6,8 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<div class="alert alert-danger">ADAM COLOCAR EXERCICIO REFLECTION SIMULADO P1</div>
+
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
 ## **Lista 1 Exercicios Reflection** 
@@ -401,8 +403,8 @@ Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Tr
 
 #### UML
 
-- Padrão Decorator UML png [/media/PP-CHAIN.png]({{ site.production_url }}/media/PP-CHAIN.png)
-- Padrão Decorator UML yEd [/media/PP-CHAIN.graphml]({{ site.production_url }}/media/PP-CHAIN.graphml)
+- Padrão CHAIN UML png [/media/PP-CHAIN.png]({{ site.production_url }}/media/PP-CHAIN.png)
+- Padrão CHAIN UML yEd [/media/PP-CHAIN.graphml]({{ site.production_url }}/media/PP-CHAIN.graphml)
 
 <img src="{{ site.production_url }}/media/PP-CHAIN.png" class="img-responsive">
 
@@ -411,23 +413,41 @@ Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Tr
 Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
 Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo
 
-- Solução UML png: [/media/PP-CHAIN -BancoAprovaVerba.png]({{ site.production_url }}/media/PP-CHAIN -BancoAprovaVerba.png)
-- Solução UML yEd: [/media/PP-CHAIN -BancoAprovaVerba.graphml]({{ site.production_url }}/media/PP-CHAIN -BancoAprovaVerba.graphml)
+- Solução UML png: [/media/PP-CHAIN-BancoAprovaVerba.png]({{ site.production_url }}/media/PP-CHAIN-BancoAprovaVerba.png)
+- Solução UML yEd: [/media/PP-CHAIN-BancoAprovaVerba.graphml]({{ site.production_url }}/media/PP-CHAIN-BancoAprovaVerba.graphml)
 - Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco)
 
 ## Padrão de Projeto (ADAPTER)
 
 Converte a interface de uma classe em uma ao qual é esperada pelo cliente. O Adapter permite que classe com interfaces incompatíveis trabalhem juntas. 
+Este padrão é utilizado para 'adaptar' a interface de uma classe. O Adapter permite que classes com interfaces incompatíveis possam interagir.
+Adapter permite que um objeto cliente utilize serviços de outros objetos com interfaces diferentes por meio de uma interface única. 
+Ou seja, dado um conjunto de classes com mesma responsabilidade, mas interfaces diferentes, utilizamos o Adapter para unificar o acesso a qualquer uma delas.
 
 > Imita o DuckType
 
-### Exercicio PatoAdaptadoPeru
+#### UML
+
+- Padrão Adapter UML png [/media/PP-Adapter.png]({{ site.production_url }}/media/PP-Adapter.png)
+- Padrão Adapter UML yEd [/media/PP-Adapter.graphml]({{ site.production_url }}/media/PP-Adapter.graphml)
+
+<img src="{{ site.production_url }}/media/PP-Adapter.png" class="img-responsive">
+
+### Projeto: PatoAdaptadoPeru
 
 Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, que não é Pato emite som e não consegue voar. Faça com que Peru e Pato trabalhem sob uma interface comum
 
-#### Solução
+- Solução UML png: [/media/PP-Adapter-Pato.png]({{ site.production_url }}/media/PP-Adapter-Pato.png)
+- Solução UML yEd: [/media/PP-Adapter-Pato.graphml]({{ site.production_url }}/media/PP-Adapter-Pato.graphml)
+- Solução JAVA: [/DesignPatterns-Adapter/src/PatoAdaptadoPeru](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Adapter/src/PatoAdaptadoPeru)
 
-<div class="alert alert-danger">Pendente UML</div>
 
-- Branch eclipseProjects: [/DesignPatterns-Adapter](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Adapter/src/PatoAdaptadoPeru)
-- Arquivos: [aula-2015-03-27-garcia.rar]({{ site.production_url }}/media/aula-2015-03-27-garcia.rar) 
+### Projeto: PlayerVideo (SIMULADO P1)
+
+Um player de video pode rodar o video e tambem gravar um video da webcam. Este player aceita os formatos AVI, MP4 ou RM.
+Sabe-se que o WAV e MID que não são formatos de video podem rodar som e gravar som. Escolha um padrão e (1) Justifique (2) Faça o UML (3) Codifique.
+
+- Solução UML png: [/media/PP-Adapter-PlayerVideo.png]({{ site.production_url }}/media/PP-Adapter-PlayerVideo.png)
+- Solução UML yEd: [/media/PP-Adapter-PlayerVideo.graphml]({{ site.production_url }}/media/PP-Adapter-PlayerVideo.graphml)
+- Solução JAVA: [/DesignPatterns-Adapter/src/PlayerVideo](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Adapter/src/PlayerVideo)
+
