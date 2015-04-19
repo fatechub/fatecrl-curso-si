@@ -39,12 +39,12 @@ group: navigation
 ### Projeto: Login:
 Formulário de login sem sessão com conversor e validação de dados.
 
-- Solução Branch: [https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Login)
+- Solução JAVA: [https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Login)
 
 ### Projeto: Pagamento:
 Formulário de pagamento - nome, data, código cartão com conversor e validação de dados.
 
-- Solução Branch: [https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Pagamento)
+- Solução JAVA: [https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Pagamento)
 
 ***
 
@@ -56,20 +56,20 @@ Formulário de pagamento - nome, data, código cartão com conversor e validaç�
 ### Projeto: Media:
 Formulário simples, que calcula média de aluno solicitando notas da P1 e P2.
 
-- Solução Branch: [/netbeansprojects/Media](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Media)
+- Solução JAVA: [/netbeansprojects/Media](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Media)
 
 ### Projeto: ReservaHotel:
 Formulário para reserva, envia para outra página de confirmação.
 
-- Solução Branch: [/netbeansprojects/Reserva](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Reserva)
+- Solução JAVA: [/netbeansprojects/Reserva](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Reserva)
 
 ***
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> 1º Exercício para Nota</span>
 
 - Enunciado [DPS2-Ex01.pdf]({{ site.production_url }}/media/DPS2-Ex01.pdf) 
-- Solução [/netbeansprojects/CadastroClienteNet](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/CadastroClienteNet)
-- Solução do Professor [/netbeansprojects/CadastroClienteNetSolucaoProfessor](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/CadastroClienteNetSolucaoProfessor)
+- Solução JAVA [/netbeansprojects/CadastroClienteNet](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/CadastroClienteNet)
+- Solução JAVA do Professor [/netbeansprojects/CadastroClienteNetSolucaoProfessor](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/CadastroClienteNetSolucaoProfessor)
 
 
 ***
@@ -82,14 +82,12 @@ Formulário para reserva, envia para outra página de confirmação.
 ### Projeto: Idiomas:
 Tratamento de eventos gerados pelo usuário, tais como a seleção de um item de menu (idiomas).
 
-- Solução Branch: [/netbeansprojects/Idioma](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Idioma)
-
-<div class="alert alert-danger">Adam: Corrigir projeto idioma no branch - baixar: <a href="{{ site.production_url }}/media/aula-2015-03-18-ciro.rar">aula-2015-03-18-ciro.rar</a> </div>
+- Solução JAVA: [/netbeansprojects/Idioma](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Idioma)
 
 ### Projeto: AppleMicrosoft:
 Tratamento de eventos gerados pelo usuário, tais o clique num botão (imagem mapeada).
 
-- Solução Branch: [/netbeansprojects/AppleMicrosoft](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/AppleMicrosoft)
+- Solução JAVA: [/netbeansprojects/AppleMicrosoft](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/AppleMicrosoft)
 
 ***
 
@@ -101,12 +99,12 @@ Tratamento de eventos gerados pelo usuário, tais o clique num botão (imagem ma
 ### Projeto: ListaPessoas:
 Fazer uma listagem de usuários (ArrayList) em uma página usando DataTable.
 
-- Solução Branch: [/netbeansprojects/ListaPessoas](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/ListaPessoas)
+- Solução JAVA: [/netbeansprojects/ListaPessoas](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/ListaPessoas)
 
 ### Projeto: Carrinho:
 Fazer um carrinho de produtos. 
 
-- Solução Branch: [/netbeansprojects/Carrinho](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Carrinho)
+- Solução JAVA: [/netbeansprojects/Carrinho](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Carrinho)
 
 ## Sessão e Filtro
 [DPS2-07-Sessao-Filtro.pdf]({{ site.production_url }}/media/DPS2-07-Sessao-Filtro.pdf)
