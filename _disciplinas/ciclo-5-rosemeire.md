@@ -50,6 +50,17 @@ group: navigation
 - **Teste execução (video Grupo A)** [Video Grupo A](https://www.youtube.com/watch?v=TGEFdKwgcWs&feature=youtu.be)
 - **Teste execução (video Grupo B)** [Video Grupo B](https://www.youtube.com/watch?v=TGEFdKwgcWs&feature=youtu.be)
 - **Teste finalizado** [Ver Fotos da organização final dos Cards - Grupo A e B](https://www.dropbox.com/sh/jf5qmv7v6m5mupa/AAAa9fq8wtdd-cQZgPnuwLWIa?dl=0)
-- **Relatório pós testes** - [teste-card-sorting.pdf]({{ site.production_url }}/media/teste-card-sorting.pdf)
+- **Relatório pós testes** - [teste-card-sorting.pdf]({{ site.production_url }}/media/teste-card-sorting.pdf) 
 
-<div class="alert alert-danger">Relatório final (PDF) não foi commitado. <b>Flávia</b></div>
+***
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Prova P1 - TP</span> 
+
+<img src="{{ site.production_url }}/media/screenshot-slides-prototipagem-toca.png">
+
+- Projeto de Prototipagem (.DOCX) [P1-Prototipagem-Adam-Flavia-Gabriel-Nathalia-Raira.docx]({{ site.production_url }}/media/P1-Prototipagem-Adam-Flavia-Gabriel-Nathalia-Raira.docx)
+- Projeto de Prototipagem (.PDF) [P1-Prototipagem-Adam-Flavia-Gabriel-Nathalia-Raira.pdf]({{ site.production_url }}/media/P1-Prototipagem-Adam-Flavia-Gabriel-Nathalia-Raira.pdf)
+- Slides Projeto de Prototipagem (.PDF) [P1-Prototipagem-Adam-Flavia-Gabriel-Nathalia-Raira-Slides.pdf]({{ site.production_url }}/media/P1-Prototipagem-Adam-Flavia-Gabriel-Nathalia-Raira-Slides.pdf)
+- Slides Projeto de Prototipagem (BRANCH) [/slides-prototipagem-toca](https://github.com/adammacias/fatec-si-digital/tree/slides-prototipagem-toca)
+
+ 
