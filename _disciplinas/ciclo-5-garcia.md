@@ -193,7 +193,7 @@ public String toString(){
 
 {% highlight java %}
 public String toString(){
-  Class < ? > c = this.Class(); // Pega infos. da Classe.
+  Class < ? > c = this.getClass(); // Pega infos. da Classe.
   return c.getSimpleName(); // Mostra nome da Classe.
 }
 {% endhighlight %}
@@ -418,11 +418,19 @@ Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Tr
 ### Projeto: AprovacaoDeVerbas
 
 Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
-Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo
+Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo.
 
 - Solução UML png: [/media/PP-CHAIN-BancoAprovaVerba.png]({{ site.production_url }}/media/PP-CHAIN-BancoAprovaVerba.png)
 - Solução UML yEd: [/media/PP-CHAIN-BancoAprovaVerba.graphml]({{ site.production_url }}/media/PP-CHAIN-BancoAprovaVerba.graphml)
 - Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco)
+
+### Projeto: BancoAprova
+
+Uma aplicação de e-commerce precisa se comunicar com vários bancos diferentes para prover aos seus usuários mais possibilidades de pagamentos, atingindo assim um número maior de usuários e facilitando suas vidas. A classe Banco possui 3 subclasses BancoA, BancoB e BancoC. Os Bancos devem possuir um código de banco correspondente ao banco que vai efetuar o pagamento. Se um banco não puder efetuar um pagamento (Códigos não batem) o outro banco deve ser acionado para tentar finalizar esta operação (de pagamento) ordenadamente. Baseando-se nesta situação descrita.
+
+- Solução UML png: [/media/PP-CHAIN-AprovaBanco.png]({{ site.production_url }}/media/PP-CHAIN-AprovaBanco.png)
+- Solução UML yEd: [/media/PP-CHAIN-AprovaBanco.graphml]({{ site.production_url }}/media/PP-CHAIN-AprovaBanco.graphml)
+- Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/BancoAprova](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-ChainOfResponsibility/src/BancoAprova)
 
 ## Padrão de Projeto (ADAPTER)
 
