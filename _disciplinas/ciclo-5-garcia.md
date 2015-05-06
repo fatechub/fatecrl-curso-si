@@ -373,13 +373,13 @@ Esta situação:
 
 Na **Agregação**, a existência do Objeto-Parte faz sentido, mesmo não existindo o Objeto-Todo. Vejamos o exemplo Time-Atleta:
 
-![Imagem1](http://conteudo.imasters.com.br/18901/fig_02_agregacao.png)
+![Imagem1]({{ site.production_url }}/media/fig_02_agregacao.png)
 
 Um time é formado por atletas, ou seja, os atletas são parte integrante de um time, mas os atletas existem independentemente de um time existir. Nesse caso, chamamos esse relacionamento de AGREGAÇÃO.
 
 Já a **Composição** é uma agregação mais forte; nela, a existência do Objeto-Parte NÃO faz sentido se o Objeto-Todo não existir. Vejamos o exemplo Pedido-ItemPedido:
 
-![Imagem2](http://conteudo.imasters.com.br/18901/fig_03_composicao.png)
+![Imagem2]({{ site.production_url }}/media/fig_03_composicao.png)
 
 [Fonte: imasters](http://imasters.com.br/artigo/18901/uml/uml-composicao-x-agregacao/)
 
