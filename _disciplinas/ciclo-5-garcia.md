@@ -476,3 +476,29 @@ Sabe-se que o WAV e MID que não são formatos de video podem rodar som e gravar
 - Solução JAVA EX2: [/eclipseprojects/DesignPatterns-Decorator/src/linguagemToy](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Decorator/src/linguagemToy)
 - Solução JAVA EX3: [/eclipseprojects/Reflection/src/createSelectAnnotationFora](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/Reflection/src/createSelectAnnotationFora)
 - Solução JAVA EX4: [/eclipseprojects/DesignPatterns-Strategy/src/ClienteDesconto](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Strategy/src/ClienteDesconto)
+
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/04</span>
+
+## Padrão de Projeto (Abstract Factory)
+
+Vejamos a intenção do Padrão Abstract Factory: 
+
+> “Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.”
+
+Então, de acordo com a descrição da intenção do padrão, nós poderemos criar famílias de objetos, no nosso exemplo seriam a família de carros Sedan e a família de carros de Luxo.
+
+#### UML
+
+- Padrão ABSTRACT FACTORY UML png [/media/PP-ABSTRACTFACTORY.png]({{ site.production_url }}/media/PP-ABSTRACTFACTORY.png)
+- Padrão ABSTRACT FACTORY UML yEd [/media/PP-ABSTRACTFACTORY.graphml]({{ site.production_url }}/media/PP-ABSTRACTFACTORY.graphml)
+
+<img src="{{ site.production_url }}/media/PP-ABSTRACTFACTORY.png" class="img-responsive">
+
+### Projeto: LojaFabricaCarro
+
+As fabricas "Citroen" e "Honda" podem fabricar Carros "Sedan" ou "Luxo". PS. O Carro pode receber um cor especial (objeto Cor)
+
+- Solução UML png: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.png]({{ site.production_url }}/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.png)
+- Solução UML yEd: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml]({{ site.production_url }}/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml)
+- Solução JAVA: [/DesignPatterns-AbstractFactory/src/lojafabricacarro](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-AbstractFactory/src/lojafabricacarro)
