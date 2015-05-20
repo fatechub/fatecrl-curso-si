@@ -5,12 +5,6 @@ layout: page
 ---
 {% include JB/setup %}
 
-#### 17/04 (Sexta)
-> [P1] Design Patterns, Garcia
-
-#### 18/04 (Sábado)
-> [P1] Apresentação de trabalho toca dos bichos, Rosemeire (Prova valendo 20% da nota)
-
 #### 25/05 (Segunda)
 > [P2] Inglês, Eveline
 
@@ -22,6 +16,9 @@ layout: page
 
 #### 10/06 (Quarta)
 > [TP] ..., Ciro - Projeto usando API + Java Server Face (Possivelmente mesmo TP com Chiara)
+
+#### 12/04 (Sexta)
+> [P2] Design Patterns, Garcia
 
 #### 13/06 (Sábado)
 > [TP] ..., Rosemeire (Substituindo a P2 e valendo 80% da nota)

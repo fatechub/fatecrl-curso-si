@@ -144,3 +144,37 @@ ver saldo da conta atraves de codigo e senha (ajax)
 
 - Solução JAVA: [/netbeansprojects/AjaxContaBanco](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/AjaxContaBanco)
 
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 22/04</span>
+
+## JDBC (Java Database Connectivity)
+[DPS2-09-JDBC.pdf]({{ site.production_url }}/media/DPS2-09-JDBC.pdf)
+
+### Projeto: TestaConexao (Only Java)
+
+Cria apenas com JAVA um programa que insere e lista contatos em um DB.
+
+- Solução JAVA: [/netbeansprojects/TestaConexaoJAVA](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/TestaConexaoJAVA)
+
+> DICA: Como passar argumentos via "Main" Execução
+
+<img src="{{ site.production_url }}/media/como-passar-argumentos-main.png" class="img-responsive">
+
+***
+
+### Projeto: Contatos (JavaWEB)
+
+- Solução JAVA: [/netbeansprojects/Contatos](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Contatos)
+
+> [Como "Instalar" drive mysql no glassfish](http://dev.mysql.com/doc/connector-j/en/connector-j-usagenotes-glassfish-config.html)
+> 
+> - Baixar [mysql-connector-java-5.1.23-bin.jar]({{ site.production_url }}/media/mysql-connector-java-5.1.23-bin.jar)
+> - Colar em um dos dois:
+> - C:\Program Files\glassfish-4.1\glassfish\domains\domain1\lib
+> - C:\Program Files\glassfish-4.1\glassfish\lib
+
+#### Screenshot 
+
+<img src="{{ site.production_url }}/media/screenshot-contatos-jsf.png" class="img-responsive">
+
