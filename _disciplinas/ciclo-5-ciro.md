@@ -153,6 +153,18 @@ ver saldo da conta atraves de codigo e senha (ajax)
 
 ### Projeto: TestaConexao (Only Java)
 
+#### Tabela Contatos
+
+```
+CREATE TABLE IF NOT EXISTS `contatos` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(80) DEFAULT NULL,
+  `email` varchar(120) DEFAULT NULL,
+  `endereco` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+```
+
 Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 - Solução JAVA: [/netbeansprojects/TestaConexaoJAVA](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/TestaConexaoJAVA)
@@ -162,6 +174,8 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 <img src="{{ site.production_url }}/media/como-passar-argumentos-main.png" class="img-responsive">
 
 ***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 29/04</span>
 
 ### Projeto: Contatos (JavaWEB)
 
@@ -178,3 +192,17 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 <img src="{{ site.production_url }}/media/screenshot-contatos-jsf.png" class="img-responsive">
 
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 13/05</span>
+
+## JPA (Java Persistence API)
+[DPS2-10-JPA.pdf]({{ site.production_url }}/media/DPS2-10-JPA.pdf)
+
+### Projeto: JPATeste (Only Java)
+
+> #### PASSOS
+> - Add bibliotecas **EclipseLink (JPA 2.1)** e **Driver JDBC do MySQL**
+> - configurar user, senha e o banco **ciro_financas** em util/jpa/JPAEntityManager.java e META-INF/persistence.xml
+
+- Solução JAVA: [/netbeansprojects/JPATeste](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/JPATeste)
