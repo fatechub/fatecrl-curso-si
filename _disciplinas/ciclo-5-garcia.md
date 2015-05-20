@@ -477,8 +477,11 @@ Sabe-se que o WAV e MID que não são formatos de video podem rodar som e gravar
 - Solução JAVA EX3: [/eclipseprojects/Reflection/src/createSelectAnnotationFora](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/Reflection/src/createSelectAnnotationFora)
 - Solução JAVA EX4: [/eclipseprojects/DesignPatterns-Strategy/src/ClienteDesconto](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Strategy/src/ClienteDesconto)
 
+<div class="alert alert-danger">Anexar Scanner prova</div>
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/04</span>
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 17/04</span>
 
 ## Padrão de Projeto (Abstract Factory)
 
@@ -487,6 +490,8 @@ Vejamos a intenção do Padrão Abstract Factory:
 > “Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.”
 
 Então, de acordo com a descrição da intenção do padrão, nós poderemos criar famílias de objetos, no nosso exemplo seriam a família de carros Sedan e a família de carros de Luxo.
+
+- Anotações Frávia Aula Garcia 24/05 (PP): [gist.github.com/anonymous/2a98e1d6a59159ae4a67](https://gist.github.com/anonymous/2a98e1d6a59159ae4a67)
 
 #### UML
 
@@ -502,3 +507,83 @@ As fabricas "Citroen" e "Honda" podem fabricar Carros "Sedan" ou "Luxo". PS. O C
 - Solução UML png: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.png]({{ site.production_url }}/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.png)
 - Solução UML yEd: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml]({{ site.production_url }}/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml)
 - Solução JAVA: [/DesignPatterns-AbstractFactory/src/lojafabricacarro](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-AbstractFactory/src/lojafabricacarro)
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/04</span>
+
+## Padrão de Projeto (Singleton)
+
+A intenção do padrão é esta:
+
+> “Garantir que uma classe tenha somente uma instância e fornece um ponto global de acesso para a mesma.”
+
+A maior vantagem do Singleton é unificar o acesso das instâncias
+
+#### UML
+
+- Padrão SINGLETON UML png [/media/PP-SINGLETON.png]({{ site.production_url }}/media/PP-SINGLETON.png)
+- Padrão SINGLETON UML yEd [/media/PP-SINGLETON.graphml]({{ site.production_url }}/media/PP-SINGLETON.graphml)
+
+<img src="{{ site.production_url }}/media/PP-SINGLETON.png" class="img-responsive">
+
+### Projeto: Singleton
+
+- Solução JAVA: [/DesignPatterns-Singleton/src/singleton](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Singleton/src/singleton)
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 15/05</span>
+
+## ENUMs
+
+São classes que carregam constants de enumeração (Tipos) estes são públicos, estáticos e finais.
+
+**Algumas características:**
+
+- ENUMS podem ter métodos;
+- Os tipos das ENUMS carregam métodos;
+- Os tipos são convertidos para números (.ordinall);
+- ENUMS pode ter construtorees;
+- ENUMS são Singletons!
+
+<pre>
+[ CLIENTE ] 
+  - cd_id
+  - nm_nome
+  - vl_anuidade
+  - tp_cartao
+       |n
+       |
+      / \
+      \ /
+       |
+       |1
+[ TipoCartao (ENUM) ]
+  - nm_tipocartoa
+  - ordem_anuidade
+</pre>
+
+### Projeto: ENUMS Naips 
+
+Inglês e Podem: PAUS("CLUBS",300), OUROS("DIAMONDS",100), ESPADAS("SPADES",250), COPAS("HEARTS",150);
+
+- Solução JAVA: [/ENUMS/src/naipe](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/ENUMS/src/naipe)
+
+### Projeto: ENUMS Animal (Sobrescrita)
+
+- Solução JAVA: [/ENUMS/src/sobrescritaenums](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/ENUMS/src/sobrescritaenums)
+
+### Projeto: ENUMS TiposCarro
+
+Faça a ENUM tipoCarro que possua os tipos "luxo", "sedan", "hatch". 
+Crie uma constante inteira "importancia" que numere luxo com 10, sedan com 5 e hatch com 7 faca o teste
+
+- Solução JAVA: [/ENUMS/src/tipocarros](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/ENUMS/src/tipocarros)
+
+### Projeto: ENUMS TiposCarro
+
+Crie a ENUM TipoCartao que possua as constantes GOLD, SILVER, PLATIUM e BLACK
+cada constante pode determinar um desconto na anuidade que é de 10% GOLD, 20 SILVER, 30 PLAT, 50 BLACK
+
+- Solução JAVA: [/ENUMS/src/tipocartao](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/ENUMS/src/tipocartao)
