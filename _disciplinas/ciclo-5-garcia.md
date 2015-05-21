@@ -531,6 +531,10 @@ A maior vantagem do Singleton é unificar o acesso das instâncias
 
 - Solução JAVA: [/DesignPatterns-Singleton/src/singleton](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Singleton/src/singleton)
 
+### Projeto: Singleton (Quebrando o Patterns com multi-threads. "By Patrick")
+
+- Solução JAVA: [/DesignPatterns-Singleton/src/multithreads](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Singleton/src/multithreads)
+
 ***
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 15/05</span>
@@ -546,6 +550,7 @@ São classes que carregam constants de enumeração (Tipos) estes são públicos
 - Os tipos são convertidos para números (.ordinall);
 - ENUMS pode ter construtorees;
 - ENUMS são Singletons!
+- ENUMS podem ter interfaces
 
 <pre>
 [ CLIENTE ] 
@@ -587,3 +592,13 @@ Crie a ENUM TipoCartao que possua as constantes GOLD, SILVER, PLATIUM e BLACK
 cada constante pode determinar um desconto na anuidade que é de 10% GOLD, 20 SILVER, 30 PLAT, 50 BLACK
 
 - Solução JAVA: [/ENUMS/src/tipocartao](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/ENUMS/src/tipocartao)
+
+***
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP Aumentar nota</span>
+
+### TP Persistencia TipoCliente com ENUMS 
+
+No MySql ```create database ciro_garciatipocliente;```
+
+- Solução JAVA: [netbeansprojects/TpGarciaPersistenciaTipoCliente](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/TpGarciaPersistenciaTipoCliente) - Made in netbeansprojects

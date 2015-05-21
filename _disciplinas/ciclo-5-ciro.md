@@ -206,3 +206,13 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 > - configurar user, senha e o banco **ciro_financas** em util/jpa/JPAEntityManager.java e META-INF/persistence.xml
 
 - Solução JAVA: [/netbeansprojects/JPATeste](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/JPATeste)
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 20/05</span>
+
+## JPQL (Java Persistence Query Language)
+[DPS2-11-JPQL.pdf]({{ site.production_url }}/media/DPS2-11-JPQL.pdf)
+
+<div class="alert alert-danger">Professor ficou devendo o exercicio do dia.</div>
+

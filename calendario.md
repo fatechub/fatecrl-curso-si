@@ -14,6 +14,9 @@ layout: page
 #### 03/06 (Quarta)
 > [P2] ..., Ciro (C/CONSULTA)
 
+#### 02/06 (Terça) ate 6
+> [TPCafe] Programação para dispositivos móveis - Chiara 
+
 #### 10/06 (Quarta)
 > [TP] ..., Ciro - Projeto usando API + Java Server Face (Possivelmente mesmo TP com Chiara)
 
