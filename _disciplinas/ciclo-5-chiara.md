@@ -154,3 +154,15 @@ Exibe links no ActionBar (Barra de Menu) com icones ou não.
 
 - Solução Adam Branch: [androidstudioprojects/P1-Adam](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/P1-Adam) 
 
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 26/05</span>
+
+### Projeto: PersistenciaDadosSQLite (Livros) 
+
+Cadastrar, Listar, Editar e Deletar Livros com SQLite.
+
+- Solução JAVA AS: [androidstudioprojects/PersistenciaDadosSQLite](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/PersistenciaDadosSQLite)  
+- Solução JAVA ADT: [eclipseadtprojects/PersistenciaDadosSQLite](https://github.com/adammacias/fatec-si-digital/tree/eclipseadtprojects/PersistenciaDadosSQLite)  
+

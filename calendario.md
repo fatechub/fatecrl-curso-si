@@ -5,9 +5,6 @@ layout: page
 ---
 {% include JB/setup %}
 
-#### 25/05 (Segunda)
-> [P2] Inglês, Eveline
-
 #### 02/06 (Terça)
 > [P2] Programação para dispositivos móveis - Chiara (C/CONSULTA)
 
