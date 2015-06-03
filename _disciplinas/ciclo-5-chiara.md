@@ -11,7 +11,10 @@ group: navigation
 - [Moodle](http://fatecrl.edu.br/moodle/course/view.php?id=230) - senha: prdm20151
 - [Download Android Studio](http://developer.android.com/sdk/index.html)
 - [jorgechiara@yahoo.com.br](jorgechiara@yahoo.com.br)
+- [adt-bundle-windows-x86_64-20130522.zip](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=ksmGUc%2b1zSNNWZLDxHWqlJTc9OsTseYOIBqmeC6F99Y%3d&docid=0a25e4432d4c143eab5b192202015a546)
+- [Android Asset Studio - Gerador de Icons](http://romannurik.github.io/AndroidAssetStudio/)
 - [GitHub Branch: AndroidStudio (Projetos no AndroidStudio)](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects)
+- [GitHub Branch: eclipseadtprojects (Projetos no Eclipse ADT)](https://github.com/adammacias/fatec-si-digital/tree/eclipseadtprojects)
 - [E-book Use a Cabeça JAVA.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078)
 
 ***
@@ -166,3 +169,28 @@ Cadastrar, Listar, Editar e Deletar Livros com SQLite.
 - Solução JAVA AS: [androidstudioprojects/PersistenciaDadosSQLite](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/PersistenciaDadosSQLite)  
 - Solução JAVA ADT: [eclipseadtprojects/PersistenciaDadosSQLite](https://github.com/adammacias/fatec-si-digital/tree/eclipseadtprojects/PersistenciaDadosSQLite)  
 
+***
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Prova P2</span> 
+
+1. Fazer página de pre loading "SplashScreen";
+2. Fazer app com paginas "cadastrar, lista, deletar e editar" palavras (titulo e significado);
+3. Fazer página sobre o autor.
+
+- Solução Adam Branch: [eclipseadtprojects/PDM2_Adam](https://github.com/adammacias/fatec-si-digital/tree/eclipseadtprojects/PDM2_Adam) 
+
+**Screenshoots**
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">
+			<img src="{{ site.production_url }}/media/screenshot_p2_chiara_1.jpg" class="img-responsive">
+		</div>
+		<div class="col-md-4">
+			<img src="{{ site.production_url }}/media/screenshot_p2_chiara_2.jpg" class="img-responsive">
+		</div>
+		<div class="col-md-4">
+			<img src="{{ site.production_url }}/media/screenshot_p2_chiara_3.jpg" class="img-responsive">
+		</div>
+	</div>
+</div>
