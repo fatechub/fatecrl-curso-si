@@ -5,17 +5,9 @@ layout: page
 ---
 {% include JB/setup %}
 
-#### 02/06 (Terça)
-> [P2] Programação para dispositivos móveis - Chiara (C/CONSULTA)
 
-#### 03/06 (Quarta)
-> [P2] ..., Ciro (C/CONSULTA)
-
-#### 02/06 (Terça) ate 6
-> [TPCafe] Programação para dispositivos móveis - Chiara 
-
-#### 10/06 (Quarta)
-> [TP] ..., Ciro - Projeto usando API + Java Server Face (Possivelmente mesmo TP com Chiara)
+#### 09/06 (Quarta)
+> [TP] ..., Ciro - Projeto usando API + Java Server Face
 
 #### 12/04 (Sexta)
 > [P2] Design Patterns, Garcia

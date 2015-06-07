@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
+<span class="label label-warning text-uppercase"><span class="glyphicon glyphicon-star"></span> Fixo</span>
 
 - [Moodle](http://fatecrl.edu.br/moodle/course/view.php?id=395)
 - [ciroct@gmail.com](ciroct@gmail.com)
@@ -14,11 +14,13 @@ group: navigation
 - [GitHub Branch: NetBeansProjects (Projetos no NetBeans)](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects)
 - [E-book Use a Cabeça JAVA.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078)
 - **Provas semestres anteriores** [Acessar fotos DropBox](https://www.dropbox.com/sh/c0n7hybx3uslelz/AADdQrlXLerX4hXAp_HB3YlAa?dl=0) 
-- **Colinha P1 5º semestre - 2015** [netbeansprojects/_PDF_ColinhaP1.rar](https://github.com/adammacias/fatec-si-digital/blob/netbeansprojects/_PDF_ColinhaP1.rar?raw=true) 
+- **Colinha P1 5º semestre - 2015** [PDF_ColinhaP1.rar](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=9AufouRhvb5HmVlLV5Z79PtppAKasY3oKa5OCbbwfn0%3d&docid=0710f5aaf72654a038498bd0ca42d9112) 
+- **Colinha P2 5º semestre - 2015** [PDF_ColinhaP2.rar](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=OS%2fBpFTrRTeAKJQBz%2fOHjgbBCUWQ%2bkOMelTksxlr3qE%3d&docid=0b017112da7a04776960709ad09b2a0a3) 
+
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 11/02</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 11/02</span>
 
 ## Plano de Ensino
 [PlanoEnsino-DPS2-2015-1.pdf]({{ site.production_url }}/media/PlanoEnsino-DPS2-2015-1.pdf)
@@ -28,7 +30,7 @@ group: navigation
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 04/03</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 04/03</span>
 
 ## Java EE: uma visão geral
 [DPS2-02-JavaEE.pdf]({{ site.production_url }}/media/DPS2-02-JavaEE.pdf)
@@ -48,7 +50,7 @@ Formulário de pagamento - nome, data, código cartão com conversor e validaç�
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 11/03</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 11/03</span>
 
 ## Facelets
 [DPS2-04-Facelets.pdf]({{ site.production_url }}/media/DPS2-04-Facelets.pdf)
@@ -65,7 +67,7 @@ Formulário para reserva, envia para outra página de confirmação.
 
 ***
 
-<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> 1º Exercício para Nota</span>
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon-star"></span> 1º Exercício para Nota</span>
 
 - Enunciado [DPS2-Ex01.pdf]({{ site.production_url }}/media/DPS2-Ex01.pdf) 
 - Solução JAVA [/netbeansprojects/CadastroClienteNet](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/CadastroClienteNet)
@@ -74,7 +76,7 @@ Formulário para reserva, envia para outra página de confirmação.
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 18/03</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 18/03</span>
 
 ## Tratamento de Eventos
 [DPS2-05-Eventos.pdf]({{ site.production_url }}/media/DPS2-05-Eventos.pdf)
@@ -91,7 +93,7 @@ Tratamento de eventos gerados pelo usuário, tais o clique num botão (imagem ma
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 25/03</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 25/03</span>
 
 ## Tabela de Dados
 [DPS2-06-DataTable.pdf]({{ site.production_url }}/media/DPS2-06-DataTable.pdf)
@@ -117,8 +119,9 @@ Fazer um carrinho de produtos com sessão e filtro de "autenticação".
 
 ***
 
-<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Prova P1</span> 
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon-star"></span> Prova P1</span> 
 
+- [COLINHA_CIRO_P1_5CICLO](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=9AufouRhvb5HmVlLV5Z79PtppAKasY3oKa5OCbbwfn0%3d&docid=0710f5aaf72654a038498bd0ca42d9112) (Para impressão) 
 - Prova Adam e Solução Ciro DropBox: [/Fatec/FATEC-P1-JAVASF/](https://www.dropbox.com/sh/7eemyhzsbmyei2s/AAC4G8PGyqUKi2TXeU_RoMdsa?dl=0)
 
 ***
@@ -127,7 +130,7 @@ Fazer um carrinho de produtos com sessão e filtro de "autenticação".
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 15/04</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 15/04</span>
 
 ## AJAX
 [DPS2-08-Ajax.pdf]({{ site.production_url }}/media/DPS2-08-Ajax.pdf)
@@ -146,7 +149,7 @@ ver saldo da conta atraves de codigo e senha (ajax)
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 22/04</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 22/04</span>
 
 ## JDBC (Java Database Connectivity)
 [DPS2-09-JDBC.pdf]({{ site.production_url }}/media/DPS2-09-JDBC.pdf)
@@ -175,7 +178,7 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 29/04</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 29/04</span>
 
 ### Projeto: Contatos (JavaWEB)
 
@@ -194,7 +197,7 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 13/05</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 13/05</span>
 
 ## JPA (Java Persistence API)
 [DPS2-10-JPA.pdf]({{ site.production_url }}/media/DPS2-10-JPA.pdf)
@@ -207,12 +210,50 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 - Solução JAVA: [/netbeansprojects/JPATeste](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/JPATeste)
 
+<div class="alert alert-warning">Projeto JPATeste <b>deletado</b>... Use "Projeto Financas"</div>
+
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 20/05</span>
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 20/05</span>
 
 ## JPQL (Java Persistence Query Language)
 [DPS2-11-JPQL.pdf]({{ site.production_url }}/media/DPS2-11-JPQL.pdf)
 
-<div class="alert alert-danger">Professor ficou devendo o exercicio do dia.</div>
+
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 27/05</span>
+
+## PrimeFaces
+[DPS2-12-PrimeFaces.pdf]({{ site.production_url }}/media/DPS2-12-PrimeFaces.pdf)
+
+### Projeto: Financas
+
+Cadastrar, Editar, Deletar Conta (JPA + JPQL + PrimeFaces + Ajax)
+
+- Solução JAVA: [/netbeansprojects/Financas](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/Financas)
+
+***
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon-star"></span> Prova P2</span>
+
+- [COLINHA_CIRO_P2_5CICLO](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=OS%2fBpFTrRTeAKJQBz%2fOHjgbBCUWQ%2bkOMelTksxlr3qE%3d&docid=0b017112da7a04776960709ad09b2a0a3) (Para impressão) 
+
+***
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon-star"></span> TP 2</span>
+
+### Projeto: WebAppAgenda
+
+Cadastrar, Editar, Deletar e Login Usuarios e contatos. (JPA + JPQL + PrimeFaces + Ajax + Idiomas + Login Sessão Filtro)
+
+> Criar banco chamado "ciro_agenda" e se necessário mudar dados de acesso (user,pass) no arquivo de persistence
+
+- Solução JAVA: [/netbeansprojects/WebAppAgenda](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/WebAppAgenda)
+
+#### Preview
+
+<img src="{{ site.production_url }}/media/screenshot-webapp-jsf.gif" class="img-responsive">
+
 
