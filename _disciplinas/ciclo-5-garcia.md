@@ -602,3 +602,69 @@ cada constante pode determinar um desconto na anuidade que é de 10% GOLD, 20 SI
 No MySql ```create database ciro_garciatipocliente;```
 
 - Solução JAVA: [netbeansprojects/TpGarciaPersistenciaTipoCliente](https://github.com/adammacias/fatec-si-digital/tree/netbeansprojects/TpGarciaPersistenciaTipoCliente) - Made in netbeansprojects
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 22/05</span>
+
+## Padrão de Projeto (Visitor)
+
+Vejamos a intenção do Padrão Visitor: 
+
+> “Representar uma operação a ser executada nos elementos de uma estrutura de objetos. Visitor permite definir uma nova operação sem mudar as classes dos elementos sobre os quais opera.”
+
+Pela intenção já é possível ver como o padrão vai nos ajudar. A sua ideia é separar as operações que serão executadas em determinada estrutura de sua representação. Assim, incluir ou remover operações não terá nenhum efeito sobre a interface da estrutura, permitindo que o resto do sistema funcione sem depender de operações específicas.
+
+#### UML
+
+- Padrão VISITOR UML png [/media/PP-VISITOR.png]({{ site.production_url }}/media/PP-VISITOR.png)
+- Padrão VISITOR UML yEd [/media/PP-VISITOR.graphml]({{ site.production_url }}/media/PP-VISITOR.graphml)
+
+<img src="{{ site.production_url }}/media/PP-VISITOR.png" class="img-responsive">
+
+### Projeto: Visitor Zoologico
+
+- Solução UML png [/media/PP-VISITOR-zoologico.png]({{ site.production_url }}/media/PP-VISITOR-zoologico.png)
+- Solução UML yEd [/media/PP-VISITOR-zoologico.graphml]({{ site.production_url }}/media/PP-VISITOR-zoologico.graphml)
+- Solução JAVA: [/DesignPatterns-Visitor/src/zoologico](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Visitor/src/zoologico)
+
+
+***
+
+<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 22/05</span>
+
+## Padrão de Projeto (Proxy)
+
+Vejamos a intenção do Padrão Proxy: 
+
+> “Fornecer um substituto ou marcador da localização de outro objeto para controlar o acesso a esse objeto.”
+
+Protection Proxy: esse é o tipo de proxy que utilizamos no exemplo. Eles controlam o acesso aos objetos, por exemplo, verificando se quem chama possui a devida permissão.
+
+#### UML
+
+- Padrão PROXY UML png [/media/PP-PROXY.png]({{ site.production_url }}/media/PP-PROXY.png)
+- Padrão PROXY UML yEd [/media/PP-PROXY.graphml]({{ site.production_url }}/media/PP-PROXY.graphml)
+
+<img src="{{ site.production_url }}/media/PP-PROXY.png" class="img-responsive">
+
+
+### Projeto: AutenticaUsuario Proxy
+
+- Solução UML png [/media/PP-PROXY-autenficausuario.png]({{ site.production_url }}/media/PP-PROXY-autenficausuario.png)
+- Solução UML yEd [/media/PP-PROXY-autenficausuario.graphml]({{ site.production_url }}/media/PP-PROXY-autenficausuario.graphml)
+- Solução JAVA: [/DesignPatterns-Proxy/src](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Proxy/src)
+
+***
+
+<span class="label label-danger text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Observer Não cai na prova</span>
+
+## Padrão de Projeto (Observer)
+
+Vejamos a intenção do Padrão Observer: 
+
+> “Definir uma dependência um para muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente.” 
+
+### Projeto: RevistaFãs Observer
+
+- Solução JAVA: [/DesignPatterns-Observer/src/revistafas](https://github.com/adammacias/fatec-si-digital/tree/eclipseprojects/DesignPatterns-Observer/src/revistafas)
