@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_palavras"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Palavras"/>
+    
+    <item
+        android:id="@+id/action_criar"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Nova"/>
+    
+    <item
+        android:id="@+id/action_sobre"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Sobre"/>
+
+</menu>

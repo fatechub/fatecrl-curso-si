@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PDM2_Adam</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_listar_palavras">Listagem de Palavras</string>
+    <string name="title_activity_cadastrar_palavra">Nova Palavra</string>
+    <string name="title_activity_editar_palavra">Editar Palavra</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="digite_o_nome_da_palavra">Digite o nome da palavra...</string>
+    <string name="digite_o_significado">Digite o significado...</string>
+    <string name="digite_o_id">Digite o ID...</string>
+    <string name="registre_o_significado_das_palavras">Registre o significado das palavras! :)</string>
+    <string name="carregando">Carregando...</string>
+    <string name="app_dia_criacao">02/06/2015</string>
+    <string name="autor_app">Adam Macias</string>
+
+</resources>

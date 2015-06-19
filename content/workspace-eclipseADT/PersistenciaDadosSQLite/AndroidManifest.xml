@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.persistenciadadossqlite"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.persistenciadadossqlite.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.persistenciadadossqlite.CadLivroActivity"
+            android:label="@string/title_activity_cad_livro" >
+        </activity>
+        <activity
+            android:name="com.example.persistenciadadossqlite.ListarLivro"
+            android:label="@string/title_activity_listar_livro" >
+        </activity>
+        <activity
+            android:name="com.example.persistenciadadossqlite.ListarLivrosActivity"
+            android:label="@string/title_activity_listar_livros" >
+        </activity>
+        <activity
+            android:name="com.example.persistenciadadossqlite.EditLivroActivity"
+            android:label="@string/title_activity_edit_livro" >
+        </activity>
+        <activity
+            android:name="com.example.persistenciadadossqlite.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>            
+        </activity>
+    </application>
+    
+</manifest>

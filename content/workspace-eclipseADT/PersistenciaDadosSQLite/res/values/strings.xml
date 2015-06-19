@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SQLite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cad_livro">CadLivro</string>
+    <string name="title_activity_listar_livro">ListarLivro</string>
+    <string name="title_activity_listar_livros">ListarLivros</string>
+    <string name="title_activity_edit_livro">EditLivroActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+</resources>
