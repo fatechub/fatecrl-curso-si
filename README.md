@@ -1,6 +1,6 @@
-# Curso Sistemas para Internet - Fatec
+# FatecRL - Sistemas para Internet
 
-Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras coisas relacionadas ao curso de Sistemas para Internet da Fatec Rubens Lara.
+Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras coisas relacionadas ao curso de Sistemas para Internet da Fatec Rubens Lara - Baixada Santista.
 
 ### Sobre
 
@@ -26,9 +26,9 @@ Mais detalhes de como contribuir e enviar Pull Requests em [GitHub Collaborating
 
 ## Criando uma disciplina
 
-As disciplinas devem ser criada no diretório `_posts`, dentro da fatec correspondente, ter a extenção `.md` e o nome dos arquivos devem obedecer o formato abaixo:
+As disciplinas devem ser criada no diretório `_posts`, ter a extenção `.md` e o nome dos arquivos devem obedecer o formato abaixo:
 
-> fatec-xx/data-ciclo-X-nome-da-disciplina-professor.md
+> data-ciclo-X-nome-da-disciplina-professor.md
 
 ##### Data 
 
@@ -46,7 +46,6 @@ Sendo que a data necessita ser representava pelo "ano - semestre - 01".
 
 Veja categorias **obrigatórias** para disciplinas, Exemplo:
 
-- **fatec-xx** Insituição em que a disciplina foi dada. *exemplo: fatec-SP, fatec-rl...*
 - **ciclo-x** Ciclo em que a disciplina foi dada. *exemplo: ciclo-1, ciclo-2...*
 - **grade-xxxx** Quando o curso foi iniciado. *exemplo: grade-2013, grade-2015...*
 - **sigla** Sigla da disciplina. *exemplo: IAL-002, ISW-003...*

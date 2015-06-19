@@ -1,0 +1,21 @@
+# Site settings
+title: Fatec ♥ Sistemas para Internet
+email: adam.macias@fatec.sp.gov.br
+description: "Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras coisas relacionadas ao curso de Sistemas para Internet da Fatec Rubens Lara."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000/" # the base hostname & protocol for your site
+github_username: fatechub
+
+# URL settings
+url_repository: "https://github.com/adammacias/fatec-si-digital/" # put path absolute
+url_content: "http://localhost:4000/content/" # put path absolute
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Devs Tutorial
+# jekyll serve --config _config-dev.yml --w
+# url 4 page:       {{ "index.html" | prepend: site.url | prepend: site.baseurl }}
+# url 4 css:        {{ "css/main.css" | prepend: site.url | prepend: site.baseurl }}
+# url 4 content:    {{ "workspace-eclipse/projeto/src" | prepend: site.url_content }}
