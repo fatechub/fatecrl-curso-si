@@ -7,7 +7,7 @@ url: "https://adammacias.github.io" # the base hostname & protocol for your site
 github_username: fatechub
 
 # URL settings
-url_repository: "https://adammacias.github.io/fatec-si-digital/" # put path absolute
+url_repository: "https://github.com/adammacias/fatec-si-digital/" # put path absolute
 url_content: "https://adammacias.github.io/fatec-si-digital/content/" # put path absolute
 
 # Build settings
