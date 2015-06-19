@@ -13,3 +13,7 @@ url_content: "https://adammacias.github.io/fatec-si-digital/content/" # put path
 # Build settings
 markdown: kramdown
 highlighter: pygments
+
+exclude:
+  - content/workspace-*
+  - README.md

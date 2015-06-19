@@ -19,3 +19,7 @@ highlighter: pygments
 # url 4 page:       {{ "index.html" | prepend: site.baseurl | prepend: site.url }}
 # url 4 css:        {{ "css/main.css" | prepend: site.baseurl | prepend: site.url }}
 # url 4 content:    {{ "workspace-eclipse/projeto/src" | prepend: site.url_content }}
+
+exclude:
+  - content/workspace-*
+  - README.md

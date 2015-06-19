@@ -13,7 +13,7 @@ categories: grade-2013 ciclo-5 fatec-rl
 - [Moodle](http://fatecrl.edu.br/moodle/course/view.php?id=395)
 - [ciroct@gmail.com](ciroct@gmail.com)
 - [Download NetBeans](https://netbeans.org/)
-- [GitHub Branch: NetBeansProjects (Projetos no NetBeans)]({{ site.url_repository }}tree/netbeansprojects)
+- [GitHub Branch: NetBeansProjects (Projetos no NetBeans)]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans)
 - [E-book Use a Cabeça JAVA.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078)
 - **Provas semestres anteriores** [Acessar fotos DropBox](https://www.dropbox.com/sh/c0n7hybx3uslelz/AADdQrlXLerX4hXAp_HB3YlAa?dl=0) 
 - **Colinha P1 5º semestre - 2015** [PDF_ColinhaP1.rar](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=9AufouRhvb5HmVlLV5Z79PtppAKasY3oKa5OCbbwfn0%3d&docid=0710f5aaf72654a038498bd0ca42d9112) 
@@ -43,12 +43,12 @@ categories: grade-2013 ciclo-5 fatec-rl
 ### Projeto: Login:
 Formulário de login sem sessão com conversor e validação de dados.
 
-- Solução JAVA: [{{ site.url_repository }}tree/netbeansprojects/Login)
+- Solução JAVA: [{{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Login)
 
 ### Projeto: Pagamento:
 Formulário de pagamento - nome, data, código cartão com conversor e validação de dados.
 
-- Solução JAVA: [{{ site.url_repository }}tree/netbeansprojects/Pagamento)
+- Solução JAVA: [{{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Pagamento)
 
 ***
 
@@ -60,20 +60,20 @@ Formulário de pagamento - nome, data, código cartão com conversor e validaç�
 ### Projeto: Media:
 Formulário simples, que calcula média de aluno solicitando notas da P1 e P2.
 
-- Solução JAVA: [/netbeansprojects/Media]({{ site.url_repository }}tree/netbeansprojects/Media)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/Media]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Media)
 
 ### Projeto: ReservaHotel:
 Formulário para reserva, envia para outra página de confirmação.
 
-- Solução JAVA: [/netbeansprojects/Reserva]({{ site.url_repository }}tree/netbeansprojects/Reserva)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/Reserva]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Reserva)
 
 ***
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon-star"></span> 1º Exercício para Nota</span>
 
 - Enunciado [DPS2-Ex01.pdf]({{ site.url_content }}DPS2-Ex01.pdf) 
-- Solução JAVA [/netbeansprojects/CadastroClienteNet]({{ site.url_repository }}tree/netbeansprojects/CadastroClienteNet)
-- Solução JAVA do Professor [/netbeansprojects/CadastroClienteNetSolucaoProfessor]({{ site.url_repository }}tree/netbeansprojects/CadastroClienteNetSolucaoProfessor)
+- Solução JAVA [/gh-pages/content/workspace-netbeans/CadastroClienteNet]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/CadastroClienteNet)
+- Solução JAVA do Professor [/gh-pages/content/workspace-netbeans/CadastroClienteNetSolucaoProfessor]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/CadastroClienteNetSolucaoProfessor)
 
 
 ***
@@ -86,12 +86,12 @@ Formulário para reserva, envia para outra página de confirmação.
 ### Projeto: Idiomas:
 Tratamento de eventos gerados pelo usuário, tais como a seleção de um item de menu (idiomas).
 
-- Solução JAVA: [/netbeansprojects/Idioma]({{ site.url_repository }}tree/netbeansprojects/Idioma)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/Idioma]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Idioma)
 
 ### Projeto: AppleMicrosoft:
 Tratamento de eventos gerados pelo usuário, tais o clique num botão (imagem mapeada).
 
-- Solução JAVA: [/netbeansprojects/AppleMicrosoft]({{ site.url_repository }}tree/netbeansprojects/AppleMicrosoft)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/AppleMicrosoft]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/AppleMicrosoft)
 
 ***
 
@@ -103,12 +103,12 @@ Tratamento de eventos gerados pelo usuário, tais o clique num botão (imagem ma
 ### Projeto: ListaPessoas:
 Fazer uma listagem de usuários (ArrayList) em uma página usando DataTable.
 
-- Solução JAVA: [/netbeansprojects/ListaPessoas]({{ site.url_repository }}tree/netbeansprojects/ListaPessoas)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/ListaPessoas]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/ListaPessoas)
 
 ### Projeto: Carrinho:
 Fazer um carrinho de produtos. 
 
-- Solução JAVA: [/netbeansprojects/Carrinho]({{ site.url_repository }}tree/netbeansprojects/Carrinho)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/Carrinho]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Carrinho)
 
 ## Sessão e Filtro
 [DPS2-07-Sessao-Filtro.pdf]({{ site.url_content }}DPS2-07-Sessao-Filtro.pdf)
@@ -116,7 +116,7 @@ Fazer um carrinho de produtos.
 ### Projeto: CarrinhoSessao:
 Fazer um carrinho de produtos com sessão e filtro de "autenticação". 
 
-- Solução JAVA: [/netbeansprojects/CarrinhoSessao]({{ site.url_repository }}tree/netbeansprojects/CarrinhoSessao)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/CarrinhoSessao]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/CarrinhoSessao)
 
 
 ***
@@ -141,13 +141,13 @@ Fazer um carrinho de produtos com sessão e filtro de "autenticação".
 
 Gerador de numero aleatorio (ajax)
 
-- Solução JAVA: [/netbeansprojects/AjaxNumeroAleatorioForm]({{ site.url_repository }}tree/netbeansprojects/AjaxNumeroAleatorioForm)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/AjaxNumeroAleatorioForm]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/AjaxNumeroAleatorioForm)
 
 ### Projeto: AjaxContaBanco
 
 ver saldo da conta atraves de codigo e senha (ajax)
 
-- Solução JAVA: [/netbeansprojects/AjaxContaBanco]({{ site.url_repository }}tree/netbeansprojects/AjaxContaBanco)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/AjaxContaBanco]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/AjaxContaBanco)
 
 ***
 
@@ -172,7 +172,7 @@ CREATE TABLE IF NOT EXISTS `contatos` (
 
 Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
-- Solução JAVA: [/netbeansprojects/TestaConexaoJAVA]({{ site.url_repository }}tree/netbeansprojects/TestaConexaoJAVA)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/TestaConexaoJAVA]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/TestaConexaoJAVA)
 
 > DICA: Como passar argumentos via "Main" Execução
 
@@ -184,7 +184,7 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 ### Projeto: Contatos (JavaWEB)
 
-- Solução JAVA: [/netbeansprojects/Contatos]({{ site.url_repository }}tree/netbeansprojects/Contatos)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/Contatos]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Contatos)
 
 > [Como "Instalar" drive mysql no glassfish](http://dev.mysql.com/doc/connector-j/en/connector-j-usagenotes-glassfish-config.html)
 > 
@@ -210,7 +210,7 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 > - Add bibliotecas **EclipseLink (JPA 2.1)** e **Driver JDBC do MySQL**
 > - configurar user, senha e o banco **ciro_financas** em util/jpa/JPAEntityManager.java e META-INF/persistence.xml
 
-- Solução JAVA: [/netbeansprojects/JPATeste]({{ site.url_repository }}tree/netbeansprojects/JPATeste)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/JPATeste]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/JPATeste)
 
 <div class="alert alert-warning">Projeto JPATeste <b>deletado</b>... Use "Projeto Financas"</div>
 
@@ -234,7 +234,7 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 Cadastrar, Editar, Deletar Conta (JPA + JPQL + PrimeFaces + Ajax)
 
-- Solução JAVA: [/netbeansprojects/Financas]({{ site.url_repository }}tree/netbeansprojects/Financas)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/Financas]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Financas)
 
 ***
 
@@ -252,7 +252,7 @@ Cadastrar, Editar, Deletar e Login Usuarios e contatos. (JPA + JPQL + PrimeFaces
 
 > Criar banco chamado "ciro_agenda" e se necessário mudar dados de acesso (user,pass) no arquivo de persistence
 
-- Solução JAVA: [/netbeansprojects/WebAppAgenda]({{ site.url_repository }}tree/netbeansprojects/WebAppAgenda)
+- Solução JAVA: [/gh-pages/content/workspace-netbeans/WebAppAgenda]({{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/WebAppAgenda)
 
 #### Preview
 
