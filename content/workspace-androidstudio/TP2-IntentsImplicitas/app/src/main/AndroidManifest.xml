@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chiara.tp2" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Sobre"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Browser"
+            android:label="@string/title_activity_browser" >
+        </activity>
+        <activity
+            android:name=".Mapa"
+            android:label="@string/title_activity_mapa" >
+        </activity>
+        <activity
+            android:name=".Caminho"
+            android:label="@string/title_activity_caminho" >
+        </activity>
+        <activity
+            android:name=".Telefone"
+            android:label="@string/title_activity_telefone" >
+        </activity>
+        <activity
+            android:name=".SMS"
+            android:label="@string/title_activity_sms" >
+        </activity>
+        <activity
+            android:name=".MSS"
+            android:label="@string/title_activity_mss" >
+        </activity>
+        <activity
+            android:name=".Email"
+            android:label="@string/title_activity_email" >
+        </activity>
+        <activity
+            android:name=".Audio"
+            android:label="@string/title_activity_audio" >
+        </activity>
+        <activity
+            android:name=".Market"
+            android:label="@string/title_activity_market" >
+        </activity>
+        <activity
+            android:name=".Google"
+            android:label="@string/title_activity_google" >
+        </activity>
+    </application>
+
+</manifest>

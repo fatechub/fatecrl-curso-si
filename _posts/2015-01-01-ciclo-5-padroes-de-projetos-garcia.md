@@ -11,19 +11,15 @@ categories: grade-2013 ciclo-5 fatec-rl
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
 ## **Lista 1 Exercicios Reflection** 
-- Enunciados: [L1.pdf]({{ site.url_content | prepend: site.baseurl }}L1.pdf)
+- Enunciados: [L1.pdf]({{ site.url_content }}L1.pdf)
 - Soluções: [/Reflection-Lista1]({{ site.url_repository }}tree/eclipseprojects/Reflection-Lista1/src)
 
 ## **Lista 2 Exercicios Reflection** 
-- Enunciados: [6PPL2.pdf]({{ site.url_content | prepend: site.baseurl }}6PPL2.pdf) 
-
-## **Provas de PP Semestres anteriores** 
-- [Fotos DropBox](https://www.dropbox.com/sh/ov3oiz051aw26ob/AAC2iiLYDetFZQo9Ie0ezs-ia?dl=0) 
-
-## **Cardeno de PP Mayara** 
-- [Fotos DropBox](https://www.dropbox.com/sh/58os50tjxmrhjpz/AAB21tpAbRYvJ6iwk8Yc3w1ta?dl=0)
+- Enunciados: [6PPL2.pdf]({{ site.url_content }}6PPL2.pdf) 
 
 ## Utilidades
+- Provas de PP Semestres anteriores [Fotos DropBox](https://www.dropbox.com/sh/ov3oiz051aw26ob/AAC2iiLYDetFZQo9Ie0ezs-ia?dl=0) 
+- Cardeno de PP May [Fotos DropBox](https://www.dropbox.com/sh/58os50tjxmrhjpz/AAB21tpAbRYvJ6iwk8Yc3w1ta?dl=0)
 - Artigo com problemas e soluções Padrões de Projeto por Brizemp [brizeno.wordpress.com/padroes/](https://brizeno.wordpress.com/padroes/)
 - Repositório com exemplos de utilização de padrões de projeto implementados em Java. [MarcosX/Padr-es-de-Projeto](https://github.com/MarcosX/Padr-es-de-Projeto)
 - E-Book Use a Cabeça  [Padrões de Projetos.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda)
@@ -104,7 +100,7 @@ ArrayList <Ninja>
 
 ### Projeto ListaT
 - Branch eclipseProjects: [Reflection/ListaT]({{ site.url_repository }}tree/eclipseprojects/Reflection/src/ListaT)
-- Arquivos: [aula-2015-02-13.rar]({{ site.url_content | prepend: site.baseurl }}aula-2015-02-13.rar) 
+- Arquivos: [aula-2015-02-13.rar]({{ site.url_content }}aula-2015-02-13.rar) 
 
 ***
 
@@ -278,21 +274,21 @@ Possíveis palavras chaves para você identificar o padrão decorator: "Incorpor
 
 #### UML
 
-- Padrão Decorator UML png [/media/PP-Decorator.png]({{ site.url_content | prepend: site.baseurl }}PP-Decorator.png)
-- Padrão Decorator UML yEd [/media/PP-Decorator.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Decorator.graphml)
+- Padrão Decorator UML png [/media/PP-Decorator.png]({{ site.url_content }}PP-Decorator.png)
+- Padrão Decorator UML yEd [/media/PP-Decorator.graphml]({{ site.url_content }}PP-Decorator.graphml)
 
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-Decorator.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-Decorator.png" class="img-responsive">
 
 ### Projeto: JanelaDecorator
 
 Exemplo JanelaDecorator baseado no artigo [Padrão de Projeto Decorator em Java por devmedia](http://www.devmedia.com.br/padrao-de-projeto-decorator-em-java/26238)
 
-- Solução UML png: [/media/PP-Decorator-Janela.png]({{ site.url_content | prepend: site.baseurl }}PP-Decorator-Janela.png)
-- Solução UML yEd: [/media/PP-Decorator-Janela.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Decorator-Janela.graphml)
+- Solução UML png: [/media/PP-Decorator-Janela.png]({{ site.url_content }}PP-Decorator-Janela.png)
+- Solução UML yEd: [/media/PP-Decorator-Janela.graphml]({{ site.url_content }}PP-Decorator-Janela.graphml)
 - Solução JAVA: [/DesignPatterns-Decorator/src/janeladecorada]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Decorator/src/janeladecorada)
 
 <caption>Foto: UML Projeto Janela (Padrão Decorator)</caption>
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-Decorator-Janela.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-Decorator-Janela.png" class="img-responsive">
 
 ### Exercício: EmpresaPublica
 
@@ -313,8 +309,8 @@ e as incorporações:
 
 Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito o cargo fica: especialista incorporado como prefeito incorporado como vereador.
 
-- Solução UML png: [/media/PP-Decorator-Cargos.png]({{ site.url_content | prepend: site.baseurl }}PP-Decorator-Cargos.png)
-- Solução UML yEd: [/media/PP-Decorator-Cargos.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Decorator-Cargos.graphml)
+- Solução UML png: [/media/PP-Decorator-Cargos.png]({{ site.url_content }}PP-Decorator-Cargos.png)
+- Solução UML yEd: [/media/PP-Decorator-Cargos.graphml]({{ site.url_content }}PP-Decorator-Cargos.graphml)
 - Solução JAVA: [/DesignPatterns-Decorator/src/empresapublicacargos]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Decorator/src/empresapublicacargos)
 
 
@@ -326,8 +322,8 @@ Todo pacote possui uma descrição e um preço.
 Cada preço varia de acordo com o pacote. Faça um sistema que mostre a descrição da viagem contratada (destino + pacotes) e o preço total do contrato. 
 Este sistema deve aderir ao princípio do aberto/fechado. 
 
-- Solução UML png: [/media/PP-Decorator-PacotesViagens.png]({{ site.url_content | prepend: site.baseurl }}PP-Decorator-PacotesViagens.png)
-- Solução UML yEd: [/media/PP-Decorator-PacotesViagens.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Decorator-PacotesViagens.graphml)
+- Solução UML png: [/media/PP-Decorator-PacotesViagens.png]({{ site.url_content }}PP-Decorator-PacotesViagens.png)
+- Solução UML yEd: [/media/PP-Decorator-PacotesViagens.graphml]({{ site.url_content }}PP-Decorator-PacotesViagens.graphml)
 - Solução JAVA: [/DesignPatterns-Decorator/src/pacotesviagem]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Decorator/src/pacotesviagem)
 
 
@@ -350,10 +346,10 @@ O Strategy é utilizado quando você tem um determinado algoritmo, rotina ou alg
 
 #### UML
 
-- Padrão Strategy UML png [/media/PP-Strategy.png]({{ site.url_content | prepend: site.baseurl }}PP-Strategy.png)
-- Padrão Strategy UML yEd [/media/PP-Strategy.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Strategy.graphml)
+- Padrão Strategy UML png [/media/PP-Strategy.png]({{ site.url_content }}PP-Strategy.png)
+- Padrão Strategy UML yEd [/media/PP-Strategy.graphml]({{ site.url_content }}PP-Strategy.graphml)
 
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-Strategy.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-Strategy.png" class="img-responsive">
 
 ### Exercício LojaVirtual:
 
@@ -363,8 +359,8 @@ Esta situação:
 - A) Desenhe o diagrama de classes;
 - B) Codifique com base em A).
 
-- Solução UML png: [/media/PP-Strategy-Promocao.png]({{ site.url_content | prepend: site.baseurl }}PP-Strategy-Promocao.png)
-- Solução UML yEd: [/media/PP-Strategy-Promocao.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Strategy-Promocao.graphml)
+- Solução UML png: [/media/PP-Strategy-Promocao.png]({{ site.url_content }}PP-Strategy-Promocao.png)
+- Solução UML yEd: [/media/PP-Strategy-Promocao.graphml]({{ site.url_content }}PP-Strategy-Promocao.graphml)
 - Solução JAVA: [/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia)
 
 ***
@@ -375,13 +371,13 @@ Esta situação:
 
 Na **Agregação**, a existência do Objeto-Parte faz sentido, mesmo não existindo o Objeto-Todo. Vejamos o exemplo Time-Atleta:
 
-![Imagem1]({{ site.url_content | prepend: site.baseurl }}fig_02_agregacao.png)
+![Imagem1]({{ site.url_content }}fig_02_agregacao.png)
 
 Um time é formado por atletas, ou seja, os atletas são parte integrante de um time, mas os atletas existem independentemente de um time existir. Nesse caso, chamamos esse relacionamento de AGREGAÇÃO.
 
 Já a **Composição** é uma agregação mais forte; nela, a existência do Objeto-Parte NÃO faz sentido se o Objeto-Todo não existir. Vejamos o exemplo Pedido-ItemPedido:
 
-![Imagem2]({{ site.url_content | prepend: site.baseurl }}fig_03_composicao.png)
+![Imagem2]({{ site.url_content }}fig_03_composicao.png)
 
 [Fonte: imasters](http://imasters.com.br/artigo/18901/uml/uml-composicao-x-agregacao/)
 
@@ -412,26 +408,26 @@ Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Tr
 
 #### UML
 
-- Padrão CHAIN UML png [/media/PP-CHAIN.png]({{ site.url_content | prepend: site.baseurl }}PP-CHAIN.png)
-- Padrão CHAIN UML yEd [/media/PP-CHAIN.graphml]({{ site.url_content | prepend: site.baseurl }}PP-CHAIN.graphml)
+- Padrão CHAIN UML png [/media/PP-CHAIN.png]({{ site.url_content }}PP-CHAIN.png)
+- Padrão CHAIN UML yEd [/media/PP-CHAIN.graphml]({{ site.url_content }}PP-CHAIN.graphml)
 
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-CHAIN.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-CHAIN.png" class="img-responsive">
 
 ### Projeto: AprovacaoDeVerbas
 
 Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
 Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo.
 
-- Solução UML png: [/media/PP-CHAIN-BancoAprovaVerba.png]({{ site.url_content | prepend: site.baseurl }}PP-CHAIN-BancoAprovaVerba.png)
-- Solução UML yEd: [/media/PP-CHAIN-BancoAprovaVerba.graphml]({{ site.url_content | prepend: site.baseurl }}PP-CHAIN-BancoAprovaVerba.graphml)
+- Solução UML png: [/media/PP-CHAIN-BancoAprovaVerba.png]({{ site.url_content }}PP-CHAIN-BancoAprovaVerba.png)
+- Solução UML yEd: [/media/PP-CHAIN-BancoAprovaVerba.graphml]({{ site.url_content }}PP-CHAIN-BancoAprovaVerba.graphml)
 - Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco)
 
 ### Projeto: BancoAprova
 
 Uma aplicação de e-commerce precisa se comunicar com vários bancos diferentes para prover aos seus usuários mais possibilidades de pagamentos, atingindo assim um número maior de usuários e facilitando suas vidas. A classe Banco possui 3 subclasses BancoA, BancoB e BancoC. Os Bancos devem possuir um código de banco correspondente ao banco que vai efetuar o pagamento. Se um banco não puder efetuar um pagamento (Códigos não batem) o outro banco deve ser acionado para tentar finalizar esta operação (de pagamento) ordenadamente. Baseando-se nesta situação descrita.
 
-- Solução UML png: [/media/PP-CHAIN-AprovaBanco.png]({{ site.url_content | prepend: site.baseurl }}PP-CHAIN-AprovaBanco.png)
-- Solução UML yEd: [/media/PP-CHAIN-AprovaBanco.graphml]({{ site.url_content | prepend: site.baseurl }}PP-CHAIN-AprovaBanco.graphml)
+- Solução UML png: [/media/PP-CHAIN-AprovaBanco.png]({{ site.url_content }}PP-CHAIN-AprovaBanco.png)
+- Solução UML yEd: [/media/PP-CHAIN-AprovaBanco.graphml]({{ site.url_content }}PP-CHAIN-AprovaBanco.graphml)
 - Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/BancoAprova]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-ChainOfResponsibility/src/BancoAprova)
 
 ## Padrão de Projeto (ADAPTER)
@@ -445,17 +441,17 @@ Ou seja, dado um conjunto de classes com mesma responsabilidade, mas interfaces 
 
 #### UML
 
-- Padrão Adapter UML png [/media/PP-Adapter.png]({{ site.url_content | prepend: site.baseurl }}PP-Adapter.png)
-- Padrão Adapter UML yEd [/media/PP-Adapter.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Adapter.graphml)
+- Padrão Adapter UML png [/media/PP-Adapter.png]({{ site.url_content }}PP-Adapter.png)
+- Padrão Adapter UML yEd [/media/PP-Adapter.graphml]({{ site.url_content }}PP-Adapter.graphml)
 
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-Adapter.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-Adapter.png" class="img-responsive">
 
 ### Projeto: PatoAdaptadoPeru
 
 Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, que não é Pato emite som e não consegue voar. Faça com que Peru e Pato trabalhem sob uma interface comum
 
-- Solução UML png: [/media/PP-Adapter-Pato.png]({{ site.url_content | prepend: site.baseurl }}PP-Adapter-Pato.png)
-- Solução UML yEd: [/media/PP-Adapter-Pato.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Adapter-Pato.graphml)
+- Solução UML png: [/media/PP-Adapter-Pato.png]({{ site.url_content }}PP-Adapter-Pato.png)
+- Solução UML yEd: [/media/PP-Adapter-Pato.graphml]({{ site.url_content }}PP-Adapter-Pato.graphml)
 - Solução JAVA: [/DesignPatterns-Adapter/src/PatoAdaptadoPeru]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Adapter/src/PatoAdaptadoPeru)
 
 
@@ -464,16 +460,16 @@ Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, 
 Um player de video pode rodar o video e tambem gravar um video da webcam. Este player aceita os formatos AVI, MP4 ou RM.
 Sabe-se que o WAV e MID que não são formatos de video podem rodar som e gravar som. Escolha um padrão e (1) Justifique (2) Faça o UML (3) Codifique.
 
-- Solução UML png: [/media/PP-Adapter-PlayerVideo.png]({{ site.url_content | prepend: site.baseurl }}PP-Adapter-PlayerVideo.png)
-- Solução UML yEd: [/media/PP-Adapter-PlayerVideo.graphml]({{ site.url_content | prepend: site.baseurl }}PP-Adapter-PlayerVideo.graphml)
+- Solução UML png: [/media/PP-Adapter-PlayerVideo.png]({{ site.url_content }}PP-Adapter-PlayerVideo.png)
+- Solução UML yEd: [/media/PP-Adapter-PlayerVideo.graphml]({{ site.url_content }}PP-Adapter-PlayerVideo.graphml)
 - Solução JAVA: [/DesignPatterns-Adapter/src/PlayerVideo]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Adapter/src/PlayerVideo)
 
 ***
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Prova P1</span> 
 
-- Colinha-PP-P1-Adam-Frente PDF: [/media/Colinha-PP-P1-Adam-Frente.pdf]({{ site.url_content | prepend: site.baseurl }}Colinha-PP-P1-Adam-Frente.pdf)
-- Colinha-PP-P1-Adam-Verso PDF: [/media/Colinha-PP-P1-Adam-Verso.pdf]({{ site.url_content | prepend: site.baseurl }}Colinha-PP-P1-Adam-Verso.pdf)
+- Colinha-PP-P1-Adam-Frente PDF: [/media/Colinha-PP-P1-Adam-Frente.pdf]({{ site.url_content }}Colinha-PP-P1-Adam-Frente.pdf)
+- Colinha-PP-P1-Adam-Verso PDF: [/media/Colinha-PP-P1-Adam-Verso.pdf]({{ site.url_content }}Colinha-PP-P1-Adam-Verso.pdf)
 - Solução JAVA EX1: [/eclipseprojects/DesignPatterns-Adapter/src/LinuxDOS]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Adapter/src/LinuxDOS)
 - Solução JAVA EX2: [/eclipseprojects/DesignPatterns-Decorator/src/linguagemToy]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Decorator/src/linguagemToy)
 - Solução JAVA EX3: [/eclipseprojects/Reflection/src/createSelectAnnotationFora]({{ site.url_repository }}tree/eclipseprojects/Reflection/src/createSelectAnnotationFora)
@@ -497,17 +493,17 @@ Então, de acordo com a descrição da intenção do padrão, nós poderemos cri
 
 #### UML
 
-- Padrão ABSTRACT FACTORY UML png [/media/PP-ABSTRACTFACTORY.png]({{ site.url_content | prepend: site.baseurl }}PP-ABSTRACTFACTORY.png)
-- Padrão ABSTRACT FACTORY UML yEd [/media/PP-ABSTRACTFACTORY.graphml]({{ site.url_content | prepend: site.baseurl }}PP-ABSTRACTFACTORY.graphml)
+- Padrão ABSTRACT FACTORY UML png [/media/PP-ABSTRACTFACTORY.png]({{ site.url_content }}PP-ABSTRACTFACTORY.png)
+- Padrão ABSTRACT FACTORY UML yEd [/media/PP-ABSTRACTFACTORY.graphml]({{ site.url_content }}PP-ABSTRACTFACTORY.graphml)
 
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-ABSTRACTFACTORY.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-ABSTRACTFACTORY.png" class="img-responsive">
 
 ### Projeto: LojaFabricaCarro
 
 As fabricas "Citroen" e "Honda" podem fabricar Carros "Sedan" ou "Luxo". PS. O Carro pode receber um cor especial (objeto Cor)
 
-- Solução UML png: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.png]({{ site.url_content | prepend: site.baseurl }}PP-ABSTRACTFACTORY-LojaFabricaCarro.png)
-- Solução UML yEd: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml]({{ site.url_content | prepend: site.baseurl }}PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml)
+- Solução UML png: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.png]({{ site.url_content }}PP-ABSTRACTFACTORY-LojaFabricaCarro.png)
+- Solução UML yEd: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml]({{ site.url_content }}PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml)
 - Solução JAVA: [/DesignPatterns-AbstractFactory/src/lojafabricacarro]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-AbstractFactory/src/lojafabricacarro)
 
 ***
@@ -524,10 +520,10 @@ A maior vantagem do Singleton é unificar o acesso das instâncias
 
 #### UML
 
-- Padrão SINGLETON UML png [/media/PP-SINGLETON.png]({{ site.url_content | prepend: site.baseurl }}PP-SINGLETON.png)
-- Padrão SINGLETON UML yEd [/media/PP-SINGLETON.graphml]({{ site.url_content | prepend: site.baseurl }}PP-SINGLETON.graphml)
+- Padrão SINGLETON UML png [/media/PP-SINGLETON.png]({{ site.url_content }}PP-SINGLETON.png)
+- Padrão SINGLETON UML yEd [/media/PP-SINGLETON.graphml]({{ site.url_content }}PP-SINGLETON.graphml)
 
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-SINGLETON.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-SINGLETON.png" class="img-responsive">
 
 ### Projeto: Singleton
 
@@ -619,15 +615,15 @@ Pela intenção já é possível ver como o padrão vai nos ajudar. A sua ideia 
 
 #### UML
 
-- Padrão VISITOR UML png [/media/PP-VISITOR.png]({{ site.url_content | prepend: site.baseurl }}PP-VISITOR.png)
-- Padrão VISITOR UML yEd [/media/PP-VISITOR.graphml]({{ site.url_content | prepend: site.baseurl }}PP-VISITOR.graphml)
+- Padrão VISITOR UML png [/media/PP-VISITOR.png]({{ site.url_content }}PP-VISITOR.png)
+- Padrão VISITOR UML yEd [/media/PP-VISITOR.graphml]({{ site.url_content }}PP-VISITOR.graphml)
 
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-VISITOR.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-VISITOR.png" class="img-responsive">
 
 ### Projeto: Visitor Zoologico
 
-- Solução UML png [/media/PP-VISITOR-zoologico.png]({{ site.url_content | prepend: site.baseurl }}PP-VISITOR-zoologico.png)
-- Solução UML yEd [/media/PP-VISITOR-zoologico.graphml]({{ site.url_content | prepend: site.baseurl }}PP-VISITOR-zoologico.graphml)
+- Solução UML png [/media/PP-VISITOR-zoologico.png]({{ site.url_content }}PP-VISITOR-zoologico.png)
+- Solução UML yEd [/media/PP-VISITOR-zoologico.graphml]({{ site.url_content }}PP-VISITOR-zoologico.graphml)
 - Solução JAVA: [/DesignPatterns-Visitor/src/zoologico]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Visitor/src/zoologico)
 
 
@@ -645,16 +641,16 @@ Protection Proxy: esse é o tipo de proxy que utilizamos no exemplo. Eles contro
 
 #### UML
 
-- Padrão PROXY UML png [/media/PP-PROXY.png]({{ site.url_content | prepend: site.baseurl }}PP-PROXY.png)
-- Padrão PROXY UML yEd [/media/PP-PROXY.graphml]({{ site.url_content | prepend: site.baseurl }}PP-PROXY.graphml)
+- Padrão PROXY UML png [/media/PP-PROXY.png]({{ site.url_content }}PP-PROXY.png)
+- Padrão PROXY UML yEd [/media/PP-PROXY.graphml]({{ site.url_content }}PP-PROXY.graphml)
 
-<img src="{{ site.url_content | prepend: site.baseurl }}PP-PROXY.png" class="img-responsive">
+<img src="{{ site.url_content }}PP-PROXY.png" class="img-responsive">
 
 
 ### Projeto: AutenticaUsuario Proxy
 
-- Solução UML png [/media/PP-PROXY-autenficausuario.png]({{ site.url_content | prepend: site.baseurl }}PP-PROXY-autenficausuario.png)
-- Solução UML yEd [/media/PP-PROXY-autenficausuario.graphml]({{ site.url_content | prepend: site.baseurl }}PP-PROXY-autenficausuario.graphml)
+- Solução UML png [/media/PP-PROXY-autenficausuario.png]({{ site.url_content }}PP-PROXY-autenficausuario.png)
+- Solução UML yEd [/media/PP-PROXY-autenficausuario.graphml]({{ site.url_content }}PP-PROXY-autenficausuario.graphml)
 - Solução JAVA: [/DesignPatterns-Proxy/src]({{ site.url_repository }}tree/eclipseprojects/DesignPatterns-Proxy/src)
 
 ***

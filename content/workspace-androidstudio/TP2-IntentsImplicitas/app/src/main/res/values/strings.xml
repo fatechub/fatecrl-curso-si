@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TP2 - Intents Implícitas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_browser">Browser</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="title_activity_caminho">Caminho</string>
+    <string name="title_activity_telefone">Telefone</string>
+    <string name="title_activity_sms">SMS</string>
+    <string name="title_activity_mss">MSS</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_audio">Áudio</string>
+    <string name="title_activity_market">Market</string>
+    <string name="title_activity_google">Google</string>
+
+    <string name="btnAcessar">Acessar</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnPesquisar">Pesquisar</string>
+    <string name="btnLigar">Ligar</string>
+    <string name="btnDiscar">Discar</string>
+    <string name="btnEnviar">Enviar</string>
+</resources>

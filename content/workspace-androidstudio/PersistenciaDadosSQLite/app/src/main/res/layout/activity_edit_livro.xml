@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EditLivroActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="83dp"
+        android:text="Titulo" />
+
+    <RadioGroup
+        android:id="@+id/rgTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edtTitulo"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/rdPapel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="papel" />
+
+        <RadioButton
+            android:id="@+id/rdEbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ebook" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rgTipo"
+        android:layout_marginTop="96dp"
+        android:onClick="cancelarClick"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/btnGravar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCancelar"
+        android:layout_below="@+id/rgTipo"
+        android:layout_marginTop="33dp"
+        android:onClick="gravarClick"
+        android:text="Gravar" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnExcluir"
+        android:layout_alignParentBottom="true"
+        android:onClick="excluirClick"
+        android:text="Excluir" />
+
+    <EditText
+        android:id="@+id/edtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="ID">
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

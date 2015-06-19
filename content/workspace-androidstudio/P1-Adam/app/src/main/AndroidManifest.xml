@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eu_000.adam" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SobreActivity"
+            android:label="@string/title_activity_sobre" >
+        </activity>
+        <activity
+            android:name=".ImcActivity"
+            android:label="@string/title_activity_imc" >
+        </activity>
+        <activity
+            android:name=".MensagemActivity"
+            android:label="@string/title_activity_mensagem" >
+        </activity>
+        <activity
+            android:name=".MensagemRespostaActivity"
+            android:label="@string/title_activity_mensagem_resposta" >
+        </activity>
+    </application>
+
+</manifest>

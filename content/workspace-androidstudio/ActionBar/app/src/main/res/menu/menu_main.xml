@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_autor" android:title="@string/action_autor"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_item1" android:title="Item Um"
+        android:icon="@mipmap/ic_launcher" android:orderInCategory="100" app:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/action_item2" android:title="Item Dois"
+        android:icon="@drawable/abc_ic_clear_mtrl_alpha" android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/action_item3" android:title="Item Tres"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

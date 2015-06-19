@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.eu_000.adam.MensagemRespostaActivity">
+    <item android:id="@+id/action_msg" android:title="@string/action_msg"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/action_imc" android:title="@string/action_imc"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/action_sobre" android:title="@string/action_sobre"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>

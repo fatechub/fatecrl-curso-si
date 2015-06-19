@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.adam.tp1_conversortemperaturafc.ConversorActivity">
+
+    <Button
+    android:id="@+id/btnCelsius"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/valTemp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="76dp"
+    android:text="Celsius" />
+
+    <Button
+        android:id="@+id/btnFahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCelsius"
+        android:layout_alignBottom="@+id/btnCelsius"
+        android:layout_alignRight="@+id/valTemp"
+        android:text="Fahrenheit" />
+
+    <EditText
+        android:id="@+id/valTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCelsius"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/txtHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/valTemp"
+        android:layout_alignLeft="@+id/valTemp"
+        android:text="Digite a temperatura"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtResp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtHello"
+        android:layout_alignLeft="@+id/txtHello"
+        android:layout_marginBottom="78dp"
+        android:background="@android:color/darker_gray"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Sobre" />
+
+</RelativeLayout>

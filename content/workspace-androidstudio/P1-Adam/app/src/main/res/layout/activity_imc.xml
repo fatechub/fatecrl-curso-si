@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.eu_000.adam.ImcActivity"
+    android:background="#ecf0f1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cálculo do IMC"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_gravity="top"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:textSize="32dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/InputPeso"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:text="100.00"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/textView" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnResultado"
+        android:id="@+id/btnEnviar"
+        android:textSize="18dp"
+        android:background="#2ecc71"
+        android:textColor="#fff"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/btnVoltar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVoltar"
+        android:id="@+id/btnVoltar"
+        android:textSize="18dp"
+        android:background="#e74c3c"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/InputAltura"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:text="1.70"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Informe sua altura"
+        android:id="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/InputAltura"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Informe seu peso"
+        android:id="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/InputPeso"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=" "
+        android:id="@+id/txtResp"
+        android:layout_marginTop="15dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff3c0bff" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnResetar"
+        android:id="@+id/btnResetar"
+        android:textSize="18dp"
+        android:background="#2ecc71"
+        android:textColor="#fff"
+        android:layout_alignTop="@+id/btnEnviar" />
+
+
+</RelativeLayout>
+

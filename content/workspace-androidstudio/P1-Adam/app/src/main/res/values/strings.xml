@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Adam</string>
+
+    <string name="hello_world">Hello Prova P1 Chiara! 07/04/2015</string>
+
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="btnResetar">Resetar</string>
+    <string name="btnResultado">Resultado</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_msg">Mensagem</string>
+    <string name="action_imc">IMC</string>
+    <string name="action_sobre">Sobre</string>
+
+    <string name="title_activity_sobre">SobreActivity</string>
+    <string name="title_activity_imc">ImcActivity</string>
+    <string name="title_activity_mensagem">MensagemActivity</string>
+    <string name="title_activity_mensagem_resposta">MensagemRespostaActivity</string>
+</resources>

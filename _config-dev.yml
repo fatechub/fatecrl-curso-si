@@ -16,6 +16,6 @@ highlighter: pygments
 
 # Devs Tutorial
 # jekyll serve --config _config-dev.yml --w
-# url 4 page:       {{ "index.html" | prepend: site.url | prepend: site.baseurl }}
-# url 4 css:        {{ "css/main.css" | prepend: site.url | prepend: site.baseurl }}
+# url 4 page:       {{ "index.html" | prepend: site.baseurl | prepend: site.url }}
+# url 4 css:        {{ "css/main.css" | prepend: site.baseurl | prepend: site.url }}
 # url 4 content:    {{ "workspace-eclipse/projeto/src" | prepend: site.url_content }}
