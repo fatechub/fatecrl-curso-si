@@ -25,20 +25,20 @@ categories: grade-2013 ciclo-5 fatec-rl
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 11/02</span>
 
 ## Plano de Ensino
-[PlanoEnsino-DPS2-2015-1.pdf]({{ site.baseurl }}/media/PlanoEnsino-DPS2-2015-1.pdf)
+[PlanoEnsino-DPS2-2015-1.pdf]({{ site.url_content | prepend: site.baseurl }}PlanoEnsino-DPS2-2015-1.pdf)
 
 ## Tecnologias de Programação Web
-[DPS2-01-Historico.pdf]({{ site.baseurl }}/media/DPS2-01-Historico.pdf) 
+[DPS2-01-Historico.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-01-Historico.pdf) 
 
 ***
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 04/03</span>
 
 ## Java EE: uma visão geral
-[DPS2-02-JavaEE.pdf]({{ site.baseurl }}/media/DPS2-02-JavaEE.pdf)
+[DPS2-02-JavaEE.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-02-JavaEE.pdf)
 
 ## Conversores e Validadores
-[DPS2-03-Conversores-Validadores.pdf]({{ site.baseurl }}/media/DPS2-03-Conversores-Validadores.pdf)
+[DPS2-03-Conversores-Validadores.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-03-Conversores-Validadores.pdf)
 
 ### Projeto: Login:
 Formulário de login sem sessão com conversor e validação de dados.
@@ -55,7 +55,7 @@ Formulário de pagamento - nome, data, código cartão com conversor e validaç�
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 11/03</span>
 
 ## Facelets
-[DPS2-04-Facelets.pdf]({{ site.baseurl }}/media/DPS2-04-Facelets.pdf)
+[DPS2-04-Facelets.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-04-Facelets.pdf)
 
 ### Projeto: Media:
 Formulário simples, que calcula média de aluno solicitando notas da P1 e P2.
@@ -71,7 +71,7 @@ Formulário para reserva, envia para outra página de confirmação.
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon-star"></span> 1º Exercício para Nota</span>
 
-- Enunciado [DPS2-Ex01.pdf]({{ site.baseurl }}/media/DPS2-Ex01.pdf) 
+- Enunciado [DPS2-Ex01.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-Ex01.pdf) 
 - Solução JAVA [/netbeansprojects/CadastroClienteNet]({{ site.url_repository }}tree/netbeansprojects/CadastroClienteNet)
 - Solução JAVA do Professor [/netbeansprojects/CadastroClienteNetSolucaoProfessor]({{ site.url_repository }}tree/netbeansprojects/CadastroClienteNetSolucaoProfessor)
 
@@ -81,7 +81,7 @@ Formulário para reserva, envia para outra página de confirmação.
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 18/03</span>
 
 ## Tratamento de Eventos
-[DPS2-05-Eventos.pdf]({{ site.baseurl }}/media/DPS2-05-Eventos.pdf)
+[DPS2-05-Eventos.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-05-Eventos.pdf)
  
 ### Projeto: Idiomas:
 Tratamento de eventos gerados pelo usuário, tais como a seleção de um item de menu (idiomas).
@@ -98,7 +98,7 @@ Tratamento de eventos gerados pelo usuário, tais o clique num botão (imagem ma
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 25/03</span>
 
 ## Tabela de Dados
-[DPS2-06-DataTable.pdf]({{ site.baseurl }}/media/DPS2-06-DataTable.pdf)
+[DPS2-06-DataTable.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-06-DataTable.pdf)
 
 ### Projeto: ListaPessoas:
 Fazer uma listagem de usuários (ArrayList) em uma página usando DataTable.
@@ -111,7 +111,7 @@ Fazer um carrinho de produtos.
 - Solução JAVA: [/netbeansprojects/Carrinho]({{ site.url_repository }}tree/netbeansprojects/Carrinho)
 
 ## Sessão e Filtro
-[DPS2-07-Sessao-Filtro.pdf]({{ site.baseurl }}/media/DPS2-07-Sessao-Filtro.pdf)
+[DPS2-07-Sessao-Filtro.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-07-Sessao-Filtro.pdf)
 
 ### Projeto: CarrinhoSessao:
 Fazer um carrinho de produtos com sessão e filtro de "autenticação". 
@@ -135,7 +135,7 @@ Fazer um carrinho de produtos com sessão e filtro de "autenticação".
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 15/04</span>
 
 ## AJAX
-[DPS2-08-Ajax.pdf]({{ site.baseurl }}/media/DPS2-08-Ajax.pdf)
+[DPS2-08-Ajax.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-08-Ajax.pdf)
 
 ### Projeto: AjaxNumeroAleatorioForm
 
@@ -154,7 +154,7 @@ ver saldo da conta atraves de codigo e senha (ajax)
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 22/04</span>
 
 ## JDBC (Java Database Connectivity)
-[DPS2-09-JDBC.pdf]({{ site.baseurl }}/media/DPS2-09-JDBC.pdf)
+[DPS2-09-JDBC.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-09-JDBC.pdf)
 
 ### Projeto: TestaConexao (Only Java)
 
@@ -176,7 +176,7 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 > DICA: Como passar argumentos via "Main" Execução
 
-<img src="{{ site.baseurl }}/media/como-passar-argumentos-main.png" class="img-responsive">
+<img src="{{ site.url_content | prepend: site.baseurl }}como-passar-argumentos-main.png" class="img-responsive">
 
 ***
 
@@ -188,21 +188,21 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 
 > [Como "Instalar" drive mysql no glassfish](http://dev.mysql.com/doc/connector-j/en/connector-j-usagenotes-glassfish-config.html)
 > 
-> - Baixar [mysql-connector-java-5.1.23-bin.jar]({{ site.baseurl }}/media/mysql-connector-java-5.1.23-bin.jar)
+> - Baixar [mysql-connector-java-5.1.23-bin.jar]({{ site.url_content | prepend: site.baseurl }}mysql-connector-java-5.1.23-bin.jar)
 > - Colar em um dos dois:
 > - C:\Program Files\glassfish-4.1\glassfish\domains\domain1\lib
 > - C:\Program Files\glassfish-4.1\glassfish\lib
 
 #### Screenshot 
 
-<img src="{{ site.baseurl }}/media/screenshot-contatos-jsf.png" class="img-responsive">
+<img src="{{ site.url_content | prepend: site.baseurl }}screenshot-contatos-jsf.png" class="img-responsive">
 
 ***
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 13/05</span>
 
 ## JPA (Java Persistence API)
-[DPS2-10-JPA.pdf]({{ site.baseurl }}/media/DPS2-10-JPA.pdf)
+[DPS2-10-JPA.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-10-JPA.pdf)
 
 ### Projeto: JPATeste (Only Java)
 
@@ -219,7 +219,7 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 20/05</span>
 
 ## JPQL (Java Persistence Query Language)
-[DPS2-11-JPQL.pdf]({{ site.baseurl }}/media/DPS2-11-JPQL.pdf)
+[DPS2-11-JPQL.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-11-JPQL.pdf)
 
 
 
@@ -228,7 +228,7 @@ Cria apenas com JAVA um programa que insere e lista contatos em um DB.
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon-star"></span> Aula 27/05</span>
 
 ## PrimeFaces
-[DPS2-12-PrimeFaces.pdf]({{ site.baseurl }}/media/DPS2-12-PrimeFaces.pdf)
+[DPS2-12-PrimeFaces.pdf]({{ site.url_content | prepend: site.baseurl }}DPS2-12-PrimeFaces.pdf)
 
 ### Projeto: Financas
 
@@ -256,6 +256,6 @@ Cadastrar, Editar, Deletar e Login Usuarios e contatos. (JPA + JPQL + PrimeFaces
 
 #### Preview
 
-<img src="{{ site.baseurl }}/media/screenshot-webapp-jsf.gif" class="img-responsive">
+<img src="{{ site.url_content | prepend: site.baseurl }}screenshot-webapp-jsf.gif" class="img-responsive">
 
 
