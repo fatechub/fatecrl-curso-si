@@ -1,0 +1,9 @@
+package lojafabricacarro;
+
+public class Sedan extends Carro{
+	
+	Sedan(int id, String nome, double preco, Cor c) {
+		super(id, nome, preco, c);
+	}
+	
+}
