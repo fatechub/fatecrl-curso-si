@@ -45,6 +45,10 @@ body {
   font-size: 170%;
 }
 
+main.container {
+    padding-bottom: 80px;
+}
+
 .label {
   box-shadow: 0; text-shadow: 0;
 }
@@ -74,6 +78,7 @@ body {
 .home {
     .page-header {
         text-align: center;
+        border: 0;
     }
     .content {
         img {
