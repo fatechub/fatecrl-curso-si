@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+<ui:define name="main">
+    <main class="container">
+        <div class="row">
+
+            <aside class="col-md-3">
+                <div class="alert alert-info">
+                    <p><b>#{msgs.textLogadoComo}</b> #{UsuarioMB.getUsuarioAuth().login}</p>
+                </div>
+                
+                <h3 class="page-header">Menu</h3>
+                <ul class="nav nav-pills nav-stacked">
+                <ui:insert name="left">
+                    <li><h:link value="#{msgs.textPainel}" outcome="/sistema/painel"/></li>
+                    <li><h:link value="#{msgs.textTodosOsContatos}" outcome="/sistema/contatos"/></li>
+                    <li><h:link value="#{msgs.textBuscarPorNome}" outcome="/sistema/contatosbusca"/></li>
+                    <li><h:link value="#{msgs.textAdicionarNovo}" outcome="/sistema/contatosnovo"/></li>
+                </ui:insert>
+                </ul>
+
+                <hr />
+
+                <h:form>
+                    <h:commandButton class="btn btn-danger btn-block" value="#{msgs.btnSair}" action="#{UsuarioMB.logoutUsuario()}"/>
+                </h:form>
+            </aside>
+
+            <section class="col-md-8 col-md-offset-1">
+                <div id="top">                
+                    <ui:insert name="top">Top</ui:insert>
+                </div>
+
+                <div id="content">
+                    <ui:insert name="content">Content</ui:insert>
+                </div>
+            </section>
+
+        </div>
+    </main>
+</ui:define>
+
+</ui:composition>

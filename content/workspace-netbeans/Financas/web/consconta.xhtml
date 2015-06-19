@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <ui:define name="top">
+        Consulta um Conta
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form id="frm">
+            Id da conta:
+            <h:inputText value="#{contaBackBean.conta.id}" required="true"
+                         id="id" label="id da conta"/>
+            <h:message for="id" styleClass="erro"/>
+            <h:commandButton value="Consultar" action="#{contaBackBean.consultar}" id="botao"/>
+            <h:message for="botao" styleClass="erro"/>
+            <h:panelGrid columns="2">
+                Titular:
+                <h:outputText value="#{contaBackBean.conta.titular}"/>
+                Banco:
+                <h:outputText value="#{contaBackBean.conta.banco}"/>
+                Agência:
+                <h:outputText value="#{contaBackBean.conta.agencia}"/>
+                Número:
+                <h:outputText value="#{contaBackBean.conta.numero}"/>                
+            </h:panelGrid>
+            <h:button value="Início" outcome="/index"/>
+            <h:commandButton value="Alterar" disabled="#{contaBackBean.desabilitar}"
+                             action="#{contaBackBean.alterarConta()}"/>
+            <h:commandButton value="Excluir" disabled="#{contaBackBean.desabilitar}"
+                             action="#{contaBackBean.excluir()}"/>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

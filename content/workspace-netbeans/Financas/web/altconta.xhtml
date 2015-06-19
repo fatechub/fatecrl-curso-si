@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <ui:define name="top">
+        Alterar a Conta
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form>
+            <h:panelGrid columns="2">
+                Titular:
+                <h:inputText value="#{contaBackBean.conta.titular}"/>
+                Banco:
+                <h:inputText value="#{contaBackBean.conta.banco}"/>
+                Agência:
+                <h:inputText value="#{contaBackBean.conta.agencia}"/>
+                Número:
+                <h:inputText value="#{contaBackBean.conta.numero}"/>                
+            </h:panelGrid>
+            <h:commandButton value="Alterar" action="#{contaBackBean.alterar()}"/>
+            <h:commandButton value="Cancelar" action="/consconta" immediate="true"/>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

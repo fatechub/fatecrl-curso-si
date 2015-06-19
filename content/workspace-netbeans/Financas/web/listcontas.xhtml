@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns:p="http://primefaces.org/ui">
+
+    <ui:define name="top">
+        Contas Cadastradas
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form id="form">
+            <p:growl id="messages" showDetail="true"/>
+            <p:dataTable value="#{contaBackBean.contas}" var="c"
+                         paginator="true" rows="2"
+                         paginatorPosition="top" 
+                         paginatorTemplate="{FirstPageLink} {PreviousPageLink}
+                            {CurrentPageReport} {NextPageLink}
+                            {LastPageLink} {RowsPerPageDropdown}"
+                         rowsPerPageTemplate="2,4,10"
+                         sortMode="multiple" filteredValue="#{contaBackBean.filtradas}"
+                         editable="true">
+                <p:ajax event="rowEdit" listener="#{contaBackBean.onEdit}"
+                        update=":form:messages"/>
+                <p:ajax event="rowEditCancel" listener="#{contaBackBean.onCancel}"
+                        update=":form:messages"/>
+                <p:column headerText="Id">
+                    #{c.id}
+                </p:column>
+                <p:column headerText="Titular" sortBy="#{c.titular}" filterBy="#{c.titular}"
+                          filterFunction="#{contaBackBean.consultarPorNome}">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{c.titular}"/>
+                        </f:facet>
+                        <f:facet name="input">
+                            <h:inputText value="#{c.titular}"/>
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <p:column headerText="Banco" sortBy="#{c.banco}">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{c.banco}"/>
+                        </f:facet>
+                        <f:facet name="input">
+                            <h:inputText value="#{c.banco}"/>
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <p:column headerText="Agência">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{c.agencia}"/>
+                        </f:facet>
+                        <f:facet name="input">
+                            <h:inputText value="#{c.agencia}"/>
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <p:column headerText="Número">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{c.numero}"/>
+                        </f:facet>
+                        <f:facet name="input">
+                            <h:inputText value="#{c.numero}"/>
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <p:column>
+                    <p:rowEditor/>
+                </p:column>
+                <p:column headerText="Excluir">
+                    <p:commandButton title="Excluir" icon="ui-icon-trash"
+                                     action="#{contaBackBean.onDelete(c)}"
+                                     update="@form"/>
+                    
+                </p:column>
+            </p:dataTable>
+        </h:form>
+        <h:button value="Início" outcome="/index"/>
+    </ui:define>
+
+</ui:composition>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/bootstrap.min.css"/>
+        <h:outputStylesheet name="./css/style.css"/>
+        <title><ui:insert name="title">Contatos</ui:insert></title>
+    </h:head>
+
+    <h:body>
+        <div class="container">
+            
+            <header id="logo">
+                <p class="text-center">
+                    <h:graphicImage library="img" name="logo.png" width="280" height="100"/>
+                </p>
+            </header>
+
+            <div class="row">
+
+                <aside class="col-md-4">
+                    <h3 class="page-header">Menu</h3>
+                    <ul class="nav nav-pills nav-stacked">
+                    <ui:insert name="left">
+                        <li><h:link value="Incluir um novo contato" outcome="/index"/></li>
+                        <li><h:link value="Listar os contatos" outcome="/listar"/></li>
+                        <li><h:link value="Consultar um contato" outcome="/consultar"/></li>
+                        <li><h:link value="Excluir um contato" outcome="/excluir"/></li>
+                    </ui:insert>
+                    </ul>
+                </aside>
+
+                <main class="col-md-8">
+                    <div id="top" class="page-header">                
+                        <ui:insert name="top">Top</ui:insert>
+                    </div>
+
+                    <div id="content">
+                        <ui:insert name="content">Content</ui:insert>
+                    </div>
+                </main>
+
+            </div>
+
+            <hr/>
+
+            <div id="footer" class="text-center">
+                <ui:insert name="footer">Footer</ui:insert>
+            </div>
+
+        </div>
+    </h:body>
+
+</html>

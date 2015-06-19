@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./../_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="content">
+        <h1>#{msgs.bemVindo}, #{usuarioBackBean.usuario.nomeUsuario}</h1>
+        <h2>#{msgs.cadastrados}</h2>
+        <h:form id="form" style="margin-top: 30px;margin-right: 500px;margin-left: 435px">
+            <p:growl id="messages" showDetail="true"/>
+            <p:dataTable value="#{contatoBackBean.contatos}" var="c" 
+                         paginator="true" rows="2"
+                         paginatorPosition="top" 
+                         paginatorTemplate="{FirstPageLink} {PreviousPageLink}
+                         {CurrentPageReport} {NextPageLink}
+                         {LastPageLink} {RowsPerPageDropdown}"
+                         rowsPerPageTemplate="2,4,10"
+                         sortMode="multiple" filteredValue="#{contatoBackBean.filtrados}"
+                         editable="true" style="width: 490px">
+                <p:ajax event="rowEdit" listener="#{contatoBackBean.onEdit}"
+                        update=":form:messages"/>
+                <p:ajax event="rowEditCancel" listener="#{contatoBackBean.onCancel}"
+                        update=":form:messages"/>
+                <p:column headerText="#{msgs.email}" style="font-size: 12px;width: 100px">
+                    #{c.email}
+                </p:column>
+                <p:column headerText="#{msgs.nome}" sortBy="#{c.nomeContato}" filterBy="#{c.nomeContato}"
+                          filterFunction="#{contatoBackBean.consultarPorNome}"
+                          style="font-size: 12px;width: 100px">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{c.nomeContato}"/>
+                        </f:facet>
+                        <f:facet name="input">
+                            <h:inputText value="#{c.nomeContato}"/>
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <p:column headerText="#{msgs.telefone}" sortBy="#{c.telefone}" style="font-size: 12px;width: 100px">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{c.telefone}"/>
+                        </f:facet>
+                        <f:facet name="input">
+                            <h:inputText value="#{c.telefone}"/>
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <p:column>
+                    <p:rowEditor/>
+                </p:column>
+                <p:column headerText="#{msgs.excluir}" style="font-size: 12px;width: 60px">
+                    <p:commandButton title="#{msgs.excluir}" icon="ui-icon-trash"
+                                     action="#{contatoBackBean.onDelete(c)}"
+                                     update="@form"/>
+                </p:column>
+            </p:dataTable>
+            <p:button value="#{msgs.inicio}" outcome="/protected/index" icon="ui-icon-home" style="margin-top: 15px"/>
+        </h:form>
+        
+    </ui:define>
+
+</ui:composition>

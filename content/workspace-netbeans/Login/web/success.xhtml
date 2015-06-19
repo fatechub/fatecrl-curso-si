@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Sucesso Facelet</title>
+    </h:head>
+    <h:body>
+        <h1>Sucesso! Bem-vindo a aplicação JSF, #{user.loginname}</h1>
+        <h:form>
+            <h:panelGrid columns="2">
+                Entre em contato
+                <h:selectBooleanCheckbox value="#{user.contato}"/>
+                Cores favoritas:
+                <h:selectManyCheckbox value="#{user.cores}" border="1" layout="pageDirection">
+                    <f:selectItem itemValue="Vermelho"
+                                  itemLabel="Vermelho"/>
+                    <f:selectItem itemValue="Azul"
+                                  itemLabel="Azul"/>
+                    <f:selectItem itemValue="Amarelo"
+                                  itemLabel="Amarelo"/>
+                    <f:selectItem itemValue="Verde"
+                                  itemLabel="Verde"/>
+                </h:selectManyCheckbox>
+                Escolaridade:
+                <h:selectOneRadio value="#{user.educacao}" border="1" layout="pageDirection">
+                    <f:selectItem itemValue="Ensino Fundamental"
+                                  itemLabel="Ensino Fundamental"/>
+                    <f:selectItem itemValue="Ensino Médio"
+                                  itemLabel="Ensino Médio"/>
+                    <f:selectItem itemValue="Graduação"
+                                  itemLabel="Graduação"/>
+                    <f:selectItem itemValue="Pós-graduação"
+                                  itemLabel="Pós-graduação"/>
+                </h:selectOneRadio>
+                Ano da última formação:
+                <h:selectOneMenu value="#{user.ano}">
+                    <f:selectItems value="#{user.anosEducacao}"/>
+                </h:selectOneMenu>
+                Idiomas:
+                <h:selectManyMenu value="#{user.idiomas}">
+                    <f:selectItems value="#{user.idiomasFluentes}" />
+                </h:selectManyMenu>
+            </h:panelGrid>
+            <h:commandButton value="Atualizar" action="/info"/>
+        </h:form>
+    </h:body>
+</html>
+

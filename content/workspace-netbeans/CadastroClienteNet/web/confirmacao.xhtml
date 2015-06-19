@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+    <ui:define name="title">#{msgs.pageSuccessTitle}</ui:define>
+
+    <ui:define name="top">
+        <h1>#{msgs.pageSuccessTitle}</h1>
+    </ui:define>
+
+    <ui:define name="content">
+
+        <h4>Nome</h4>
+        <h:outputText value="#{cadastro.name}"/>
+
+        <h4>E-mail</h4>
+        <h:outputText value="#{cadastro.email}"/>
+
+        <h4>Telefone</h4>
+        <h:outputText value="#{cadastro.phone}"/>
+
+        <h4>Data de Nascimento</h4>
+        <h:outputText value="#{cadastro.dateborn}">
+            <f:convertDateTime locale="pt_BR" pattern="dd/MM/yyyy"/>
+        </h:outputText>
+        
+        <h4>Sexo</h4>
+        <h:outputText value="#{cadastro.gender}"/>
+
+        <h4>CEP</h4>
+        <h:outputText value="#{cadastro.cep}"/>
+
+        <h4>Endereço</h4>
+        <h:outputText value="#{cadastro.address}"/>
+
+        <h4>Bairro</h4>
+        <h:outputText value="#{cadastro.neighborhood}"/>
+
+        <h4>Cidade</h4>
+        <h:outputText value="#{cadastro.city}"/>
+
+        <h4>UF</h4>
+        <h:outputText value="#{cadastro.state}"/>
+
+        <h4>Serviços</h4>
+        <h:outputText value="#{cadastro.services}"/>
+
+        <h4>Preço</h4>
+        <h:outputText value="#{cadastro.price}">
+            <f:convertNumber type="currency"/>
+        </h:outputText>
+
+        <hr />
+
+        <h:button class="btn btn-default" value="Voltar" outcome="/index"/>
+
+    </ui:define>
+
+    <ui:define name="footer">
+        #{msgs.footerText}
+    </ui:define>
+</ui:composition>

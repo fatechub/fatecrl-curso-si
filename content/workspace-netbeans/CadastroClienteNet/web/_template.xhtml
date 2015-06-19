@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/bootstrap.min.css"/>
+        <h:outputStylesheet name="./css/style.css"/>
+        <title>Cadastro de Cliente</title>
+    </h:head>
+
+    <h:body>
+        <div class="container">
+            
+            <header id="logo">
+                <p class="text-center">
+                    <h:graphicImage library="img" name="logo.png" width="280" height="100"/>
+                </p>
+            </header>
+
+            <div id="top" class="page-header">                
+                <ui:insert name="top">Top</ui:insert>
+            </div>
+
+            <main id="content">
+                <ui:insert name="content">Content</ui:insert>
+            </main>
+
+            <hr/>
+
+            <div id="footer" class="text-center">
+                <ui:insert name="footer">Footer</ui:insert>
+            </div>
+
+        </div>
+    </h:body>
+
+</html>

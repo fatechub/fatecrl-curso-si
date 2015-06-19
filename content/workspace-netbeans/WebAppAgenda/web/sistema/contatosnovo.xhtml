@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="../_template-sidebar.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+    <ui:define name="title">
+        #{msgs.textAdicionarNovo}
+    </ui:define>
+
+    <ui:define name="top">
+        <h1 class="page-header">#{msgs.textAdicionarNovo}</h1>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form>
+            <div class="form-group">
+                <label for="nome">#{msgs.labelNome}:</label>
+                <h:inputText class="form-control" id="nome" value="#{UsuarioMB.contato.nome}" required="true"/>
+                <h:messages for="nome" class="help-block text-danger"/>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">#{msgs.labelTelefone}:</label>
+                <h:inputText pt:type="tel" class="form-control" id="telefone" value="#{UsuarioMB.contato.telefone}" required="true"/>
+                <h:messages for="telefone" class="help-block text-danger"/>
+            </div>
+
+            <div class="form-group">
+                <label for="email">#{msgs.labelEmail}:</label>
+                <h:inputText pt:type="email" class="form-control" id="email" value="#{UsuarioMB.contato.email}" required="true"/>
+                <h:messages for="email" class="help-block text-danger"/>
+            </div>
+
+            <br/>
+
+            <h:commandButton class="btn btn-primary btn-block" value="#{msgs.btnCadastrar}" action="#{UsuarioMB.cadastrarContato()}"/>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

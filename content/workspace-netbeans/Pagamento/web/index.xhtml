@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Pagamento</title>
+        <h:outputStylesheet library="css" name="styles.css"/>
+    </h:head>
+    <h:body>
+        <h1>Por favor, informe os dados do pagamento</h1>
+        <h:form>
+            <h:panelGrid columns="3">
+                Valor:
+                <h:inputText id="valor" label="valor da compra" 
+                             value="#{pagamento.valor}"
+                             converterMessage="#{msgs.erroConversaoValor}"
+                             required="true" requiredMessage="#{msgs.obrigatorio}">
+                    <f:convertNumber minFractionDigits="2"/>
+                    <f:validateLongRange minimum="10" maximum="100000"/>
+                </h:inputText>
+                <h:message for="valor" styleClass="erro"/>
+                Cartão de crédito:
+                <h:inputText id="cartao" label="número do cartão" 
+                             value="#{pagamento.cartao}"
+                             validatorMessage="#{msgs.erroValidacaoCartao}"
+                             required="true" requiredMessage="#{msgs.obrigatorio}">
+                    <f:validateLength minimum="16"/>
+                </h:inputText>
+                <h:message for="cartao" styleClass="erro"/>
+                Data de validade (Mês/Ano):
+                <h:inputText id="validade" label="data de validade" 
+                             value="#{pagamento.validade}"
+                             required="true" requiredMessage="#{msgs.obrigatorio}">
+                    <f:convertDateTime pattern="MM/yyyy"/>
+                </h:inputText>
+                <h:message for="validade" styleClass="erro" />
+                <h:commandButton value="Pagar" action="/pagamento"/>
+                <h:commandButton value="Cancelar" action="/cancelamento"
+                                 immediate="true"/>
+            </h:panelGrid>
+        </h:form>        
+    </h:body>
+</html>
+

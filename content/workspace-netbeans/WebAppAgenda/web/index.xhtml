@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template-default.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+    <ui:define name="title">
+        Login
+    </ui:define>
+
+    <ui:define name="top">
+        
+    </ui:define>
+
+    <ui:define name="content">
+
+        <div class="row">
+            <section class="col-md-6">
+                <h2 class="page-header">#{msgs.textFazerLogin}</h2>
+
+                <h:form>
+                    <div class="form-group">
+                        <label for="login">#{msgs.labelLogin}: <span class="text-danger">*</span></label>
+                        <h:inputText class="form-control" id="login" value="#{UsuarioMB.usuario.login}" required="true"/>
+                        <h:messages for="login" class="help-block text-danger"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">#{msgs.labelSenha}: <span class="text-danger">*</span></label>
+                        <h:inputSecret class="form-control" id="senha" redisplay="false" value="#{UsuarioMB.usuario.senha}" required="true"/>
+                        <h:messages for="senha" class="help-block text-danger"/>
+                    </div>
+                    <br/>
+                    <h:commandButton class="btn btn-primary btn-block" value="#{msgs.btnAcessar}" action="#{UsuarioMB.loginUsuario()}"/>
+                </h:form>
+            </section>
+            <section class="col-md-6">
+                <h2 class="page-header">#{msgs.textCriarConta}</h2>
+
+                <h:form>
+                    <div class="form-group">
+                        <label for="nome">#{msgs.labelNome}: <span class="text-danger">*</span></label>
+                        <h:inputText class="form-control" id="nome" value="#{UsuarioMB.usuario.nome}" required="true"/>
+                        <h:messages for="nome" class="help-block text-danger"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="login">#{msgs.labelLogin}: <span class="text-danger">*</span></label>
+                        <h:inputText class="form-control" id="login" value="#{UsuarioMB.usuario.login}" required="true"/>
+                        <h:messages for="login" class="help-block text-danger"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">#{msgs.labelSenha}: <span class="text-danger">*</span></label>
+                        <h:inputSecret class="form-control" id="senha" redisplay="false" value="#{UsuarioMB.usuario.senha}" required="true"/>
+                        <h:messages for="senha" class="help-block text-danger"/>
+                    </div>
+                    <br/>
+                    <h:commandButton class="btn btn-success btn-block" value="#{msgs.btnCadastrar}" action="#{UsuarioMB.cadastrarUsuario()}"/>
+                </h:form>
+
+            </section>
+        </div>
+    </ui:define>
+
+</ui:composition>

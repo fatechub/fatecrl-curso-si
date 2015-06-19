@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="title">
+        Contatos cadastrados
+    </ui:define>
+
+    <ui:define name="top">
+        <h1>Contatos Cadastrados</h1>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:dataTable class="table table-bordered table-striped table-condensed" value="#{contatoBackBean.contatosCadastrados}" var="c">
+            <h:column>
+                <f:facet name="header">Id</f:facet>
+                #{c.id}                
+            </h:column>
+            <h:column>
+                <f:facet name="header">Nome</f:facet>
+                #{c.nome}                
+            </h:column>
+            <h:column>
+                <f:facet name="header">E-mail</f:facet>
+                #{c.email}                
+            </h:column>
+            <h:column>
+                <f:facet name="header">Endereco</f:facet>
+                #{c.endereco}                
+            </h:column>
+        </h:dataTable>
+    </ui:define>
+
+</ui:composition>

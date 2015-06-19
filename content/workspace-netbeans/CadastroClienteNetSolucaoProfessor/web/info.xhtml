@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./_template.xhtml">
+
+            <ui:define name="content">
+                <center>
+                    <h1>Cliente cadastrado</h1>
+                </center>
+                <h:panelGrid columns="2">
+                    Nome:
+                    <h:outputText value="#{cliente.nome}"/>
+                    Data de nascimento:
+                    <h:outputText value="#{cliente.data}">
+                        <f:convertDateTime pattern="dd/MM/yyyy"/>
+                    </h:outputText>
+                    Telefone:
+                    <h:outputText value="${cliente.fone}"/>
+                    E-mail:
+                    <h:outputText value="${cliente.email}"/>
+                    Sexo: 
+                    <h:outputText value="#{cliente.sexo}"/>
+                    CEP:
+                    <h:outputText value="#{cliente.cep}"/>
+                    Endereço:
+                    <h:outputText value="#{cliente.endereco}"/>
+                    Bairro:
+                    <h:outputText value="#{cliente.bairro}"/>
+                    Cidade:
+                    <h:outputText value="#{cliente.cidade}"/>
+                    UF:            
+                    <h:outputText value="#{cliente.uf}"/>            
+                    Serviços:
+                    <h:outputText value="#{cliente.servicos}"/>
+                    Preço:
+                    <h:outputText value="#{cliente.preco}">
+                        <f:convertNumber type="currency" minFractionDigits="2"/>
+                    </h:outputText>
+                </h:panelGrid>
+                <h:button value="Voltar" outcome="/index"/>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

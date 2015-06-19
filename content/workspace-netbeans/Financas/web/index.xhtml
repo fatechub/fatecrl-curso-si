@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <ui:define name="top">
+        Página Inicial
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form>
+            <h:panelGrid columns="1">
+                <h:link value="Cadastrar uma conta" outcome="/cadconta"/>
+                <h:commandLink value="Listar todas as contas" 
+                               action="#{contaBackBean.listarContas}"/>
+                <h:commandLink value="Consultar uma conta"
+                               action="#{contaBackBean.consultarConta}"/>
+            </h:panelGrid>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

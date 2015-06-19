@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+    <ui:define name="title">#{msgs.pageIndexTitle}</ui:define>
+    
+    <ui:define name="top">
+        <h1>#{msgs.pageIndexTitle}</h1>
+    </ui:define>
+    
+    <ui:define name="content">
+
+    	<div class="alert alert-info">* Campos obrigatórios</div>
+
+        <h:form> 
+                <div class="form-group">
+                    <label for="name">Nome <span class="text-danger">*</span></label>
+                    <h:inputText class="form-control" id="name" value="#{cadastro.name}"/>
+                    <h:messages for="name" class="help-block text-danger"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail <span class="text-danger">*</span></label>
+                    <h:inputText pt:type="email" class="form-control" id="email" value="#{cadastro.email}"/>
+                    <h:messages for="email" class="help-block text-danger"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Telefone <span class="text-danger">*</span></label>
+                    <h:inputText pt:type="tel" class="form-control" id="phone" value="#{cadastro.phone}"/>
+                    <h:messages for="phone" class="help-block text-danger"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="dateborn">Data de Nascimento</label>
+                    <h:inputText pt:type="date" class="form-control" id="dateborn" value="#{cadastro.dateborn}" validator="#{cadastro.validateDateborn}" converterMessage="A data de nascimento deve seguir o formato aaaa/MM/dd. Exemplo: 1989/01/21">                    	
+                        <f:convertDateTime locale="pt_BR" pattern="yyyy-MM-dd"/>
+                    </h:inputText>
+                    <h:messages for="dateborn" class="help-block text-danger"/>
+                </div>
+            
+                <div class="form-group">
+                    <label for="sexo">Sexo:</label>
+                    <h:selectOneRadio id="sexo" class="form-control" value="#{cadastro.gender}" styleClass="clearfix" layout="pageDirection">
+                        <f:selectItem itemValue="M" itemLabel="Masculino" />
+                        <f:selectItem itemValue="F" itemLabel="Feminino" />
+                    </h:selectOneRadio>
+                    <h:message for="sexo" class="help-block text-danger"/>                    
+                </div>
+
+                <div class="form-group">
+                    <label for="cep">CEP <span class="text-danger">*</span></label>
+                    <h:inputText pt:type="number" class="form-control" id="cep" value="#{cadastro.cep}" pt:placeholder="Digite apenas números"/>
+                    <h:messages for="cep" class="help-block text-danger"/>
+                </div> 
+
+                <div class="form-group">
+                    <label for="address">Endereço</label>
+                    <h:inputText class="form-control" id="address" value="#{cadastro.address}"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="neighborhood">Bairro</label>
+                    <h:inputText class="form-control" id="neighborhood" value="#{cadastro.neighborhood}"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="city">Cidade</label>
+                    <h:inputText pt:type="text" class="form-control" id="city" value="#{cadastro.city}"/>
+                </div>                
+                
+                <div class="form-group">
+                    <label for="state">UF <span class="text-danger">*</span></label>
+                    <h:selectOneMenu id="state" class="form-control" value="#{cadastro.state}" >                        
+                        <f:selectItem itemLabel="Selecione seu estado..." noSelectionOption="true" />
+                        <f:selectItems value="#{cadastro.statesList}" />
+                    </h:selectOneMenu>
+                    <h:message for="state" class="help-block text-danger"/>
+                </div>
+            
+                <div class="form-group">
+                    <label for="services">Serviços <span class="text-danger">*</span></label>
+                    <h:selectManyCheckbox id="services" class="form-control" value="#{cadastro.services}" styleClass="clearfix" layout="pageDirection">
+                        <f:selectItems value="#{cadastro.servicesList}" var="service" itemValue="#{service.value}" itemLabel=" #{service}" />
+                    </h:selectManyCheckbox>
+                    <h:message for="services" class="help-block text-danger"/>
+                    <p>Desconto de <b>25%</b> caso contrate todos os serviços.</p>
+                </div>
+
+            <h:commandButton class="btn btn-primary" value="Cadastrar" action="#{cadastro.finalizar}"/>
+			
+        </h:form>
+    </ui:define>
+    
+    <ui:define name="footer">
+        #{msgs.footerText}
+    </ui:define>
+</ui:composition>

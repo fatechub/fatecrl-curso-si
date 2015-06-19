@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./_template.xhtml">
+
+            <ui:define name="title">
+                Consultar Contato
+            </ui:define>
+
+            <ui:define name="top">
+                <h1>Consultar Contato</h1>
+            </ui:define>
+
+            <ui:define name="content">
+                <h:form>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <h:inputText class="form-control" id="nome" value="#{contatoBackBean.contato.nome}" required="true"/>
+                        <br />
+                        <h:commandButton class="btn btn-primary btn-block" value="Consultar" action="#{contatoBackBean.consultar()}" />
+                    </div>
+
+                    <h:dataTable class="table table-bordered table-striped table-condensed" value="#{contatoBackBean.contatos}" var="c">
+                        <h:column>
+                            <f:facet name="header">Nome</f:facet>
+                            #{c.nome}                            
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">E-mail</f:facet>
+                            #{c.email}                            
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Endereço</f:facet>
+                            #{c.endereco}                            
+                        </h:column>
+                    </h:dataTable>
+                </h:form>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./_template.xhtml">
+
+            <ui:define name="content">
+                <center>
+                    <h1>Cadastro</h1>
+                </center>
+                <h:form>
+                    <h:panelGrid columns="3">
+                        * Nome:
+                        <h:inputText value="#{cliente.nome}" id="nome" label="nome" size="30" required="true"/>
+                        <h:message for="nome" styleClass="erro"/>
+                        * E-mail:
+                        <h:inputText p:type="email" value="#{cliente.email}" id="email" label="e-mail" required="true"/>
+                        <h:message for="email" styleClass="erro"/>
+                        * Telefone:
+                        <h:inputText p:type="tel" value="#{cliente.fone}" id="fone" label="telefone" required="true" validator="validator.Telefone"/>
+                        <h:message for="fone" styleClass="erro"/>
+                        Data de Nascimento:               
+                        <h:inputText p:type="date" p:placeholder="aaaa-mm-dd" value="#{cliente.data}" id="data" label="data de nascimento" required="true">
+                            <f:convertDateTime pattern="yyyy-MM-dd"/>
+                        </h:inputText>
+                        <h:message for="data" styleClass="erro"/>
+                        Sexo: 
+                        <h:selectOneRadio value="#{cliente.sexo}" id="sexo">
+                            <f:selectItem itemLabel="Masculino" itemValue="M"/>
+                            <f:selectItem itemLabel="Feminino" itemValue="F"/>
+                        </h:selectOneRadio>
+                        <h:message for="sexo" styleClass="erro"/>
+                        * CEP:
+                        <h:inputText p:placeholder="só números" value="#{cliente.cep}" id="cep" label="cep" size="9" required="true"/>
+                        <h:message for="cep" styleClass="erro"/>
+                        Endereço:                        
+                        <h:inputText value="#{cliente.endereco}" id="endereco" size="40"/>
+                        <h:message for="endereco" styleClass="erro"/>
+                        Bairro:
+                        <h:inputText value="#{cliente.bairro}" id="bairro"/>
+                        <h:message for="bairro" styleClass="erro"/>
+                        Cidade:
+                        <h:inputText value="#{cliente.cidade}" id="cidade"/>
+                        <h:message for="cidade" styleClass="erro"/>
+                        * UF:
+                        <h:selectOneMenu value="#{cliente.uf}" id="uf" label="UF" required="true">
+                            <f:selectItems value="#{cliente.listaEstados}"/>
+                        </h:selectOneMenu>    
+                        <h:message for="uf" styleClass="erro"/>
+                        * Serviços:
+                        <h:selectManyCheckbox value="#{cliente.servicos}" id="servicos" label="serviços" required="true">
+                            <f:selectItem itemLabel="Telefonia" itemValue="Telefonia"/>
+                            <f:selectItem itemLabel="TV" itemValue="TV"/>
+                            <f:selectItem itemLabel="Internet" itemValue="Internet"/>
+                        </h:selectManyCheckbox>
+                        <h:message for="servicos" styleClass="erro"/>
+                    </h:panelGrid>
+                    <h:commandButton value="Enviar" action="#{cliente.cadastrar}"/>
+                </h:form>
+                <h:outputText value="* Campos obrigatórios"/>
+
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>

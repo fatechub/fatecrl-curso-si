@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Carrinho de compras</title>
+        <h:outputStylesheet library="css" name="cssLayout.css"/>
+        <h:outputStylesheet library="css" name="default.css"/>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:dataTable value="#{itensBackBean.itens}" var="i"
+                         styleClass="itens" captionClass="itensCaption"
+                         headerClass="itensHeader"
+                         rowClasses="linhaPar, linhaImpar">
+                <f:facet name="caption">Produtos Disponíveis</f:facet>
+                <h:column>
+                    <f:facet name="header">Id</f:facet>
+                        #{i.id}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Descrição</f:facet>
+                        #{i.descricao}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Quantidade</f:facet>
+                        #{i.quantidade}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Valor</f:facet>
+                    <h:outputText value="#{i.valor}">
+                        <f:convertNumber type="currency"/>
+                    </h:outputText>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">
+                        Adicionar ao carrinho</f:facet>
+                    <h:commandButton value="Adicionar"
+                                     action="#{carrinhoBackBean.adicionar(i)}"
+                                     disabled="#{i.quantidade == 0}"/>
+                </h:column>
+            </h:dataTable>
+            <br/>
+            <h:dataTable value="#{carrinhoBackBean.itens}" var="c"
+                         styleClass="itens" captionClass="itensCaption"
+                         headerClass="itensHeader" footerClass="itensFooter"
+                         rowClasses="linhaPar, linhaImpar">
+                <f:facet name="caption">Produtos do Carrinho</f:facet>
+                <h:column>
+                    <f:facet name="header">Descrição</f:facet>
+                        #{c.descricao}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Quantidade</f:facet>
+                        #{c.quantidade}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Valor</f:facet>
+                    <h:outputText value="#{c.valor}">
+                        <f:convertNumber type="currency"/>
+                    </h:outputText>
+                    <f:facet name="footer">Total:
+                        <h:outputText
+                            value="#{carrinhoBackBean.total}">
+                            <f:convertNumber type="currency"/>
+                        </h:outputText>
+                    </f:facet>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Excluir</f:facet>
+                    <h:commandButton value="Excluir"
+                                     action="#{carrinhoBackBean.excluir(c)}"/>
+                </h:column>
+            </h:dataTable>
+        </h:form>
+    </h:body>
+</html>

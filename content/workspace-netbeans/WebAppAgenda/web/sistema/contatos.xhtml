@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="../_template-sidebar.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+    <ui:define name="title">
+        #{msgs.textTodosOsContatos}
+    </ui:define>
+
+    <ui:define name="top">
+        <h1 class="page-header">#{msgs.textTodosOsContatos}</h1>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:dataTable class="table table-bordered table-striped table-condensed" value="#{UsuarioMB.consultarContatos()}" var="c">
+            <h:column>
+                <f:facet name="header">Id</f:facet>
+                #{c.id}                
+            </h:column>
+            <h:column>
+                <f:facet name="header">#{msgs.labelNome}</f:facet>
+                #{c.nome}                
+            </h:column>
+            <h:column>
+                <f:facet name="header">#{msgs.labelTelefone}</f:facet>
+                #{UsuarioMB.converterTelefone(c.telefone)}               
+            </h:column>
+            <h:column>
+                <f:facet name="header">#{msgs.labelEmail}</f:facet>
+                #{c.email}                
+            </h:column>
+            <h:column>                
+                <h:form id="form-#{c.id}" class="text-right">
+                    <h:commandButton class="btn btn-info btn-xs" value="#{msgs.btnEditar}" action="#{UsuarioMB.editarContato(c)}"/>
+                    <small> - #{msgs.textOu} - </small>
+                    <h:commandButton class="btn btn-danger btn-xs" value="#{msgs.btnDeletar}" action="#{UsuarioMB.deletarContato(c)}"/>
+                </h:form>               
+            </h:column>
+        </h:dataTable>
+    </ui:define>
+
+</ui:composition>

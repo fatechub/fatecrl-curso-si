@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0
+    Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+    transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns="http://www.w3.org/1999/xhtml">
+    <ui:define name="title">
+        Pessoas cadastradas
+    </ui:define>
+    <ui:define name="top">
+        <h1>Pessoas Cadastradas</h1>
+    </ui:define>
+    <ui:define name="content">
+        <h:form>
+        <h:dataTable
+                     value="#{pessoaBackBean.pessoas}"
+                     var="p" styleClass="pessoas"
+                     captionClass="pessoasCaption"
+                     headerClass="pessoasHeader"
+                     rowClasses="linhaPar, linhaImpar">
+            <f:facet name="caption">Pessoas</f:facet>
+            <h:column>
+                <f:facet name="header">Nome</f:facet>
+                <h:outputText value="#{p.nome}" />
+                <f:facet name="footer">Quantidade: 
+                    #{pessoaBackBean.pessoas.size()}
+                </f:facet>
+            </h:column>
+            <h:column>
+                <f:facet name="header">Sobrenome</f:facet>
+                <h:outputText value="#{p.sobrenome}" />
+            </h:column>
+            <h:column>
+                <f:facet name="header">Email</f:facet>
+                <h:outputText value="#{p.email}" />
+            </h:column>
+            <h:column>
+                <f:facet name="header">Excluir</f:facet>
+                <h:commandLink value="Excluir" action="#{pessoaBackBean.deleteRow(p)}"/>
+            </h:column>
+        </h:dataTable>
+        </h:form>
+        <h:button value="Voltar" outcome="/index"/>
+    </ui:define>
+</ui:composition>

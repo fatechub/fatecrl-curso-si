@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Informações do usuário</title>
+    </h:head>
+    <h:body>
+        <h1>Informações do Usuário</h1>
+        <h:panelGrid columns="2">
+            Login:
+            <h:outputText value="#{user.loginname}"/>
+            Entre em contato: 
+            <h:outputText value="#{user.contato ? 'Sim' : 'Não'}" />
+            Cores favoritas:
+            <h:outputText value="#{user.cores}"/>
+            Escolaridade:
+            <h:outputText value="#{user.educacao}"/>
+            Ano da última formação:
+            <h:outputText value="#{user.ano}"/>
+            Idiomas:
+            <h:outputText value="#{user.idiomas}"/>
+        </h:panelGrid>
+        <h:button outcome="/success" value="Voltar"/>
+    </h:body>
+</html>
+

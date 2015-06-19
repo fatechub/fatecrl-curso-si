@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="title">
+        #{msgs.titulo}
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form id="frmLogin" style="margin-top: 100px;margin-right: 500px;margin-left: 530px;width: 300px">
+            <p:fieldset legend="Login">    
+                <h:panelGrid columns="2" cellpadding="5" style="font-size: 12px">
+
+                    #{msgs.idioma}:
+                    <p:selectOneMenu onchange="submit()" value="#{form.localizacao}"
+                                     converter="converter.LocalizacaoConverter">
+                        <f:valueChangeListener type="listener.IdiomaListener"/>
+                        <f:selectItems value="#{form.idiomasSuportados}"/>
+                    </p:selectOneMenu>
+
+                    #{msgs.usuario}:
+                    <p:inputText id="nome" value="#{usuarioBackBean.usuario.nomeUsuario}" 
+                                 label="nome" />
+
+                    #{msgs.senha}:
+                    <p:password id="senha" value="#{usuarioBackBean.usuario.senha}" 
+                                label="senha"/>
+
+                    <p:commandButton action="#{usuarioBackBean.autorizarUsuario(usuarioBackBean)}"
+                                     value="#{msgs.botao}" id="botaoLogin" 
+                                     ajax="false" icon="ui-icon-check"/>
+
+                    <p:commandButton value="#{msgs.botaoC}" type="button" onclick="PF('cadastroDialog').show();" 
+                                     icon="ui-icon-extlink"/>
+                </h:panelGrid>
+
+              
+                <p:outputLabel value="#{param['msgAutorizacaoFilter']}"/>
+
+            </p:fieldset>
+        </h:form>
+        
+        <h:form id="frmUsuario">
+            <p:growl id="growl" sticky="true" showDetail="true"/>
+            <p:dialog widgetVar="cadastroDialog" header="#{msgs.cadastro}" resizable="false" width="300">
+                <h:panelGrid columns="2" cellpadding="4" style="font-size: 12px">
+                    
+                    #{msgs.nome}:
+                    <p:inputText id="nomeC" value="#{usuarioBackBean.usuario.nomeCompleto}" 
+                                 required="true" label="nomeC" requiredMessage="#{msgs.obrigatorio}"/>
+
+                    #{msgs.usuario}:
+                    <p:inputText id="nomeU" value="#{usuarioBackBean.usuario.nomeUsuario}" 
+                                 required="true" label="nomeU" requiredMessage="#{msgs.obrigatorio}"/>
+   
+                    #{msgs.senha}:
+                    <p:password id="senhaC" value="#{usuarioBackBean.usuario.senha}" 
+                                required="true" label="senhaC" requiredMessage="#{msgs.obrigatorio}"/>
+
+                    <p:commandButton actionListener="#{usuarioBackBean.verificaUsuario}"
+                                     value="#{msgs.botaoC}" id="btnUsuario" oncomplete="request(xhr,status,args)"
+                                     icon="ui-icon-check" update="growl"/>
+                </h:panelGrid>
+            </p:dialog>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

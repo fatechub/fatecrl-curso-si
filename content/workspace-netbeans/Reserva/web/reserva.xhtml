@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <body>
+
+        <ui:composition template="./_template.xhtml">
+
+            <ui:define name="title">
+                Reserva
+            </ui:define>
+
+            <ui:define name="content">
+                <h:form>
+                    <h:panelGrid columns="2">
+                        Nome:
+                        <h:inputText value="#{reserva.nome}"
+                                     required="true" label="nome"/>
+                        E-mail:
+                        <h:inputText value="#{reserva.email}"
+                                     p:type="email" required="true"
+                                     label="e-mail"/>
+                        Data de entrada:
+                        <h:inputText value="#{reserva.entrada}"
+                                     p:type="date" required="true" label="data">
+                            <f:convertDateTime pattern="yyyy-MM-dd"/>
+                        </h:inputText>
+                        Número de noites:
+                        <h:inputText value="#{reserva.noites}"
+                                     p:type="number" p:min="1" p:max="30"
+                                     required="true" label="noites"
+                                     p:title="Informe um número entre 1 e 30"/>
+                        Número de hóspedes:
+                        <h:inputText value="#{reserva.hospedes}"
+                                     p:type="number" p:min="1" p:max="4"
+                                     required="true" label="hóspedes"/>
+                    </h:panelGrid>
+                    <h:commandButton value="Reservar"
+                                     action="#{reserva.reservar}"/>
+                </h:form>
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>
