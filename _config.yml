@@ -8,7 +8,7 @@ github_username:  fatechub
 
 # URL settings
 url_repository: https://github.com/adammacias/fatec-si-digital/ # https://github.com/fatechub/curso-si
-url_content: content/
+url_content: media/
 
 # Build settings
 markdown: kramdown

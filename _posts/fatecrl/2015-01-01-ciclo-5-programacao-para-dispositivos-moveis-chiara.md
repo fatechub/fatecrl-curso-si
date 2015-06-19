@@ -135,7 +135,7 @@ Botão que envia para Intent implícita: google.com.br.
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span>TP 2 Android: Intents Implícitas</span> 
 
-- Enunciado [Intents_Implicitas.pdf]({{ site.production_url }}/media/Intents_Implicitas.pdf) 
+- Enunciado [Intents_Implicitas.pdf]({{ site.url_content | prepend: site.baseurl }}Intents_Implicitas.pdf) 
 - Solução Branch: [androidstudioprojects/TP2-IntentsImplicitas]({{ site.url_repository }}tree/androidstudioprojects/TP2-IntentsImplicitas)  
 - Solução Felipe Lage: [androidstudioprojects/Intents-LAGE.zip]({{ site.url_repository }}blob/androidstudioprojects/Intents-LAGE.zip)  
 
@@ -186,13 +186,13 @@ Cadastrar, Listar, Editar e Deletar Livros com SQLite.
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
-			<img src="{{ site.production_url }}/media/screenshot_p2_chiara_1.jpg" class="img-responsive">
+			<img src="{{ site.url_content | prepend: site.baseurl }}screenshot_p2_chiara_1.jpg" class="img-responsive">
 		</div>
 		<div class="col-md-4">
-			<img src="{{ site.production_url }}/media/screenshot_p2_chiara_2.jpg" class="img-responsive">
+			<img src="{{ site.url_content | prepend: site.baseurl }}screenshot_p2_chiara_2.jpg" class="img-responsive">
 		</div>
 		<div class="col-md-4">
-			<img src="{{ site.production_url }}/media/screenshot_p2_chiara_3.jpg" class="img-responsive">
+			<img src="{{ site.url_content | prepend: site.baseurl }}screenshot_p2_chiara_3.jpg" class="img-responsive">
 		</div>
 	</div>
 </div>
