@@ -1,103 +1,55 @@
-# Fatec Curso SI
+# Curso Sistemas para Internet - Fatec
 
-Repositório com arquivos, aulas, apostilas entre outras coisas relacionadas ao curso de SI iniciado no 1º semetre de 2013 na Fatec Rubens Lara.
+Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras coisas relacionadas ao curso de Sistemas para Internet da Fatec Rubens Lara.
 
-## Categorias
+### Sobre
 
-As categorias para as aulas funcionam da seguinte seguencia: SIGLA + DIA + ORDEM AULA. 
+[Conheça o curso de Sistemas para Internet](http://fatecrl.edu.br/site/curso/si/sobre)
 
-Exemplo:
+### Grade Curricular
 
-- **C5SEXA** Aula do Ciclo 5, aula de Sexta-feira, primeira aula
-- **C5SABB** Aula do Ciclo 5, aula de Sabádo, segunda aula
+[Confira a grade atual do curso de SI](http://fatecrl.edu.br/site/curso/si/grade-curricular)
 
-## Suporte
+## Mantido por
 
-- Jekyll <http://jekyllbootstrap.com>
-- Bootstrap <http://getbootstrap.com>
+- [@adammacias](https://github.com/adammacias/) - [FatecRL][fatecrl]
+- [@flaviacs](https://github.com/flaviacs/) - [FatecRL][fatecrl]
+- [ver todos os colaboradores](https://github.com/fatechub/curso-si/graphs/contributors)
 
-## Autores
+## Contribua com o Projeto
 
-- Adam Macias @adammacias
-- Flávia Souza @flaviacs
+Para contribuir basta clicar no botão **Fork**, criar um *Branch*, (criar/melhorar/arrumar) o código e enviá-lo com um **Pull Request**.
 
-***
+Mais detalhes de como contribuir e enviar Pull Requests em [GitHub Collaborating](https://help.github.com/categories/63/articles).
 
-# Relatório aulas
+[Como colaborar com projetos opensource com GitHub](http://www.youtube.com/watch?v=H3olaBo83As)
 
-## FEVEREIRO 
+## Criando uma disciplina
 
-##### 05 (QUI) JAMIR
-##### 06 (SEX) GARCIA
-> Início das aulas, não teve aula. Falta coletiva
+As disciplinas devem ser criada no diretório `_posts`, dentro da fatec correspondente, ter a extenção `.md` e o nome dos arquivos devem obedecer o formato abaixo:
 
-##### 07 (SAB) ROSEMEIRE
-##### 07 (SAB) MAURICIO
-> Não teve aula. Reunião dos professores
+> fatec-xx/data-ciclo-X-nome-da-disciplina-professor.md
 
-##### 09 (SEG) EVELINE
-> - Não teve matéria, apenas introdução do conteúdo semestre.
+##### Data 
 
-##### 10 (TER) CHIARA
+Sendo que a data necessita ser representava pelo "ano - semestre - 01".
 
-##### 10 (QUAR) CIRO
-> - PDF: [Plano de Ensino](http://fatecrl.edu.br/moodle/file.php/395/PlanoEnsino-DPS2-2015-1.pdf)
-> - PDF: [Tecnologias de Programação Web](http://fatecrl.edu.br/moodle/file.php/395/DPS2-01-Historico.pdf)
+- **Exemplos...**
+- **2013-01-01-...md** Iniciado em 2013, no 1º semestre
+- **2015-02-01-...md** Iniciado em 2015, no 2º semestre
 
-##### 11 (QUI) JAMIR
-> Não teve aula, professor mudou!
+##### Exemplo completo
 
-##### 13 (SEX) GARCIA
-> - Revisão Polimosfismo de Subtipos
-> - Polimorfismo para método (GENERICS)
-> - Códigos da Aula [PARTE 1](https://www.facebook.com/groups/117115275154442/348049972060970/) + [PARTE 2](https://www.facebook.com/groups/117115275154442/348049895394311/)
-> - [Card: Comentário Feb 18 at 20:49 - edited Feb 18 at 20:52](https://trello.com/c/Kd0tzWsv/54-relatorio-de-aulas)
- 
-##### 14 (SAB) ROSEMEIRE
-##### 14 (SAB) MAURICIO
-##### 16 (SEG) EVELINE
-##### 17 (TER) CHIARA
-##### 18 (QUAR) CIRO
-> Carnaval
+> **Exemplo:** 2015-01-01-ciclo-5-programacao-para-dispositivos-moveis-chiara.md
 
-##### 19 (QUI) ???
-> Não teve aula, sem professor!
+### Categorias
 
-##### 20 (SEX) GARCIA
-> - Continuação: Polimorfismo para método (GENERICS)
-> - [Códigos da Aula](https://www.facebook.com/groups/117115275154442/348203142045653/)
+Veja categorias **obrigatórias** para disciplinas, Exemplo:
 
-##### 21 (SAB) ROSEMEIRE
-##### 21 (SAB) MAURICIO
-> Não teve aula, pessoal combinou de faltar!
+- **fatec-xx** Insituição em que a disciplina foi dada. *exemplo: fatec-SP, fatec-rl...*
+- **ciclo-x** Ciclo em que a disciplina foi dada. *exemplo: ciclo-1, ciclo-2...*
+- **grade-xxxx** Quando o curso foi iniciado. *exemplo: grade-2013, grade-2015...*
+- **sigla** Sigla da disciplina. *exemplo: IAL-002, ISW-003...*
 
-##### 23 (SEG) EVELINE
-> - Revisão Present Continuous
-> - Revisão Comparative
-> - Superlatives
 
-##### 24 (TER) CHIARA
-> - Pessoal combinou de faltar, mas algumas pessoas foram! (Nathy, May, Carol, Sany, Ikeda)
-> - Instalação do ADT (eclipse) ou o Android Toolkit (Android Studio)
-> - Apostila: [Hello, Android (The Pragmatic Programmers).pdf](https://www.facebook.com/download/780007602089838/Hello%2C%20Android%20%28The%20Pragmatic%20Programmers%29.pdf)
-
-##### 25 (QUAR) CIRO
-> - Conceitos básicos de aplicações web e uma visão geral da tecnologia Java EE e uma introdução a JSF
-> - PDF: [Java EE: uma visão geral](http://fatecrl.edu.br/moodle/file.php/395/DPS2-02-JavaEE.pdf)
-
-##### 26 (QUI) ???
-> Não teve aula, sem professor
-
-##### 27 (SEX) GARCIA
-> Continuação de Refletion, exemplo criando Class DAO único e alguns exercicios.
-
-##### 28 (SAB) ROSEMEIRE
-> Apresentação Ementa + Introdução Prototipagem. Exercicio do desenho do posto de gasolina
-
-##### 28 (SAB) MAURICIO
-> Não teve aula!
-
-## MARÇO
-
-##### 02 (SEG) EVELINE
-> - Exercicios de Present Continuous e Superlatives
+[fatecrl]:      http://fatecrl.edu.br/

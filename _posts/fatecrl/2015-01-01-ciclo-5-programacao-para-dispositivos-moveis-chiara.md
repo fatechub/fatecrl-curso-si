@@ -1,10 +1,12 @@
 ---
-layout: page
-title: Ciclo 5 - Chiara - Programação para Dispositivos Móveis
-header: Pages
-group: navigation
+layout: post
+title:  "Programação para Dispositivos Móveis"
+fatec: fatec-rl
+ciclo: 5
+teacher: Chiara
+date:   2015-01-01
+categories: grade-2013 ciclo-5 fatec-rl
 ---
-{% include JB/setup %}
 
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
@@ -13,8 +15,8 @@ group: navigation
 - [jorgechiara@yahoo.com.br](jorgechiara@yahoo.com.br)
 - [adt-bundle-windows-x86_64-20130522.zip](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=ksmGUc%2b1zSNNWZLDxHWqlJTc9OsTseYOIBqmeC6F99Y%3d&docid=0a25e4432d4c143eab5b192202015a546)
 - [Android Asset Studio - Gerador de Icons](http://romannurik.github.io/AndroidAssetStudio/)
-- [GitHub Branch: AndroidStudio (Projetos no AndroidStudio)](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects)
-- [GitHub Branch: eclipseadtprojects (Projetos no Eclipse ADT)](https://github.com/adammacias/fatec-si-digital/tree/eclipseadtprojects)
+- [GitHub Branch: AndroidStudio (Projetos no AndroidStudio)]({{ site.url_repository }}tree/androidstudioprojects)
+- [GitHub Branch: eclipseadtprojects (Projetos no Eclipse ADT)]({{ site.url_repository }}tree/eclipseadtprojects)
 - [E-book Use a Cabeça JAVA.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078)
 
 ***
@@ -60,7 +62,7 @@ group: navigation
 
 Programinha simples criado em aula que incrementa e decrementa valor.
 
-- Branch: [androidstudioprojects/Contador](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/Contador)  
+- Branch: [androidstudioprojects/Contador]({{ site.url_repository }}tree/androidstudioprojects/Contador)  
 
 ***
 
@@ -68,7 +70,7 @@ Programinha simples criado em aula que incrementa e decrementa valor.
 
 Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-versa.
 
-- Branch: [androidstudioprojects/TP1-ConversorTemperaturaFC](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/TP1-ConversorTemperaturaFC)  
+- Branch: [androidstudioprojects/TP1-ConversorTemperaturaFC]({{ site.url_repository }}tree/androidstudioprojects/TP1-ConversorTemperaturaFC)  
 
 
 ***
@@ -95,7 +97,7 @@ Intent it = new Intent(Intent.ACTION_VIEW, uri);
 
 Digite um texto em um campo e envia para outra Intent. 
 
-- Branch: [androidstudioprojects/IntentsRequestValue](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/IntentsRequestValue)  
+- Branch: [androidstudioprojects/IntentsRequestValue]({{ site.url_repository }}tree/androidstudioprojects/IntentsRequestValue)  
 
 ***
 
@@ -117,7 +119,7 @@ Botão que envia para Intent explícita: IntentDois.
 
 Botão que envia para Intent implícita: google.com.br. 
 
-- Branch: [androidstudioprojects/IntentsExplicitasAndImplicitas](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/IntentsExplicitasAndImplicitas)  
+- Branch: [androidstudioprojects/IntentsExplicitasAndImplicitas]({{ site.url_repository }}tree/androidstudioprojects/IntentsExplicitasAndImplicitas)  
 
 ***
 
@@ -127,15 +129,15 @@ Botão que envia para Intent implícita: google.com.br.
 
 > Componente Visual: ListActivity - Lista de ações para chamar multiplas views (Activitys)
 
-- Solução Branch: [androidstudioprojects/ListActivity](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/ListActivity)  
+- Solução Branch: [androidstudioprojects/ListActivity]({{ site.url_repository }}tree/androidstudioprojects/ListActivity)  
 
 ***
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span>TP 2 Android: Intents Implícitas</span> 
 
 - Enunciado [Intents_Implicitas.pdf]({{ site.production_url }}/media/Intents_Implicitas.pdf) 
-- Solução Branch: [androidstudioprojects/TP2-IntentsImplicitas](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/TP2-IntentsImplicitas)  
-- Solução Felipe Lage: [androidstudioprojects/Intents-LAGE.zip](https://github.com/adammacias/fatec-si-digital/blob/androidstudioprojects/Intents-LAGE.zip)  
+- Solução Branch: [androidstudioprojects/TP2-IntentsImplicitas]({{ site.url_repository }}tree/androidstudioprojects/TP2-IntentsImplicitas)  
+- Solução Felipe Lage: [androidstudioprojects/Intents-LAGE.zip]({{ site.url_repository }}blob/androidstudioprojects/Intents-LAGE.zip)  
 
 ***
 
@@ -145,7 +147,7 @@ Botão que envia para Intent implícita: google.com.br.
 
 Exibe links no ActionBar (Barra de Menu) com icones ou não. 
 
-- Solução Branch: [androidstudioprojects/ActionBar](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/ActionBar)  
+- Solução Branch: [androidstudioprojects/ActionBar]({{ site.url_repository }}tree/androidstudioprojects/ActionBar)  
 
 ***
 
@@ -155,7 +157,7 @@ Exibe links no ActionBar (Barra de Menu) com icones ou não.
 2. Fazer página que calcula Implicitas;
 3. Fazer página MENSAGEM para preencher dois campos e enviar para outra página os dados.
 
-- Solução Adam Branch: [androidstudioprojects/P1-Adam](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/P1-Adam) 
+- Solução Adam Branch: [androidstudioprojects/P1-Adam]({{ site.url_repository }}tree/androidstudioprojects/P1-Adam) 
 
 
 ***
@@ -166,8 +168,8 @@ Exibe links no ActionBar (Barra de Menu) com icones ou não.
 
 Cadastrar, Listar, Editar e Deletar Livros com SQLite.
 
-- Solução JAVA AS: [androidstudioprojects/PersistenciaDadosSQLite](https://github.com/adammacias/fatec-si-digital/tree/androidstudioprojects/PersistenciaDadosSQLite)  
-- Solução JAVA ADT: [eclipseadtprojects/PersistenciaDadosSQLite](https://github.com/adammacias/fatec-si-digital/tree/eclipseadtprojects/PersistenciaDadosSQLite)  
+- Solução JAVA AS: [androidstudioprojects/PersistenciaDadosSQLite]({{ site.url_repository }}tree/androidstudioprojects/PersistenciaDadosSQLite)  
+- Solução JAVA ADT: [eclipseadtprojects/PersistenciaDadosSQLite]({{ site.url_repository }}tree/eclipseadtprojects/PersistenciaDadosSQLite)  
 
 ***
 
@@ -177,7 +179,7 @@ Cadastrar, Listar, Editar e Deletar Livros com SQLite.
 2. Fazer app com paginas "cadastrar, lista, deletar e editar" palavras (titulo e significado);
 3. Fazer página sobre o autor.
 
-- Solução Adam Branch: [eclipseadtprojects/PDM2_Adam](https://github.com/adammacias/fatec-si-digital/tree/eclipseadtprojects/PDM2_Adam) 
+- Solução Adam Branch: [eclipseadtprojects/PDM2_Adam]({{ site.url_repository }}tree/eclipseadtprojects/PDM2_Adam) 
 
 **Screenshoots**
 

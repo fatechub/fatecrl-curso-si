@@ -1,10 +1,12 @@
 ---
-layout: page
-title: Ciclo 5 - Eveline - Inglês V
-header: Pages
-group: navigation
+layout: post
+title:  "Inglês V"
+fatec: fatec-rl
+ciclo: 5
+teacher: Eveline
+date:   2015-01-01
+categories: grade-2013 ciclo-5 fatec-rl
 ---
-{% include JB/setup %}
 
 <span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 23/02</span>
 

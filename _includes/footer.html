@@ -1,26 +1,7 @@
-{% include JB/setup %}
-
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted text-center fat-copy">Feito com <span class="text-danger">❤</span> por um <a href="https://github.com/fatechub" target="_blank">grupo de nerds</a> da Fatec.</p>
     </div>
-
-    <!-- Scripts -->
-    <script src="{{ ASSET_PATH }}/js/jquery.min.js"></script>	
-    <!--  <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-
-    $( document ).ready(function() {
-		var allh2s = ""; 
-		var h2s = $("#wrap h2");
-		for(var h = 0; h < h2s.length; h++ ) {
-		  allh2s += '<a href="#' + h2s[h].attributes[0].nodeValue + '"><small><span class="glyphicon glyphicon-link"></span></small> ' + h2s[h].innerText + "</a>, ";
-		  console.log(h2s[h]);
-		}
-		allh2s = allh2s.substring(0, allh2s.length - 2);
-		$("#allh2s").html( allh2s + '.');
-	});
-
-</script>
-  </body>
+</footer>
+</body>
 </html>
-
