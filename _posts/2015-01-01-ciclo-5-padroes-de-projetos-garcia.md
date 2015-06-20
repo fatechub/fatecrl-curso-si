@@ -8,28 +8,59 @@ date:   2015-01-01
 categories: grade-2013 ciclo-5 fatec-rl
 ---
 
-<span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
-
-## **Lista 1 Exercicios Reflection** 
-- Enunciados: [L1.pdf]({{ site.url_content }}L1.pdf)
-- Soluções: [/Reflection-Lista1]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection-Lista1/src)
-
-## **Lista 2 Exercicios Reflection** 
-- Enunciados: [6PPL2.pdf]({{ site.url_content }}6PPL2.pdf) 
-
-## Utilidades
-- Provas de PP Semestres anteriores [Fotos DropBox](https://www.dropbox.com/sh/ov3oiz051aw26ob/AAC2iiLYDetFZQo9Ie0ezs-ia?dl=0) 
-- Cardeno de PP May [Fotos DropBox](https://www.dropbox.com/sh/58os50tjxmrhjpz/AAB21tpAbRYvJ6iwk8Yc3w1ta?dl=0)
+ 
+## Material, Apostilas e Ferramentas
+- [E-book Use a Cabeça JAVA.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078)
 - Artigo com problemas e soluções Padrões de Projeto por Brizemp [brizeno.wordpress.com/padroes/](https://brizeno.wordpress.com/padroes/)
 - Repositório com exemplos de utilização de padrões de projeto implementados em Java. [MarcosX/Padr-es-de-Projeto](https://github.com/MarcosX/Padr-es-de-Projeto)
 - E-Book Use a Cabeça  [Padrões de Projetos.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda)
 - Design pattern samples in Java. [github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
+
 ***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 13/02</span>
 
-## Ementa Tópicos especiais em Sistemas para Internet
+## TPs e Provas
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> P1</span> 
+
+**Enunciado + Colinha Consulta + Solução**
+
+- [Dropbox/P1-2015-2SEM](https://www.dropbox.com/sh/ecvvfpxcuynbfj7/AADoInmulPrz26O9amBCYeEca?dl=0)
+- Solução EX1: [workspace-eclipse/DesignPatterns-Adapter/src/LinuxDOS]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/LinuxDOS)
+- Solução EX2: [workspace-eclipse/DesignPatterns-Decorator/src/linguagemToy]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/linguagemToy)
+- Solução EX3: [workspace-eclipse/Reflection/src/createSelectAnnotationFora]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/createSelectAnnotationFora)
+- Solução EX4: [workspace-eclipse/DesignPatterns-Strategy/src/ClienteDesconto]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Strategy/src/ClienteDesconto)
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> P2</span> 
+
+**Enunciado + Colinha Consulta + Solução**
+
+- [Dropbox/P1-2015-2SEM](https://www.dropbox.com/sh/omy1s76hjo0xldg/AAAqjz2P5RtgjJBp3Uud7ekma?dl=0)
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> LISTAS</span>
+
+**Lista 1 Exercicios Reflection**
+
+- Enunciados: [L1.pdf]({{ site.url_content }}L1.pdf)
+- Soluções: [/Reflection-Lista1]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection-Lista1/src)
+
+**Lista 2 Exercicios Reflection**
+
+- Enunciados: [6PPL2.pdf]({{ site.url_content }}6PPL2.pdf) 
+
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Outras Provas</span>
+
+- [Dropbox/OUTRAS-PROVAS-PP](https://www.dropbox.com/sh/bs9oavesh4u1tgl/AAB81E1oxxAUVbUWtc0Yq8k1a?dl=0)
+ 
+
+***
+
+
+## Aulas e Atividades
+
+
+### Ementa Tópicos especiais em Sistemas para Internet
 
 1. [Polimorfismo](http://pt.wikipedia.org/wiki/Polimorfismo)  para métodos (GENERICS) / Collections
 2. [Reflection](http://bit.ly/1F1nRlZ)
@@ -45,14 +76,14 @@ categories: grade-2013 ciclo-5 fatec-rl
 5. Topicos especiais
 
 
-## Referências bibliográficas
+### Referências bibliográficas
 
-1. java reflection in action. Ira Foreman e Nate Foreman - 2004.
+1. Java reflection in action. Ira Foreman e Nate Foreman - 2004.
 2. Design Patterns: Elements of Rensable (?) object-oriented software. Eric Gamma, Rich Helm, Ralph Jhonson e John vissides (?). (Gang of Four ou GOF).
 3. Use a cabeça: Design patterns. Eric Freeman e Elisabeth Freeman.
 
 
-## Polimorfismo de Subtipos
+### Polimorfismo de Subtipos
 
 É a maneira de referenciar um objeto de várias formas.
 
@@ -80,13 +111,13 @@ Animal a  = new Gato()           |       g.arranhar()   [✓]
 - [Teoria dos tipos](http://pt.wikipedia.org/wiki/Teoria_dos_tipos)
 - [Alocação de memória](http://pt.wikipedia.org/wiki/Aloca%C3%A7%C3%A3o_de_mem%C3%B3ria)
 
- 
-## Princípio de POO (Programação Orientada a Objetos)
+
+### Princípio de POO (Programação Orientada a Objetos)
 Programe para uma abstração, nunca para uma implementação.
 
 Dica de leitura: [~viviane.silva/Princípio-de-POO](http://www2.ic.uff.br/~viviane.silva/2010.1/es1/util/aula11_a.pdf)
 
-## Polimorfismo para Método (GENERICS)
+### Polimorfismo para Método (GENERICS)
 Criar um tipo novo que englobe o outro. O foco é na estrutura do novo tipo e não no tipo englobado.
 
 **Ex.:** Movimentar a mochila na cadeira, você pode fazer isso independente do que houver na mochila.
@@ -98,20 +129,14 @@ ArrayList <String>
 ArrayList <Ninja>
 {% endhighlight %}
 
-### Projeto ListaT
-- Branch eclipseProjects: [Reflection/ListaT]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/ListaT)
-- Arquivos: [aula-2015-02-13.rar]({{ site.url_content }}aula-2015-02-13.rar) 
+#### Projeto ListaT
+- Branch workspace-eclipse: [workspace-eclipse/Reflection/ListaT]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/ListaT)
 
-***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 20/02</span>
-
-<div class="alert alert-info">Este inicio é uma atualizada sobre o que o ciro deu semestre passado. Isso ficou faltando (apenas pra ficar por dentro)</div>
-
-## Bound
+### Bound
 Usado para fazer restrição. 
 
-#### Upper boud
+**Upper boud**
 Ele não passa 'Joia', caso haja uma classe acima ele não pega.
 
 Se for usado uma string dará erro. Só serão aceitos os "filhos" (subclasse  Joia).
@@ -122,7 +147,7 @@ public class Caixa < T extends Joia > {
 }
 {% endhighlight %}
 
-#### Lower bound
+**Lower bound**
 
 <pre>
       |---------------|               |-------------------------|
@@ -142,14 +167,18 @@ List< ? super Number > a = New arrayList< objeto >;
                     Não poderá chegar na classe *String* nem *Integer* porque é acima. 
 </pre>
 
-#### Regra PECS
+### Regra PECS
 
 - `super` Só add();
 - `extends` só faz get();
  
-<div class="alert alert-info">Matéria do semestre</div>
 
-## Reflection
+***
+
+
+<div class="alert alert-info">Início Matéria Prova</div>
+
+### Reflection
 Conhecido como *BlackMagic*, **Reflection** possibilita a exposição de quaisquer membro existente dentro uma classe em *RunTime*. 
 
 > *É nada mais do que a habilidade de enxergar um *.class*' (no java).* - Garcia
@@ -165,20 +194,23 @@ Conhecido como *BlackMagic*, **Reflection** possibilita a exposição de quaisqu
 - **Annotations** Marcador para conversas com o compilador.
 - **Modifier** abstract, protected, public, private, default.
  
-### Vantagens
+**Vantagens**
+
 Criação de aplicativos mais dinâmicos, Redução na quantidade de repetição de código (Boilerplate), Minimização de erros e Facilidade de manutenção.
 
-### Desvantagens
+**Desvantagens**
 Domínio mais avançado de lógica de programação, Exigência de um maior nível de atenção ao codificar e Geração de código complexo.
 
-### Iniciando Reflection...
+**Iniciando Reflection...**
+
 {% highlight java %}
 myClass (Object o){
   Class< ? > clazz = o.getClass();
 }
 {% endhighlight %}
 
-### Exemplo de Boilerplate
+**Exemplo de Boilerplate**
+
 Evitamos repetição trecho de código em várias partes do arquivo mudando apenas pequenas coisas, como por exemplo um toString():
 
 {% highlight java %}
@@ -196,27 +228,27 @@ public String toString(){
 }
 {% endhighlight %}
 
+
 ### Slides: Introdução à Metaprogramação com Java Reflection API
+
 <iframe src="//www.slideshare.net/slideshow/embed_code/14082634" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//pt.slideshare.net/guilherme_farto/introduo-metaprogramao-com-java-reflection-api" title="Introdução à Metaprogramação com Java Reflection API" target="_blank">Introdução à Metaprogramação com Java Reflection API</a> </strong> from <strong><a href="//www.slideshare.net/guilherme_farto" target="_blank">Guilherme de Cleva Farto</a></strong> </div>
 
-### Projeto PortaJoias
-- Solução JAVA: [Reflection/PortaJoias]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/PortaJoias)
 
-### Projeto: Interceptor (SIMULADO P1)
+#### Projeto PortaJoias
+- Solução workspace-eclipse: [workspace-eclipse/Reflection/PortaJoias]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/PortaJoias)
+
+
+#### Projeto: Interceptor (SIMULADO P1)
 
 (Interceptação de métodos) Crie uma annotation @Interceptor que possua como valor String um nome de método (`met`) e um Class (`cl`) que representa uma classe.
 Faça uma classe `Foo` com os métodos privados `void fazAlgo()` que mostra na tela o nome do método e `void fazNada()` que mostra a mensagem nada, apenas para teste.
 Faça uma classe `Bar` com um método `void hello()` publico que mostra uma mensagem de boas-vindas. Este método deve ser marcado com a annotation **@Interceptor** de modo a ter o nome do método de sua escolha (*fazNada, fazAlgo*) e um `Foo.class`.
 Faça uma classe `Delegator` que possua o método `void voidExecutor(Object, String)` que recebe um Object de referencia e um nome de método. Se o método não existir, exiba um erro. Se existir procure pela annotation **@Interceptor** e execute o método definido nesta annotation. Após a execução do método definido na annotation. o método em questão de dentro de voidExecutor deve ser chamado tambem.
 
-- Solução JAVA: [/Reflection/src/Interceptor]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/Interceptor)
+- Solução workspace-eclipse: [workspace-eclipse/Reflection/src/Interceptor]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/Interceptor)
 
+### Annotations
 
-***
-
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 06/03</span>
-
-## Annotations
 O conceito mais básico é: anotações são metadados.
 
 São dados adicionais que você relaciona com classes, métodos, atributos, parâmetros e variáveis.
@@ -227,7 +259,8 @@ Os dados podem ser usados em tempo de compilação e de execução, conforme def
 
 Alguns Annotations: *@Override, @SupressWarnings e @ManagedBean*.
 
-### Mostrando métodos de uma class que possuem annotation @MyAnno.
+**Mostrando métodos de uma class que possuem annotation @MyAnno.**
+
 {% highlight java %}
 Method[] ms = clazz.getDeclaredMethods();
 for(Method v : ms){
@@ -240,22 +273,22 @@ for(Method v : ms){
 }
 {% endhighlight %}
  
-### Exemplos
+**Exemplos**
 
 - #### GenericCreateTableDB - Simula Persistência com Reflection
-[/GenericCreateTableDB]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/GenericCreateTableDB) *@Table(nome=X), @Column(nome=X), @Varchar(qut=X)*
+[workspace-eclipse/Annotations/src/GenericCreateTableDB]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/GenericCreateTableDB) *@Table(nome=X), @Column(nome=X), @Varchar(qut=X)*
+
 - #### ValidarNotNullEMaiorIdade
-[/ValidarNotNullEMaiorIdade]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/ValidarNotNullEMaiorIdade) *@NotNull(conteudo=X), @isMaior(idade=Y)*
+[workspace-eclipse/Annotations/src/ValidarNotNullEMaiorIdade]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/ValidarNotNullEMaiorIdade) *@NotNull(conteudo=X), @isMaior(idade=Y)*
+
 - #### Autor
-[/autor]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/autor) *@autor(nome=X, tempo=Y)*
+[workspace-eclipse/Annotations/src/autor]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/autor) *@autor(nome=X, tempo=Y)*
+
 - #### Annotation: Ordem
-[/ordem]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/ordem) *@ordem(numero=X)*
+[workspace-eclipse/Annotations/src/ordem]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/ordem) *@ordem(numero=X)*
 
-***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 13/03</span>
-
-## Padrão de Projeto: (DECORATOR)
+### Padrão de Projeto: (DECORATOR)
 
 > Utilizado quando precisa-se anexar responsabilidades dinamicamente sem precisar de uma grande hierarquia de subclasses.
 
@@ -279,7 +312,7 @@ Possíveis palavras chaves para você identificar o padrão decorator: "Incorpor
 
 <img src="{{ site.url_content }}PP-Decorator.png" class="img-responsive">
 
-### Projeto: JanelaDecorator
+#### Projeto: JanelaDecorator
 
 Exemplo JanelaDecorator baseado no artigo [Padrão de Projeto Decorator em Java por devmedia](http://www.devmedia.com.br/padrao-de-projeto-decorator-em-java/26238)
 
@@ -290,7 +323,7 @@ Exemplo JanelaDecorator baseado no artigo [Padrão de Projeto Decorator em Java 
 <caption>Foto: UML Projeto Janela (Padrão Decorator)</caption>
 <img src="{{ site.url_content }}PP-Decorator-Janela.png" class="img-responsive">
 
-### Exercício: EmpresaPublica
+#### Exercício: EmpresaPublica
 
 Em uma empresa públca, um cargo possui um nome e um valor de salário. 
 Os cargos de ingresso são auxiliar, especialista, e gerente.
@@ -314,7 +347,7 @@ Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito
 - Solução JAVA: [/DesignPatterns-Decorator/src/empresapublicacargos]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/empresapublicacargos)
 
 
-### Exercício: PacotesViagem (SIMULADO P1)
+#### Exercício: PacotesViagem (SIMULADO P1)
 
 Em  uma agência de viagem, são vendidos destinos para Cruzeiro, Praia ou Campo. Toda viagem possui uma descrição e um preç base. 
 A estes pacotes podem ser inclusos pacotes de Bebidas, Passeios extras, e serviços de Massagem contratados pela agência. 
@@ -327,12 +360,8 @@ Este sistema deve aderir ao princípio do aberto/fechado.
 - Solução JAVA: [/DesignPatterns-Decorator/src/pacotesviagem]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/pacotesviagem)
 
 
-***
+### Padrão de Projeto (STRATEGY)
 
-
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 20/03</span>
-
-## Padrão de Projeto (STRATEGY)
 Define uma família de algoritmos, encapsula e os torna intercambiaveis (variáveis).
 
 O Strategy é utilizado quando você tem um determinado algoritmo, rotina ou algo deste tipo, e que pode mudar em determinadas ocasiões. Suponhamos que você por exemplo tem uma classe de cálculo de juros e que em uma determinada data do ano, a taxa de juros diminui por conta de uma promoção. Então em cenários como este você, utilizaria o Strategy para auxiliar na solução desta demanda sem causar grande impacto para efetuar a mudança.
@@ -351,7 +380,7 @@ O Strategy é utilizado quando você tem um determinado algoritmo, rotina ou alg
 
 <img src="{{ site.url_content }}PP-Strategy.png" class="img-responsive">
 
-### Exercício LojaVirtual:
+#### Exercício LojaVirtual:
 
 Uma loja virtual prossue alguns produtos a venda. Os produtos são livros, DVDs e brinquedos. Cada produto possui nome e preço. A mesma loja oferece promoções diferentes a cada mês. Uma promoção reguçar desconta cada produto em 10% mais um desconto extra varia de 5% a 10% dependendo do mês. Uma liquidação desnconta 30% ao preço de cada produto. Há meses quenão há promoção descrita.
 Esta situação: 
@@ -363,11 +392,8 @@ Esta situação:
 - Solução UML yEd: [/media/PP-Strategy-Promocao.graphml]({{ site.url_content }}PP-Strategy-Promocao.graphml)
 - Solução JAVA: [/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia)
 
-***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 27/03</span>
-
-## Agregação X Composição
+### Agregação X Composição
 
 Na **Agregação**, a existência do Objeto-Parte faz sentido, mesmo não existindo o Objeto-Todo. Vejamos o exemplo Time-Atleta:
 
@@ -381,7 +407,8 @@ Já a **Composição** é uma agregação mais forte; nela, a existência do Obj
 
 [Fonte: imasters](http://imasters.com.br/artigo/18901/uml/uml-composicao-x-agregacao/)
 
-## Principio do aberto e fechado
+#### Principio do aberto e fechado
+
 > *Todo código deve ser **aberto** para herança, e **fechado** para modificação.* - Garcia
 
 O princípio Aberto/Fechado poderia ser entendido como uma implementação que permite adicionar novas funcionalidades sem mexer no código existente. Em outras palavras:
@@ -390,13 +417,15 @@ O princípio Aberto/Fechado poderia ser entendido como uma implementação que p
 
 [Fonte: Stackoverflow](http://pt.stackoverflow.com/a/15651)
 
-## Padrão de Projeto (CHAIN of Responsibility)
+
+### Padrão de Projeto (CHAIN of Responsibility)
 
 Evita **Acoplamento** (com if) entre o "Sender" de uma requisição Z, o recebedor dando a chance de mais de um objeto efetuar o tratamento. A cadeia de objetos trata a requisição conforme alguma requisição, caso não consiga o próximo elemento fica com a responsabilidade do tratamento.
 
 > Decorator, Chain e Strategy tem polimofismo
 
 #### Estrutura
+
 Existem três partes do padrão Chain of Responsibility: sender, receiver e request. O sender faz o request. O receiver é uma cadeia de um ou mais objetos que escolhe se quer lidar com o request ou transmiti-lo. O request em si pode ser um objeto que encapsula todos os dados apropriados. [(Fonte: iMasters)](http://imasters.com.br/artigo/24337/javascript/padrao-de-projeto-de-software-javascript-chain-of-responsibility/)
 
 #### Consequências
@@ -413,7 +442,7 @@ Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Tr
 
 <img src="{{ site.url_content }}PP-CHAIN.png" class="img-responsive">
 
-### Projeto: AprovacaoDeVerbas
+#### Projeto: AprovacaoDeVerbas
 
 Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
 Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo.
@@ -422,7 +451,7 @@ Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo.
 - Solução UML yEd: [/media/PP-CHAIN-BancoAprovaVerba.graphml]({{ site.url_content }}PP-CHAIN-BancoAprovaVerba.graphml)
 - Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco)
 
-### Projeto: BancoAprova
+#### Projeto: BancoAprova
 
 Uma aplicação de e-commerce precisa se comunicar com vários bancos diferentes para prover aos seus usuários mais possibilidades de pagamentos, atingindo assim um número maior de usuários e facilitando suas vidas. A classe Banco possui 3 subclasses BancoA, BancoB e BancoC. Os Bancos devem possuir um código de banco correspondente ao banco que vai efetuar o pagamento. Se um banco não puder efetuar um pagamento (Códigos não batem) o outro banco deve ser acionado para tentar finalizar esta operação (de pagamento) ordenadamente. Baseando-se nesta situação descrita.
 
@@ -430,7 +459,8 @@ Uma aplicação de e-commerce precisa se comunicar com vários bancos diferentes
 - Solução UML yEd: [/media/PP-CHAIN-AprovaBanco.graphml]({{ site.url_content }}PP-CHAIN-AprovaBanco.graphml)
 - Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/BancoAprova]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-ChainOfResponsibility/src/BancoAprova)
 
-## Padrão de Projeto (ADAPTER)
+
+### Padrão de Projeto (ADAPTER)
 
 Converte a interface de uma classe em uma ao qual é esperada pelo cliente. O Adapter permite que classe com interfaces incompatíveis trabalhem juntas. 
 Este padrão é utilizado para 'adaptar' a interface de uma classe. O Adapter permite que classes com interfaces incompatíveis possam interagir.
@@ -446,7 +476,7 @@ Ou seja, dado um conjunto de classes com mesma responsabilidade, mas interfaces 
 
 <img src="{{ site.url_content }}PP-Adapter.png" class="img-responsive">
 
-### Projeto: PatoAdaptadoPeru
+#### Projeto: PatoAdaptadoPeru
 
 Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, que não é Pato emite som e não consegue voar. Faça com que Peru e Pato trabalhem sob uma interface comum
 
@@ -455,7 +485,7 @@ Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, 
 - Solução JAVA: [/DesignPatterns-Adapter/src/PatoAdaptadoPeru]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/PatoAdaptadoPeru)
 
 
-### Projeto: PlayerVideo (SIMULADO P1)
+#### Projeto: PlayerVideo (SIMULADO P1)
 
 Um player de video pode rodar o video e tambem gravar um video da webcam. Este player aceita os formatos AVI, MP4 ou RM.
 Sabe-se que o WAV e MID que não são formatos de video podem rodar som e gravar som. Escolha um padrão e (1) Justifique (2) Faça o UML (3) Codifique.
@@ -464,24 +494,8 @@ Sabe-se que o WAV e MID que não são formatos de video podem rodar som e gravar
 - Solução UML yEd: [/media/PP-Adapter-PlayerVideo.graphml]({{ site.url_content }}PP-Adapter-PlayerVideo.graphml)
 - Solução JAVA: [/DesignPatterns-Adapter/src/PlayerVideo]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/PlayerVideo)
 
-***
 
-<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Prova P1</span> 
-
-- Colinha-PP-P1-Adam-Frente PDF: [/media/Colinha-PP-P1-Adam-Frente.pdf]({{ site.url_content }}Colinha-PP-P1-Adam-Frente.pdf)
-- Colinha-PP-P1-Adam-Verso PDF: [/media/Colinha-PP-P1-Adam-Verso.pdf]({{ site.url_content }}Colinha-PP-P1-Adam-Verso.pdf)
-- Solução JAVA EX1: [/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/LinuxDOS]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/LinuxDOS)
-- Solução JAVA EX2: [/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/linguagemToy]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/linguagemToy)
-- Solução JAVA EX3: [/gh-pages/content/workspace-eclipse/Reflection/src/createSelectAnnotationFora]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/createSelectAnnotationFora)
-- Solução JAVA EX4: [/gh-pages/content/workspace-eclipse/DesignPatterns-Strategy/src/ClienteDesconto]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Strategy/src/ClienteDesconto)
-
-<div class="alert alert-danger">Anexar Scanner prova</div>
-
-***
-
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 17/04</span>
-
-## Padrão de Projeto (Abstract Factory)
+### Padrão de Projeto (Abstract Factory)
 
 Vejamos a intenção do Padrão Abstract Factory: 
 
@@ -498,7 +512,7 @@ Então, de acordo com a descrição da intenção do padrão, nós poderemos cri
 
 <img src="{{ site.url_content }}PP-ABSTRACTFACTORY.png" class="img-responsive">
 
-### Projeto: LojaFabricaCarro
+#### Projeto: LojaFabricaCarro
 
 As fabricas "Citroen" e "Honda" podem fabricar Carros "Sedan" ou "Luxo". PS. O Carro pode receber um cor especial (objeto Cor)
 
@@ -506,11 +520,8 @@ As fabricas "Citroen" e "Honda" podem fabricar Carros "Sedan" ou "Luxo". PS. O C
 - Solução UML yEd: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml]({{ site.url_content }}PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml)
 - Solução JAVA: [/DesignPatterns-AbstractFactory/src/lojafabricacarro]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-AbstractFactory/src/lojafabricacarro)
 
-***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 24/04</span>
-
-## Padrão de Projeto (Singleton)
+### Padrão de Projeto (Singleton)
 
 A intenção do padrão é esta:
 
@@ -525,19 +536,16 @@ A maior vantagem do Singleton é unificar o acesso das instâncias
 
 <img src="{{ site.url_content }}PP-SINGLETON.png" class="img-responsive">
 
-### Projeto: Singleton
+#### Projeto: Singleton
 
 - Solução JAVA: [/DesignPatterns-Singleton/src/singleton]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Singleton/src/singleton)
 
-### Projeto: Singleton (Quebrando o Patterns com multi-threads. "By Patrick")
+#### Projeto: Singleton (Quebrando o Patterns com multi-threads. "By Patrick")
 
 - Solução JAVA: [/DesignPatterns-Singleton/src/multithreads]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Singleton/src/multithreads)
 
-***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 15/05</span>
-
-## ENUMs
+### ENUMs
 
 São classes que carregam constants de enumeração (Tipos) estes são públicos, estáticos e finais.
 
@@ -567,13 +575,13 @@ São classes que carregam constants de enumeração (Tipos) estes são públicos
   - ordem_anuidade
 </pre>
 
-### Projeto: ENUMS Naips 
+#### Projeto: ENUMS Naips 
 
 Inglês e Podem: PAUS("CLUBS",300), OUROS("DIAMONDS",100), ESPADAS("SPADES",250), COPAS("HEARTS",150);
 
 - Solução JAVA: [/ENUMS/src/naipe]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/naipe)
 
-### Projeto: ENUMS Animal (Sobrescrita)
+#### Projeto: ENUMS Animal (Sobrescrita)
 
 - Solução JAVA: [/ENUMS/src/sobrescritaenums]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/sobrescritaenums)
 
@@ -584,28 +592,21 @@ Crie uma constante inteira "importancia" que numere luxo com 10, sedan com 5 e h
 
 - Solução JAVA: [/ENUMS/src/tipocarros]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/tipocarros)
 
-### Projeto: ENUMS TiposCarro
+#### Projeto: ENUMS TiposCarro
 
 Crie a ENUM TipoCartao que possua as constantes GOLD, SILVER, PLATIUM e BLACK
 cada constante pode determinar um desconto na anuidade que é de 10% GOLD, 20 SILVER, 30 PLAT, 50 BLACK
 
 - Solução JAVA: [/ENUMS/src/tipocartao]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/tipocartao)
 
-***
-
-<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP Aumentar nota</span>
-
-### TP Persistencia TipoCliente com ENUMS 
+#### Projeto: TipoCliente com ENUMS (com Persistencia)
 
 No MySql ```create database ciro_garciatipocliente;```
 
 - Solução JAVA: [netbeansprojects/TpGarciaPersistenciaTipoCliente]({{ site.url_repository }}tree/netbeansprojects/TpGarciaPersistenciaTipoCliente) - Made in netbeansprojects
 
-***
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 22/05</span>
-
-## Padrão de Projeto (Visitor)
+### Padrão de Projeto (Visitor)
 
 Vejamos a intenção do Padrão Visitor: 
 
@@ -620,18 +621,14 @@ Pela intenção já é possível ver como o padrão vai nos ajudar. A sua ideia 
 
 <img src="{{ site.url_content }}PP-VISITOR.png" class="img-responsive">
 
-### Projeto: Visitor Zoologico
+#### Projeto: Visitor Zoologico
 
 - Solução UML png [/media/PP-VISITOR-zoologico.png]({{ site.url_content }}PP-VISITOR-zoologico.png)
 - Solução UML yEd [/media/PP-VISITOR-zoologico.graphml]({{ site.url_content }}PP-VISITOR-zoologico.graphml)
 - Solução JAVA: [/DesignPatterns-Visitor/src/zoologico]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Visitor/src/zoologico)
 
 
-***
-
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 22/05</span>
-
-## Padrão de Projeto (Proxy)
+### Padrão de Projeto (Proxy)
 
 Vejamos a intenção do Padrão Proxy: 
 
@@ -646,23 +643,19 @@ Protection Proxy: esse é o tipo de proxy que utilizamos no exemplo. Eles contro
 
 <img src="{{ site.url_content }}PP-PROXY.png" class="img-responsive">
 
-
-### Projeto: AutenticaUsuario Proxy
+#### Projeto: AutenticaUsuario Proxy
 
 - Solução UML png [/media/PP-PROXY-autenficausuario.png]({{ site.url_content }}PP-PROXY-autenficausuario.png)
 - Solução UML yEd [/media/PP-PROXY-autenficausuario.graphml]({{ site.url_content }}PP-PROXY-autenficausuario.graphml)
 - Solução JAVA: [/DesignPatterns-Proxy/src]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Proxy/src)
 
-***
 
-<span class="label label-danger text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Observer Não cai na prova</span>
-
-## Padrão de Projeto (Observer)
+### Padrão de Projeto (Observer)
 
 Vejamos a intenção do Padrão Observer: 
 
 > “Definir uma dependência um para muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente.” 
 
-### Projeto: RevistaFãs Observer
+#### Projeto: RevistaFãs Observer
 
 - Solução JAVA: [/DesignPatterns-Observer/src/revistafas]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Observer/src/revistafas)
