@@ -8,28 +8,23 @@ date:   2015-01-01
 categories: grade-2013 ciclo-5 fatec-rl
 ---
 
-
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
 - [Moodle](http://fatecrl.edu.br/moodle/course/view.php?id=230) (senha: prdm20151)
 - [jorgechiara@yahoo.com.br](jorgechiara@yahoo.com.br)
 
-
 ***
 
- 
 ## Material, Apostilas e Ferramentas
 - Android Studio [developer.android.com](http://developer.android.com/sdk/index.html)
 - Eclipse ADT [adt-bundle-windows-x86_64-20130522.zip](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=ksmGUc%2b1zSNNWZLDxHWqlJTc9OsTseYOIBqmeC6F99Y%3d&docid=0a25e4432d4c143eab5b192202015a546)
 - XDK (intel) [software.intel.com/en-us/intel-xdk](https://software.intel.com/en-us/intel-xdk)
 - Apache/Cordova (phonegap) [cordova.apache.org](https://cordova.apache.org/)
 - Android Asset Studio (Gerador de Icons) [romannurik.github.io/AndroidAssetStudio](http://romannurik.github.io/AndroidAssetStudio/)
-- Apostilas [E-book Use a Cabeça JAVA.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078) 
-- Apostila Hello, Android [(The_Pragmatic_Programmers.pdf](https://www.facebook.com/download/780007602089838/Hello%2C%20Android%20%28The%20Pragmatic%20Programmers%29.pdf)
-
+- Apostilas [E-book Use a Cabeça JAVA.pdf][URL_livro_ebook_usecabecaJava]
+- Apostila Hello, Android [(The_Pragmatic_Programmers.pdf][(The_Pragmatic_Programmers.pdf]
 
 ***
-
 
 ## TPs e Provas
 
@@ -39,14 +34,14 @@ categories: grade-2013 ciclo-5 fatec-rl
 
 Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-versa.
 
-- Solução androidstudio: [workspace-androidstudio/TP1-ConversorTemperaturaFC]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/TP1-ConversorTemperaturaFC)
+- Solução androidstudio: [URL_proj_androidstudio_TP1-ConversorTemperaturaFC][URL_proj_androidstudio_TP1-ConversorTemperaturaFC]
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP2</span> 
 
 **Intents Implícitas**
 
-- Enunciado [Intents_Implicitas.pdf]({{ site.url_content }}Intents_Implicitas.pdf) 
-- Solução androidstudio: [workspace-androidstudio/TP2-IntentsImplicitas]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/TP2-IntentsImplicitas) 
+- Enunciado [Intents_Implicitas.pdf][Intents_Implicitas.pdf]
+- Solução androidstudio: [URL_proj_androidstudio_TP2-IntentsImplicitas][URL_proj_androidstudio_TP2-IntentsImplicitas]
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> P1</span> 
 
@@ -56,7 +51,7 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 2. Fazer página que calcula Implicitas;
 3. Fazer página MENSAGEM para preencher dois campos e enviar para outra página os dados.
 
-- Solução androidstudio: [workspace-androidstudio/P1-Adam]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/P1-Adam) 
+- Solução androidstudio: [URL_proj_androidstudio_P1-Adam][URL_proj_androidstudio_P1-Adam]
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> P2</span> 
 
@@ -66,7 +61,7 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 2. Fazer app com paginas "cadastrar, lista, deletar e editar" palavras (titulo e significado);
 3. Fazer página sobre o autor.
 
-- Solução eclipseADT: [workspace-eclipseADT/PDM2_Adam]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipseADT/PDM2_Adam) 
+- Solução eclipseADT: [URL_proj_eclipseADT_PDM2_Adam][URL_proj_eclipseADT_PDM2_Adam]
 
 **Screenshoots**
 
@@ -84,9 +79,7 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
     </div>
 </div>
 
-
 ***
-
 
 ## Aulas e Atividades
 
@@ -101,7 +94,7 @@ Criar aplicativo que converta temperaturas de Farenheit para Celsius e visse-ver
 
 Programinha simples criado em aula que incrementa e decrementa valor.
 
-- Solução androidstudio: [workspace-androidstudio/Contador]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/Contador)  
+- Solução androidstudio: [URL_proj_androidstudio_Contador][URL_proj_androidstudio_Contador]
 
 
 ### Componentes Visuais:
@@ -127,7 +120,7 @@ Intent it = new Intent(Intent.ACTION_VIEW, uri);
 
 Digite um texto em um campo e envia para outra Intent. 
 
-- Solução androidstudio: [workspace-androidstudio/IntentsRequestValue]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/IntentsRequestValue)  
+- Solução androidstudio: [URL_proj_androidstudio_IntentsRequestValue][URL_proj_androidstudio_IntentsRequestValue]
 
 
 ### Diferença entre Intents Explícita e Implícita
@@ -142,26 +135,42 @@ Botão que envia para Intent explícita: IntentDois.
 
 Botão que envia para Intent implícita: google.com.br. 
 
-- Solução androidstudio: [workspace-androidstudio/IntentsExplicitasAndImplicitas]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/IntentsExplicitasAndImplicitas)  
+- Solução androidstudio: [URL_proj_androidstudio_IntentsExplicitasAndImplicitas][URL_proj_androidstudio_IntentsExplicitasAndImplicitas]
 
 
 ### Projeto: ListActivity
 
 Componente Visual: ListActivity - Lista de ações para chamar multiplas views (Activitys)
 
-- Solução androidstudio: [workspace-androidstudio/ListActivity]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/ListActivity)  
+- Solução androidstudio: [URL_proj_androidstudio_ListActivity][URL_proj_androidstudio_ListActivity]
  
 
 ### Projeto: ActionBar
 
 Exibe links no ActionBar (Barra de Menu) com icones ou não.
 
-- Solução androidstudio: [workspace-androidstudio/ActionBar]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/ActionBar)  
+- Solução androidstudio: [URL_proj_androidstudio_ActionBar][URL_proj_androidstudio_ActionBar]
 
 
 ### Projeto: PersistenciaDadosSQLite (Livros) 
 
 Cadastrar, Listar, Editar e Deletar Livros com SQLite.
 
-- Solução androidstudio: [workspace-androidstudio/PersistenciaDadosSQLite]({{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/PersistenciaDadosSQLite)  
-- Solução eclipseADT: [workspace-eclipseADT/PersistenciaDadosSQLite]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipseADT/PersistenciaDadosSQLite)
+- Solução androidstudio: [URL_proj_androidstudio_PersistenciaDadosSQLite][URL_proj_androidstudio_PersistenciaDadosSQLite]
+- Solução eclipseADT: [URL_proj_eclipseADT_PersistenciaDadosSQLite][URL_proj_eclipseADT_PersistenciaDadosSQLite]
+
+
+[URL_livro_ebook_usecabecaJava]: https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078
+[(The_Pragmatic_Programmers.pdf]:https://www.dropbox.com/s/l5joxzafdo1hh5p/Hello%2C%20Android%20%28The%20Pragmatic%20Programmers%29.pdf?dl=0
+[Intents_Implicitas.pdf]:https://www.dropbox.com/s/fk7jzdyp4hxsv71/Intents_Implicitas.pdf?dl=0
+[URL_proj_androidstudio_TP1-ConversorTemperaturaFC]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/TP1-ConversorTemperaturaFC
+[URL_proj_androidstudio_TP2-IntentsImplicitas]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/TP2-IntentsImplicitas
+[URL_proj_androidstudio_P1-Adam]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/P1-Adam
+[URL_proj_androidstudio_Contador]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/Contador
+[URL_proj_androidstudio_IntentsRequestValue]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/IntentsRequestValue
+[URL_proj_androidstudio_IntentsExplicitasAndImplicitas]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/IntentsExplicitasAndImplicitas 
+[URL_proj_androidstudio_ListActivity]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/ListActivity
+[URL_proj_androidstudio_ActionBar]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/ActionBar
+[URL_proj_androidstudio_PersistenciaDadosSQLite]:{{ site.url_repository }}tree/gh-pages/content/workspace-androidstudio/PersistenciaDadosSQLite
+[URL_proj_eclipseADT_PDM2_Adam]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipseADT/PDM2_Adam
+[URL_proj_eclipseADT_PersistenciaDadosSQLite]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipseADT/PersistenciaDadosSQLite

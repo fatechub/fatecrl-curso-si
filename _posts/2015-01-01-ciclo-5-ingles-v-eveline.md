@@ -8,25 +8,40 @@ date:   2015-01-01
 categories: grade-2013 ciclo-5 fatec-rl
 ---
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Aula 23/02</span>
+## TPs e Provas
 
-## Present Continuous
-<div class="alert alert-danger">Matéria pendente...</div>
+<div class="alert alert-info">Escolher apenas um. <b>DICA:</b> O usalearns é mais rápido!</div>
 
-## Comparative
-<div class="alert alert-danger">Matéria pendente...</div>
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP</span>
 
-## Superlatives
-<div class="alert alert-danger">Matéria pendente...</div>
+**Curso Online (1 Unidade)**
 
-***
+Fazer curso e entregar certificado
 
-<span class="label label-primary text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP 1</span>
+- [myenglishonline.com.br/](http://www.myenglishonline.com.br/)
 
-## Curso Online
+<span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> TP</span>
+
+**Curso Online (4 Unidades)**
 
 Fazer curso e entregar certificado 
 
-- **site:** http://usalearns.org/class/
+- **site:** [usalearns.org/class/](http://usalearns.org/class/)
 - **class:** CAVALCANTE
 - **class senha:** FATEC12015
+
+
+***
+
+
+## Aulas e Atividades
+
+### Present Continuous
+
+### Comparative
+
+### Superlatives
+
+<br>
+
+<div class="alert alert-danger">Matéria pendente...</div>

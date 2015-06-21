@@ -7,18 +7,15 @@ teacher: Garcia
 date:   2015-01-01
 categories: grade-2013 ciclo-5 fatec-rl
 ---
-
  
 ## Material, Apostilas e Ferramentas
-- [E-book Use a Cabeça JAVA.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078)
+- [E-book Use a Cabeça JAVA.pdf][URL_livro_ebook_usecabecaJava]
 - Artigo com problemas e soluções Padrões de Projeto por Brizemp [brizeno.wordpress.com/padroes/](https://brizeno.wordpress.com/padroes/)
 - Repositório com exemplos de utilização de padrões de projeto implementados em Java. [MarcosX/Padr-es-de-Projeto](https://github.com/MarcosX/Padr-es-de-Projeto)
-- E-Book Use a Cabeça  [Padrões de Projetos.pdf](https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda)
+- E-Book Use a Cabeça  [Padrões de Projetos.pdf][URL_livro_ebook_designpattern]
 - Design pattern samples in Java. [github.com/iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
-
 ***
-
 
 ## TPs e Provas
 
@@ -26,36 +23,34 @@ categories: grade-2013 ciclo-5 fatec-rl
 
 **Enunciado + Colinha Consulta + Solução**
 
-- [Dropbox/P1-2015-2SEM](https://www.dropbox.com/sh/ecvvfpxcuynbfj7/AADoInmulPrz26O9amBCYeEca?dl=0)
-- Solução EX1: [workspace-eclipse/DesignPatterns-Adapter/src/LinuxDOS]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/LinuxDOS)
-- Solução EX2: [workspace-eclipse/DesignPatterns-Decorator/src/linguagemToy]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/linguagemToy)
-- Solução EX3: [workspace-eclipse/Reflection/src/createSelectAnnotationFora]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/createSelectAnnotationFora)
-- Solução EX4: [workspace-eclipse/DesignPatterns-Strategy/src/ClienteDesconto]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Strategy/src/ClienteDesconto)
+- [Dropbox/P1-2015-2SEM][Dropbox/P1-2015-2SEM]
+- Solução EX1: [URL_proj_eclipse_DesignPatterns-Adapter/src/LinuxDOS][URL_proj_eclipse_DesignPatterns-Adapter/src/LinuxDOS]
+- Solução EX2: [URL_proj_eclipse_DesignPatterns-Decorator/src/linguagemToy][URL_proj_eclipse_DesignPatterns-Decorator/src/linguagemToy]
+- Solução EX3: [URL_proj_eclipse_Reflection/src/createSelectAnnotationFora][URL_proj_eclipse_Reflection/src/createSelectAnnotationFora]
+- Solução EX4: [URL_proj_eclipse_DesignPatterns-Strategy/src/ClienteDesconto][URL_proj_eclipse_DesignPatterns-Strategy/src/ClienteDesconto]
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> P2</span> 
 
 **Enunciado + Colinha Consulta + Solução**
 
-- [Dropbox/P1-2015-2SEM](https://www.dropbox.com/sh/omy1s76hjo0xldg/AAAqjz2P5RtgjJBp3Uud7ekma?dl=0)
+- [Dropbox/P1-2015-2SEM][Dropbox/P1-2015-2SEM]
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> LISTAS</span>
 
 **Lista 1 Exercicios Reflection**
 
-- Enunciados: [L1.pdf]({{ site.url_content }}L1.pdf)
-- Soluções: [/Reflection-Lista1]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection-Lista1/src)
+- Enunciados: [L1.pdf][L1.pdf]
+- Soluções: [URL_proj_eclipse_Reflection-Lista1][URL_proj_eclipse_Reflection-Lista1]
 
 **Lista 2 Exercicios Reflection**
 
-- Enunciados: [6PPL2.pdf]({{ site.url_content }}6PPL2.pdf) 
+- Enunciados: [6PPL2.pdf][6PPL2.pdf]
 
 <span class="label label-success text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Outras Provas</span>
 
-- [Dropbox/OUTRAS-PROVAS-PP](https://www.dropbox.com/sh/bs9oavesh4u1tgl/AAB81E1oxxAUVbUWtc0Yq8k1a?dl=0)
+- [Dropbox/OUTRAS-PROVAS-PP][Dropbox/OUTRAS-PROVAS-PP]
  
-
 ***
-
 
 ## Aulas e Atividades
 
@@ -117,6 +112,7 @@ Programe para uma abstração, nunca para uma implementação.
 
 Dica de leitura: [~viviane.silva/Princípio-de-POO](http://www2.ic.uff.br/~viviane.silva/2010.1/es1/util/aula11_a.pdf)
 
+
 ### Polimorfismo para Método (GENERICS)
 Criar um tipo novo que englobe o outro. O foco é na estrutura do novo tipo e não no tipo englobado.
 
@@ -130,8 +126,8 @@ ArrayList <Ninja>
 {% endhighlight %}
 
 #### Projeto ListaT
-- Branch workspace-eclipse: [workspace-eclipse/Reflection/ListaT]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/ListaT)
 
+- Branch workspace-eclipse: [URL_proj_eclipse_Reflection/ListaT][URL_proj_eclipse_Reflection/ListaT]
 
 ### Bound
 Usado para fazer restrição. 
@@ -235,7 +231,7 @@ public String toString(){
 
 
 #### Projeto PortaJoias
-- Solução workspace-eclipse: [workspace-eclipse/Reflection/PortaJoias]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/PortaJoias)
+- Solução workspace-eclipse: [URL_proj_eclipse_Reflection/PortaJoias][URL_proj_eclipse_Reflection/PortaJoias]
 
 
 #### Projeto: Interceptor (SIMULADO P1)
@@ -245,7 +241,7 @@ Faça uma classe `Foo` com os métodos privados `void fazAlgo()` que mostra na t
 Faça uma classe `Bar` com um método `void hello()` publico que mostra uma mensagem de boas-vindas. Este método deve ser marcado com a annotation **@Interceptor** de modo a ter o nome do método de sua escolha (*fazNada, fazAlgo*) e um `Foo.class`.
 Faça uma classe `Delegator` que possua o método `void voidExecutor(Object, String)` que recebe um Object de referencia e um nome de método. Se o método não existir, exiba um erro. Se existir procure pela annotation **@Interceptor** e execute o método definido nesta annotation. Após a execução do método definido na annotation. o método em questão de dentro de voidExecutor deve ser chamado tambem.
 
-- Solução workspace-eclipse: [workspace-eclipse/Reflection/src/Interceptor]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/Interceptor)
+- Solução workspace-eclipse: [URL_proj_eclipse_Reflection/src/Interceptor][URL_proj_eclipse_Reflection/src/Interceptor]
 
 ### Annotations
 
@@ -276,16 +272,16 @@ for(Method v : ms){
 **Exemplos**
 
 - #### GenericCreateTableDB - Simula Persistência com Reflection
-[workspace-eclipse/Annotations/src/GenericCreateTableDB]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/GenericCreateTableDB) *@Table(nome=X), @Column(nome=X), @Varchar(qut=X)*
+[URL_proj_eclipse_Annotations/src/GenericCreateTableDB][URL_proj_eclipse_Annotations/src/GenericCreateTableDB] *@Table(nome=X), @Column(nome=X), @Varchar(qut=X)*
 
 - #### ValidarNotNullEMaiorIdade
-[workspace-eclipse/Annotations/src/ValidarNotNullEMaiorIdade]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/ValidarNotNullEMaiorIdade) *@NotNull(conteudo=X), @isMaior(idade=Y)*
+[URL_proj_eclipse_Annotations/src/ValidarNotNullEMaiorIdade][URL_proj_eclipse_Annotations/src/ValidarNotNullEMaiorIdade] *@NotNull(conteudo=X), @isMaior(idade=Y)*
 
 - #### Autor
-[workspace-eclipse/Annotations/src/autor]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/autor) *@autor(nome=X, tempo=Y)*
+[URL_proj_eclipse_Annotations/src/autor][URL_proj_eclipse_Annotations/src/autor] *@autor(nome=X, tempo=Y)*
 
 - #### Annotation: Ordem
-[workspace-eclipse/Annotations/src/ordem]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/ordem) *@ordem(numero=X)*
+[URL_proj_eclipse_Annotations/src/ordem][URL_proj_eclipse_Annotations/src/ordem] *@ordem(numero=X)*
 
 
 ### Padrão de Projeto: (DECORATOR)
@@ -294,21 +290,18 @@ for(Method v : ms){
 
 O Decorator é mais utilizado quando quisermos adicionar responsabilidades a objetos dinamicamente, e quando a extensão por subclasses é impraticável, pois teríamos muitas alterações e dessa forma diversas subclasses.
 
-#### Consequências
+**Consequências**
 
-- **A)** Mais flexibilidade do que herança. (Adição ou remoção de responsabilidades em tempo de execução) && (Adição da mesma propriedade mais de uma vez)
-- **B)** Evita o excesso de funcionalidades nas classes
-- **C)** Decorator e seu componente não são idênticos
-- **D)** Comparações tornam-se mais complexas
-- **E)** Resulta em um design que tem vários pequenos objetos, todos parecidos
+- A) Mais flexibilidade do que herança. (Adição ou remoção de responsabilidades em tempo de execução) && (Adição da mesma propriedade mais de uma vez)
+- B) Evita o excesso de funcionalidades nas classes
+- C) Decorator e seu componente não são idênticos
+- D) Comparações tornam-se mais complexas
+- E) Resulta em um design que tem vários pequenos objetos, todos parecidos
 
-#### Dica
+**Dica**
 Possíveis palavras chaves para você identificar o padrão decorator: "Incorporar", "Compor", "Acoplamento", "Juntar", "Mesclar", "Incluir", "Adicionar".
 
-#### UML
-
-- Padrão Decorator UML png [/media/PP-Decorator.png]({{ site.url_content }}PP-Decorator.png)
-- Padrão Decorator UML yEd [/media/PP-Decorator.graphml]({{ site.url_content }}PP-Decorator.graphml)
+**UML**
 
 <img src="{{ site.url_content }}PP-Decorator.png" class="img-responsive">
 
@@ -316,11 +309,10 @@ Possíveis palavras chaves para você identificar o padrão decorator: "Incorpor
 
 Exemplo JanelaDecorator baseado no artigo [Padrão de Projeto Decorator em Java por devmedia](http://www.devmedia.com.br/padrao-de-projeto-decorator-em-java/26238)
 
-- Solução UML png: [/media/PP-Decorator-Janela.png]({{ site.url_content }}PP-Decorator-Janela.png)
-- Solução UML yEd: [/media/PP-Decorator-Janela.graphml]({{ site.url_content }}PP-Decorator-Janela.graphml)
-- Solução JAVA: [/DesignPatterns-Decorator/src/janeladecorada]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/janeladecorada)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Decorator/src/janeladecorada][URL_proj_eclipse_DesignPatterns-Decorator/src/janeladecorada]
 
-<caption>Foto: UML Projeto Janela (Padrão Decorator)</caption>
+**UML**
+
 <img src="{{ site.url_content }}PP-Decorator-Janela.png" class="img-responsive">
 
 #### Exercício: EmpresaPublica
@@ -342,9 +334,11 @@ e as incorporações:
 
 Para o cargo: Se alguém entra como especialista e incorpora vereador e prefeito o cargo fica: especialista incorporado como prefeito incorporado como vereador.
 
-- Solução UML png: [/media/PP-Decorator-Cargos.png]({{ site.url_content }}PP-Decorator-Cargos.png)
-- Solução UML yEd: [/media/PP-Decorator-Cargos.graphml]({{ site.url_content }}PP-Decorator-Cargos.graphml)
-- Solução JAVA: [/DesignPatterns-Decorator/src/empresapublicacargos]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/empresapublicacargos)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Decorator/src/empresapublicacargos][URL_proj_eclipse_DesignPatterns-Decorator/src/empresapublicacargos]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-Decorator-Cargos.png" class="img-responsive">
 
 
 #### Exercício: PacotesViagem (SIMULADO P1)
@@ -353,11 +347,13 @@ Em  uma agência de viagem, são vendidos destinos para Cruzeiro, Praia ou Campo
 A estes pacotes podem ser inclusos pacotes de Bebidas, Passeios extras, e serviços de Massagem contratados pela agência. 
 Todo pacote possui uma descrição e um preço. 
 Cada preço varia de acordo com o pacote. Faça um sistema que mostre a descrição da viagem contratada (destino + pacotes) e o preço total do contrato. 
-Este sistema deve aderir ao princípio do aberto/fechado. 
+Este sistema deve aderir ao princípio do aberto/fechado.
 
-- Solução UML png: [/media/PP-Decorator-PacotesViagens.png]({{ site.url_content }}PP-Decorator-PacotesViagens.png)
-- Solução UML yEd: [/media/PP-Decorator-PacotesViagens.graphml]({{ site.url_content }}PP-Decorator-PacotesViagens.graphml)
-- Solução JAVA: [/DesignPatterns-Decorator/src/pacotesviagem]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/pacotesviagem)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Decorator/src/pacotesviagem][URL_proj_eclipse_DesignPatterns-Decorator/src/pacotesviagem]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-Decorator-PacotesViagens.png" class="img-responsive">
 
 
 ### Padrão de Projeto (STRATEGY)
@@ -368,15 +364,13 @@ O Strategy é utilizado quando você tem um determinado algoritmo, rotina ou alg
 
 > ***Principio***: Encapsule o que varia.
 
-#### Consequências
+**Consequências**
+
 - **A)** Não fere a regra de aberto e fechado. 
 - **B)** Facilidade ao debugar. 
 - **C)** Não cresce esponencialmente
 
-#### UML
-
-- Padrão Strategy UML png [/media/PP-Strategy.png]({{ site.url_content }}PP-Strategy.png)
-- Padrão Strategy UML yEd [/media/PP-Strategy.graphml]({{ site.url_content }}PP-Strategy.graphml)
+**UML**
 
 <img src="{{ site.url_content }}PP-Strategy.png" class="img-responsive">
 
@@ -388,9 +382,11 @@ Esta situação:
 - A) Desenhe o diagrama de classes;
 - B) Codifique com base em A).
 
-- Solução UML png: [/media/PP-Strategy-Promocao.png]({{ site.url_content }}PP-Strategy-Promocao.png)
-- Solução UML yEd: [/media/PP-Strategy-Promocao.graphml]({{ site.url_content }}PP-Strategy-Promocao.graphml)
-- Solução JAVA: [/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia][URL_proj_eclipse_DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-Strategy-Promocao.png" class="img-responsive">
 
 
 ### Agregação X Composição
@@ -407,7 +403,7 @@ Já a **Composição** é uma agregação mais forte; nela, a existência do Obj
 
 [Fonte: imasters](http://imasters.com.br/artigo/18901/uml/uml-composicao-x-agregacao/)
 
-#### Principio do aberto e fechado
+### Principio do aberto e fechado
 
 > *Todo código deve ser **aberto** para herança, e **fechado** para modificação.* - Garcia
 
@@ -424,21 +420,17 @@ Evita **Acoplamento** (com if) entre o "Sender" de uma requisição Z, o recebed
 
 > Decorator, Chain e Strategy tem polimofismo
 
-#### Estrutura
+**Estrutura**
 
 Existem três partes do padrão Chain of Responsibility: sender, receiver e request. O sender faz o request. O receiver é uma cadeia de um ou mais objetos que escolhe se quer lidar com o request ou transmiti-lo. O request em si pode ser um objeto que encapsula todos os dados apropriados. [(Fonte: iMasters)](http://imasters.com.br/artigo/24337/javascript/padrao-de-projeto-de-software-javascript-chain-of-responsibility/)
 
-#### Consequências
+**Consequências**
 
 - **A)** Fornece um acoplamento mais fraco por evitar a associação explícita do remetente de uma solicitação ao seu receptor e dar a mais de um objeto a oportunidade de tratar a solicitação
 
-#### Dica
-Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Transferir Responsabilidade para o proximo", "Deixar o outro ou algo tentar, manusear, arcar, manobrar, controlar".
+**Dica:** Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Transferir Responsabilidade para o proximo", "Deixar o outro ou algo tentar, manusear, arcar, manobrar, controlar".
 
-#### UML
-
-- Padrão CHAIN UML png [/media/PP-CHAIN.png]({{ site.url_content }}PP-CHAIN.png)
-- Padrão CHAIN UML yEd [/media/PP-CHAIN.graphml]({{ site.url_content }}PP-CHAIN.graphml)
+**UML**
 
 <img src="{{ site.url_content }}PP-CHAIN.png" class="img-responsive">
 
@@ -447,17 +439,21 @@ Possíveis palavras chaves para você identificar o padrão CHAIN: "Passar ou Tr
 Uma empresa trata aprovação de verbas. Uma verba pode ser Urgente ou normal. Toda verba possui um valor de investimento. O gerente aprova verbas normais ate 80000 unidades de valor e nao aprova verbas importantes. O superintendente aprova o valor. o VP aprova verbas verbas importantes de ate 200000 unidades. O CEO aprova qualquer verba. Eh importante mostrar na tela: Verba de xxxx R$ aprovada por yyyy, cargo zzzzz.
 Sendo xxxx o valor a ser aprovado, yyyyy o nome do funcionario e zzzz seu cargo.
 
-- Solução UML png: [/media/PP-CHAIN-BancoAprovaVerba.png]({{ site.url_content }}PP-CHAIN-BancoAprovaVerba.png)
-- Solução UML yEd: [/media/PP-CHAIN-BancoAprovaVerba.graphml]({{ site.url_content }}PP-CHAIN-BancoAprovaVerba.graphml)
-- Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco][URL_proj_eclipse_DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-CHAIN-BancoAprovaVerba.png" class="img-responsive">
 
 #### Projeto: BancoAprova
 
 Uma aplicação de e-commerce precisa se comunicar com vários bancos diferentes para prover aos seus usuários mais possibilidades de pagamentos, atingindo assim um número maior de usuários e facilitando suas vidas. A classe Banco possui 3 subclasses BancoA, BancoB e BancoC. Os Bancos devem possuir um código de banco correspondente ao banco que vai efetuar o pagamento. Se um banco não puder efetuar um pagamento (Códigos não batem) o outro banco deve ser acionado para tentar finalizar esta operação (de pagamento) ordenadamente. Baseando-se nesta situação descrita.
 
-- Solução UML png: [/media/PP-CHAIN-AprovaBanco.png]({{ site.url_content }}PP-CHAIN-AprovaBanco.png)
-- Solução UML yEd: [/media/PP-CHAIN-AprovaBanco.graphml]({{ site.url_content }}PP-CHAIN-AprovaBanco.graphml)
-- Solução JAVA: [/DesignPatterns-ChainOfResponsibility/src/BancoAprova]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-ChainOfResponsibility/src/BancoAprova)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-ChainOfResponsibility/src/BancoAprova][URL_proj_eclipse_DesignPatterns-ChainOfResponsibility/src/BancoAprova]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-CHAIN-AprovaBanco.png" class="img-responsive">
 
 
 ### Padrão de Projeto (ADAPTER)
@@ -469,10 +465,7 @@ Ou seja, dado um conjunto de classes com mesma responsabilidade, mas interfaces 
 
 > Imita o DuckType
 
-#### UML
-
-- Padrão Adapter UML png [/media/PP-Adapter.png]({{ site.url_content }}PP-Adapter.png)
-- Padrão Adapter UML yEd [/media/PP-Adapter.graphml]({{ site.url_content }}PP-Adapter.graphml)
+**UML**
 
 <img src="{{ site.url_content }}PP-Adapter.png" class="img-responsive">
 
@@ -480,9 +473,11 @@ Ou seja, dado um conjunto de classes com mesma responsabilidade, mas interfaces 
 
 Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, que não é Pato emite som e não consegue voar. Faça com que Peru e Pato trabalhem sob uma interface comum
 
-- Solução UML png: [/media/PP-Adapter-Pato.png]({{ site.url_content }}PP-Adapter-Pato.png)
-- Solução UML yEd: [/media/PP-Adapter-Pato.graphml]({{ site.url_content }}PP-Adapter-Pato.graphml)
-- Solução JAVA: [/DesignPatterns-Adapter/src/PatoAdaptadoPeru]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/PatoAdaptadoPeru)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Adapter/src/PatoAdaptadoPeru][URL_proj_eclipse_DesignPatterns-Adapter/src/PatoAdaptadoPeru]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-Adapter-Pato.png" class="img-responsive">
 
 
 #### Projeto: PlayerVideo (SIMULADO P1)
@@ -490,9 +485,11 @@ Sabe se que todo Pato voa e grasna. Todo Pato pode ser Negro ou Verde. Um Peru, 
 Um player de video pode rodar o video e tambem gravar um video da webcam. Este player aceita os formatos AVI, MP4 ou RM.
 Sabe-se que o WAV e MID que não são formatos de video podem rodar som e gravar som. Escolha um padrão e (1) Justifique (2) Faça o UML (3) Codifique.
 
-- Solução UML png: [/media/PP-Adapter-PlayerVideo.png]({{ site.url_content }}PP-Adapter-PlayerVideo.png)
-- Solução UML yEd: [/media/PP-Adapter-PlayerVideo.graphml]({{ site.url_content }}PP-Adapter-PlayerVideo.graphml)
-- Solução JAVA: [/DesignPatterns-Adapter/src/PlayerVideo]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/PlayerVideo)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Adapter/src/PlayerVideo][URL_proj_eclipse_DesignPatterns-Adapter/src/PlayerVideo]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-Adapter-PlayerVideo.png" class="img-responsive">
 
 
 ### Padrão de Projeto (Abstract Factory)
@@ -503,12 +500,9 @@ Vejamos a intenção do Padrão Abstract Factory:
 
 Então, de acordo com a descrição da intenção do padrão, nós poderemos criar famílias de objetos, no nosso exemplo seriam a família de carros Sedan e a família de carros de Luxo.
 
-- Anotações Frávia Aula Garcia 24/05 (PP): [gist.github.com/anonymous/2a98e1d6a59159ae4a67](https://gist.github.com/anonymous/2a98e1d6a59159ae4a67)
+- Anotações Aula Garcia 24/05 (PP): [gist.github.com/anonymous/2a98e1d6a59159ae4a67](https://gist.github.com/anonymous/2a98e1d6a59159ae4a67)
 
-#### UML
-
-- Padrão ABSTRACT FACTORY UML png [/media/PP-ABSTRACTFACTORY.png]({{ site.url_content }}PP-ABSTRACTFACTORY.png)
-- Padrão ABSTRACT FACTORY UML yEd [/media/PP-ABSTRACTFACTORY.graphml]({{ site.url_content }}PP-ABSTRACTFACTORY.graphml)
+**UML**
 
 <img src="{{ site.url_content }}PP-ABSTRACTFACTORY.png" class="img-responsive">
 
@@ -516,9 +510,11 @@ Então, de acordo com a descrição da intenção do padrão, nós poderemos cri
 
 As fabricas "Citroen" e "Honda" podem fabricar Carros "Sedan" ou "Luxo". PS. O Carro pode receber um cor especial (objeto Cor)
 
-- Solução UML png: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.png]({{ site.url_content }}PP-ABSTRACTFACTORY-LojaFabricaCarro.png)
-- Solução UML yEd: [/media/PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml]({{ site.url_content }}PP-ABSTRACTFACTORY-LojaFabricaCarro.graphml)
-- Solução JAVA: [/DesignPatterns-AbstractFactory/src/lojafabricacarro]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-AbstractFactory/src/lojafabricacarro)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-AbstractFactory/src/lojafabricacarro][URL_proj_eclipse_DesignPatterns-AbstractFactory/src/lojafabricacarro]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-ABSTRACTFACTORY-LojaFabricaCarro.png" class="img-responsive">
 
 
 ### Padrão de Projeto (Singleton)
@@ -529,20 +525,17 @@ A intenção do padrão é esta:
 
 A maior vantagem do Singleton é unificar o acesso das instâncias
 
-#### UML
-
-- Padrão SINGLETON UML png [/media/PP-SINGLETON.png]({{ site.url_content }}PP-SINGLETON.png)
-- Padrão SINGLETON UML yEd [/media/PP-SINGLETON.graphml]({{ site.url_content }}PP-SINGLETON.graphml)
+**UML**
 
 <img src="{{ site.url_content }}PP-SINGLETON.png" class="img-responsive">
 
 #### Projeto: Singleton
 
-- Solução JAVA: [/DesignPatterns-Singleton/src/singleton]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Singleton/src/singleton)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Singleton/src/singleton][URL_proj_eclipse_DesignPatterns-Singleton/src/singleton]
 
 #### Projeto: Singleton (Quebrando o Patterns com multi-threads. "By Patrick")
 
-- Solução JAVA: [/DesignPatterns-Singleton/src/multithreads]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Singleton/src/multithreads)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Singleton/src/multithreads][URL_proj_eclipse_DesignPatterns-Singleton/src/multithreads]
 
 
 ### ENUMs
@@ -579,31 +572,31 @@ São classes que carregam constants de enumeração (Tipos) estes são públicos
 
 Inglês e Podem: PAUS("CLUBS",300), OUROS("DIAMONDS",100), ESPADAS("SPADES",250), COPAS("HEARTS",150);
 
-- Solução JAVA: [/ENUMS/src/naipe]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/naipe)
+- Solução JAVA: [URL_proj_eclipse_ENUMS/src/naipe][URL_proj_eclipse_ENUMS/src/naipe]
 
 #### Projeto: ENUMS Animal (Sobrescrita)
 
-- Solução JAVA: [/ENUMS/src/sobrescritaenums]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/sobrescritaenums)
+- Solução JAVA: [URL_proj_eclipse_ENUMS/src/sobrescritaenums][URL_proj_eclipse_ENUMS/src/sobrescritaenums]
 
 ### Projeto: ENUMS TiposCarro
 
 Faça a ENUM tipoCarro que possua os tipos "luxo", "sedan", "hatch". 
 Crie uma constante inteira "importancia" que numere luxo com 10, sedan com 5 e hatch com 7 faca o teste
 
-- Solução JAVA: [/ENUMS/src/tipocarros]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/tipocarros)
+- Solução JAVA: [URL_proj_eclipse_ENUMS/src/tipocarros][URL_proj_eclipse_ENUMS/src/tipocarros]
 
 #### Projeto: ENUMS TiposCarro
 
 Crie a ENUM TipoCartao que possua as constantes GOLD, SILVER, PLATIUM e BLACK
 cada constante pode determinar um desconto na anuidade que é de 10% GOLD, 20 SILVER, 30 PLAT, 50 BLACK
 
-- Solução JAVA: [/ENUMS/src/tipocartao]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/tipocartao)
+- Solução JAVA: [URL_proj_eclipse_ENUMS/src/tipocartao][URL_proj_eclipse_ENUMS/src/tipocartao]
 
 #### Projeto: TipoCliente com ENUMS (com Persistencia)
 
 No MySql ```create database ciro_garciatipocliente;```
 
-- Solução JAVA: [netbeansprojects/TpGarciaPersistenciaTipoCliente]({{ site.url_repository }}tree/netbeansprojects/TpGarciaPersistenciaTipoCliente) - Made in netbeansprojects
+- Solução JAVA: [URL_proj_netbeans_TpGarciaPersistenciaTipoCliente][URL_proj_netbeans_TpGarciaPersistenciaTipoCliente] - Made in netbeansprojects
 
 
 ### Padrão de Projeto (Visitor)
@@ -614,18 +607,17 @@ Vejamos a intenção do Padrão Visitor:
 
 Pela intenção já é possível ver como o padrão vai nos ajudar. A sua ideia é separar as operações que serão executadas em determinada estrutura de sua representação. Assim, incluir ou remover operações não terá nenhum efeito sobre a interface da estrutura, permitindo que o resto do sistema funcione sem depender de operações específicas.
 
-#### UML
-
-- Padrão VISITOR UML png [/media/PP-VISITOR.png]({{ site.url_content }}PP-VISITOR.png)
-- Padrão VISITOR UML yEd [/media/PP-VISITOR.graphml]({{ site.url_content }}PP-VISITOR.graphml)
+**UML**
 
 <img src="{{ site.url_content }}PP-VISITOR.png" class="img-responsive">
 
 #### Projeto: Visitor Zoologico
 
-- Solução UML png [/media/PP-VISITOR-zoologico.png]({{ site.url_content }}PP-VISITOR-zoologico.png)
-- Solução UML yEd [/media/PP-VISITOR-zoologico.graphml]({{ site.url_content }}PP-VISITOR-zoologico.graphml)
-- Solução JAVA: [/DesignPatterns-Visitor/src/zoologico]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Visitor/src/zoologico)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Visitor/src/zoologico][URL_proj_eclipse_DesignPatterns-Visitor/src/zoologico]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-VISITOR-zoologico.png" class="img-responsive">
 
 
 ### Padrão de Projeto (Proxy)
@@ -636,18 +628,17 @@ Vejamos a intenção do Padrão Proxy:
 
 Protection Proxy: esse é o tipo de proxy que utilizamos no exemplo. Eles controlam o acesso aos objetos, por exemplo, verificando se quem chama possui a devida permissão.
 
-#### UML
-
-- Padrão PROXY UML png [/media/PP-PROXY.png]({{ site.url_content }}PP-PROXY.png)
-- Padrão PROXY UML yEd [/media/PP-PROXY.graphml]({{ site.url_content }}PP-PROXY.graphml)
+**UML**
 
 <img src="{{ site.url_content }}PP-PROXY.png" class="img-responsive">
 
 #### Projeto: AutenticaUsuario Proxy
 
-- Solução UML png [/media/PP-PROXY-autenficausuario.png]({{ site.url_content }}PP-PROXY-autenficausuario.png)
-- Solução UML yEd [/media/PP-PROXY-autenficausuario.graphml]({{ site.url_content }}PP-PROXY-autenficausuario.graphml)
-- Solução JAVA: [/DesignPatterns-Proxy/src]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Proxy/src)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Proxy/src][URL_proj_eclipse_DesignPatterns-Proxy/src]
+
+**UML**
+
+<img src="{{ site.url_content }}PP-PROXY-autenficausuario.png" class="img-responsive">
 
 
 ### Padrão de Projeto (Observer)
@@ -658,4 +649,43 @@ Vejamos a intenção do Padrão Observer:
 
 #### Projeto: RevistaFãs Observer
 
-- Solução JAVA: [/DesignPatterns-Observer/src/revistafas]({{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Observer/src/revistafas)
+- Solução JAVA: [URL_proj_eclipse_DesignPatterns-Observer/src/revistafas][URL_proj_eclipse_DesignPatterns-Observer/src/revistafas]
+
+[URL_livro_ebook_usecabecaJava]: https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=exC7yg4Fh4Izgsbi2%2f6JhrI7YDAAfYtrNcBdKX3O4bQ%3d&docid=0d449a6fe69ae4b85944265337b790078
+[URL_livro_ebook_designpattern]: https://fatecspgov-my.sharepoint.com/personal/adam_macias_fatec_sp_gov_br/_layouts/15/guestaccess.aspx?guestaccesstoken=93JZ95qrU%2fs1UEgPDbqrXwiHP4KExXEq0WrGnMt6JSM%3d&docid=178cbdec3adc944e19eedfbd76af46bda
+[Dropbox/P1-2015-2SEM]:https://www.dropbox.com/sh/ecvvfpxcuynbfj7/AADoInmulPrz26O9amBCYeEca?dl=0
+[Dropbox/P1-2015-2SEM]:https://www.dropbox.com/sh/omy1s76hjo0xldg/AAAqjz2P5RtgjJBp3Uud7ekma?dl=0
+[L1.pdf]:https://www.dropbox.com/s/jvtsjesdor452cq/L1.pdf?dl=0
+[6PPL2.pdf]:https://www.dropbox.com/s/ez7sbi3fafh2i41/6PPL2.pdf?dl=0
+[Dropbox/OUTRAS-PROVAS-PP]:https://www.dropbox.com/sh/bs9oavesh4u1tgl/AAB81E1oxxAUVbUWtc0Yq8k1a?dl=0
+[URL_proj_netbeans_TpGarciaPersistenciaTipoCliente]:{{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/TpGarciaPersistenciaTipoCliente
+[URL_proj_eclipse_DesignPatterns-Adapter/src/LinuxDOS]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/LinuxDOS
+[URL_proj_eclipse_DesignPatterns-Decorator/src/linguagemToy]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/linguagemToy
+[URL_proj_eclipse_Reflection/src/createSelectAnnotationFora]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/createSelectAnnotationFora
+[URL_proj_eclipse_DesignPatterns-Strategy/src/ClienteDesconto]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Strategy/src/ClienteDesconto
+[URL_proj_eclipse_Reflection-Lista1]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection-Lista1/src
+[URL_proj_eclipse_Reflection/ListaT]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/ListaT
+[URL_proj_eclipse_Reflection/PortaJoias]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/PortaJoias
+[URL_proj_eclipse_Reflection/src/Interceptor]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Reflection/src/Interceptor
+[URL_proj_eclipse_Annotations/src/GenericCreateTableDB]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/GenericCreateTableDB
+[URL_proj_eclipse_Annotations/src/ValidarNotNullEMaiorIdade]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/ValidarNotNullEMaiorIdade
+[URL_proj_eclipse_Annotations/src/autor]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/autor
+[URL_proj_eclipse_Annotations/src/ordem]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/Annotations/src/ordem
+[URL_proj_eclipse_DesignPatterns-Decorator/src/janeladecorada]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/janeladecorada
+[URL_proj_eclipse_DesignPatterns-Decorator/src/empresapublicacargos]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/empresapublicacargos
+[URL_proj_eclipse_DesignPatterns-Decorator/src/pacotesviagem]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Decorator/src/pacotesviagem
+[URL_proj_eclipse_DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Strategy/src/lojaVirtualPromocaoGarcia
+[URL_proj_eclipse_DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-ChainOfResponsibility/src/VerbaAprovacaoBanco
+[URL_proj_eclipse_DesignPatterns-ChainOfResponsibility/src/BancoAprova]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-ChainOfResponsibility/src/BancoAprova
+[URL_proj_eclipse_DesignPatterns-Adapter/src/PatoAdaptadoPeru]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/PatoAdaptadoPeru
+[URL_proj_eclipse_DesignPatterns-Adapter/src/PlayerVideo]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Adapter/src/PlayerVideo
+[URL_proj_eclipse_DesignPatterns-AbstractFactory/src/lojafabricacarro]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-AbstractFactory/src/lojafabricacarro
+[URL_proj_eclipse_DesignPatterns-Singleton/src/singleton]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Singleton/src/singleton
+[URL_proj_eclipse_DesignPatterns-Singleton/src/multithreads]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Singleton/src/multithreads
+[URL_proj_eclipse_ENUMS/src/naipe]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/naipe
+[URL_proj_eclipse_ENUMS/src/tipocarros]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/tipocarros
+[URL_proj_eclipse_ENUMS/src/tipocartao]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/tipocartaosistenciaTipoClienterc/zoologico
+[URL_proj_eclipse_DesignPatterns-Observer/src/revistafas]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Observer/src/revistafas
+[URL_proj_eclipse_ENUMS/src/sobrescritaenums]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/ENUMS/src/sobrescritaenums
+[URL_proj_eclipse_DesignPatterns-Visitor/src/zoologico]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Visitor/src/zoologico
+[URL_proj_eclipse_DesignPatterns-Proxy/src]:{{ site.url_repository }}tree/gh-pages/content/workspace-eclipse/DesignPatterns-Proxy/src
