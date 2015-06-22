@@ -3,12 +3,12 @@ title: Fatec ♥ Sistemas para Internet
 email: adam.macias@fatec.sp.gov.br
 description: "Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras coisas relacionadas ao curso de Sistemas para Internet da Fatec Rubens Lara."
 baseurl: "/fatecrl-curso-si/" # the subpath of your site, e.g. /blog/
-url: "https://adammacias.github.io" # the base hostname & protocol for your site
+url: "https://fatechub.github.io" # the base hostname & protocol for your site
 github_username: fatechub
 
 # URL settings
-url_repository: "https://github.com/adammacias/fatecrl-curso-si/" # put path absolute
-url_content: "https://adammacias.github.io/fatecrl-curso-si/content/" # put path absolute
+url_repository: "https://github.com/fatechub/fatecrl-curso-si/" # put path absolute
+url_content: "https://fatechub.github.io/fatecrl-curso-si/content/" # put path absolute
 
 # Build settings
 markdown: kramdown
