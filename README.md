@@ -14,7 +14,7 @@ Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras cois
 
 - [@adammacias](https://github.com/adammacias/) - [FatecRL][fatecrl]
 - [@flaviacs](https://github.com/flaviacs/) - [FatecRL][fatecrl]
-- [ver todos os colaboradores](https://github.com/fatechub/curso-si/graphs/contributors)
+- [ver todos os colaboradores](https://github.com/fatechub/fatecrl-curso-si/graphs/contributors)
 
 ## Contribua com o Projeto
 
