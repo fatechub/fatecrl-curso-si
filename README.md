@@ -10,7 +10,7 @@ Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras cois
 
 [Confira a grade atual do curso de SI](http://fatecrl.edu.br/site/curso/si/grade-curricular)
 
-## Mantido por
+### Equipe
 
 - [@adammacias](https://github.com/adammacias/) - [FatecRL][fatecrl]
 - [@flaviacs](https://github.com/flaviacs/) - [FatecRL][fatecrl]
@@ -24,7 +24,7 @@ Mais detalhes de como contribuir e enviar Pull Requests em [GitHub Collaborating
 
 [Como colaborar com projetos opensource com GitHub](http://www.youtube.com/watch?v=H3olaBo83As)
 
-## Criando uma disciplina
+### Criando uma disciplina
 
 As disciplinas devem ser criada no diretório `_posts`, ter a extenção `.md` e o nome dos arquivos devem obedecer o formato abaixo:
 
@@ -42,7 +42,7 @@ Sendo que a data necessita ser representava pelo "ano - semestre - 01".
 
 > **Exemplo:** 2015-01-01-ciclo-5-programacao-para-dispositivos-moveis-chiara.md
 
-### Categorias
+#### Categorias
 
 Veja categorias **obrigatórias** para disciplinas, Exemplo:
 
