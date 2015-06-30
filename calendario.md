@@ -10,5 +10,5 @@ layout: page
 
 ### 5 Ciclo
 
-- **26/06 (Sexta)** [P3] Design Patterns, Garcia
-- **27/06 (Sábado)** [P3] Prototipagem, Rosemeire
+- <s>**26/06 (Sexta)** [P3] Design Patterns, Garcia</s>
+- <s>**27/06 (Sábado)** [P3] Prototipagem, Rosemeire</s>
