@@ -10,6 +10,17 @@ Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras cois
 
 [Confira a grade atual do curso de SI](http://fatecrl.edu.br/site/curso/si/grade-curricular)
 
+### Fatecs
+
+Fatecs que oferem o curso Sistemas para Internet 
+
+- [Fatec Carapicuíba](http://www.fateccarapicuiba.edu.br/) (Carapicuíba-SP)
+- [Fatec Jales](http://www.fatecjales.edu.br/) (Jales-SP)
+- [Jaú](http://www.fatecjahu.edu.br/) (Jaú-SP)
+- [Fatec Baixada Santista - Rubens Lara](http://fatecrl.edu.br/) (Santos-SP)
+- [Fatec de São Roque](http://www.fatecsaoroque.edu.br/) (São Roque-SP )
+- [Taquaritinga](http://www.fatectq.edu.br/) (Taquaritinga-SP)
+
 ### Equipe
 
 - [@adammacias](https://github.com/adammacias/) - [FatecRL][fatecrl]
