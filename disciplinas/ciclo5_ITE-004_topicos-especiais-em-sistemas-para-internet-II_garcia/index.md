@@ -1,11 +1,13 @@
 ---
-layout: post
-title:  "Padrões de Projetos"
-fatec: fatec-rl
-ciclo: 5
+layout: disciplina
+title:  "Tópicos especiais em Sistemas para Internet II (Tema: Padrões de Projetos)"
+sigla: ITE-004
 teacher: Garcia
 date:   2015-01-01
-categories: grade-2013 ciclo-5 fatec-rl
+grade: 2013
+ciclo: 5
+fatec: fatec-rl
+categories: grade-2013 ciclo-5
 ---
  
 ## Material, Apostilas e Ferramentas

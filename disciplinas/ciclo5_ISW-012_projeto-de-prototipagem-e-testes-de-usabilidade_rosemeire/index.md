@@ -1,11 +1,13 @@
 ---
-layout: post
-title:  "Projeto de Prototipagem"
-fatec: fatec-rl
-ciclo: 5
+layout: disciplina
+title:  "Projeto de Prototipagem e Testes de Usabilidade"
+sigla: ISW-012
 teacher: Rosemeire
 date:   2015-01-01
-categories: grade-2013 ciclo-5 fatec-rl
+grade: 2013
+ciclo: 5
+fatec: fatec-rl
+categories: grade-2013 ciclo-5
 ---
 
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>

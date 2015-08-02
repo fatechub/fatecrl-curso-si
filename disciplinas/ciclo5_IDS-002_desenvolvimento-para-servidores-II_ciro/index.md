@@ -1,11 +1,13 @@
 ---
-layout: post
-title:  "Desenvolvimento para Servidores II"
-fatec: fatec-rl
-ciclo: 5
+layout: disciplina
+title:  "Desenvolvimento para servidores II"
+sigla: IDS-002
 teacher: Ciro
 date:   2015-01-01
-categories: grade-2013 ciclo-5 fatec-rl
+grade: 2013
+ciclo: 5
+fatec: fatec-rl
+categories: grade-2013 ciclo-5
 ---
 
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon-star"></span> Fixo</span>
@@ -281,3 +283,4 @@ Cadastrar, Editar, Deletar Conta (JPA + JPQL + PrimeFaces + Ajax)
 [URL_proj_netbeans_mysqlConnectorjava_5123bin_jar]: https://www.dropbox.com/s/ob49slz72u4fla5/mysql-connector-java-5.1.23-bin.jar?dl=0
 [URL_proj_netbeans_JPATeste]: {{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/JPATeste
 [URL_proj_netbeans_Financas]: {{ site.url_repository }}tree/gh-pages/content/workspace-netbeans/Financas
+

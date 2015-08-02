@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: disciplina
 title:  "Inglês V"
-fatec: fatec-rl
-ciclo: 5
+sigla: LIN-500
 teacher: Eveline
 date:   2015-01-01
-categories: grade-2013 ciclo-5 fatec-rl
+grade: 2013
+ciclo: 5
+fatec: fatec-rl
+categories: grade-2013 ciclo-5
 ---
 
 ## TPs e Provas
