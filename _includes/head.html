@@ -13,10 +13,6 @@
         <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl | prepend: site.url }}">
         <link rel="stylesheet" href="{{ "css/pygments-manni.css" | prepend: site.baseurl | prepend: site.url }}">
         <base href="{{ site.url | prepend: site.baseurl }}">
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
     </head>
     <body>
         <div id="wrap">
@@ -32,11 +28,13 @@
                 <div class="collapse navbar-collapse" id="jb-navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="{{ "index.html" | prepend: site.baseurl | prepend: site.url }}">Início</a></li>
-                        <li><a href="{{ "disciplinas.html" | prepend: site.baseurl | prepend: site.url }}">Disciplinas</a></li>
+                        <li><a href="{{ "disciplinas" | prepend: site.baseurl | prepend: site.url }}">Disciplinas</a></li>
                         <li><a href="{{ "calendario.html" | prepend: site.baseurl | prepend: site.url }}">Calendário</a></li>
-                        <li><a href="{{ site.url_repository }}#fatecrl---sistemas-para-internet" target="_blank">Sobre</a></li>
-                        <li><a href="{{ site.url_repository }}#contribua-com-o-projeto" target="_blank">Contribua</a></li>
+                        <li><a href="{{ "sobre.html" | prepend: site.baseurl | prepend: site.url }}">Sobre</a></li>
+                        <li><a href="{{ "contribuir.html" | prepend: site.baseurl | prepend: site.url }}"><strong>Como contribuir</strong></a></li>
                         <li><a href="{{ site.url_repository }}" target="_blank">GitHub</a></li>
+                        <li><a href="https://trello.com/b/qYTMMlgy/fatec-curso-si" target="_blank">Trello</a></li>
+
                     </ul>
                 </div>
             </nav>
