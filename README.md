@@ -2,17 +2,26 @@
 
 Repositório com arquivos, aulas, provas, trabalhos, apostilas entre outras coisas relacionadas ao curso de Sistemas para Internet da Fatec Rubens Lara - Baixada Santista.
 
-### Sobre
+## Sobre
 
-[Conheça o curso de Sistemas para Internet](http://fatecrl.edu.br/site/curso/si/sobre)
+**Perfil do profissional**
 
-### Grade Curricular
+O tecnólogo formado neste curso ocupa-se do desenvolvimento de programas, de interfaces e aplicativos, do comércio e do marketing eletrônicos, além de sítios e portais para internet e intranet. Gerencia projetos de sistemas, inclusive com acesso a banco de dados, desenvolvendo projetos de aplicações para a rede mundial de computadores e integra mídias nos sítios da internet. Atua com tecnologias emergentes como computação móvel, redes sem fio e sistemas distribuídos. Cuidar da implantação, atualização, manutenção e segurança dos sistemas para internet também são suas atribuições.
 
-[Confira a grade atual do curso de SI](http://fatecrl.edu.br/site/curso/si/grade-curricular)
+**Oportunidades profissionais e o mercado de trabalho**
 
-### Fatecs
+Empresas de assessoria e consultoria tecnológica e de desenvolvimento de sistemas;indústria; comércio; prestação de serviços; instituições financeiras; órgãos públicos; empreendedor em informática.
 
-Fatecs que oferem o curso Sistemas para Internet 
+**Informações gerais**
+
+- Duração: 3 anos
+- Carga horária: 2880 horas
+
+[Fonte Website Centro Paula Souza](http://www.centropaulasouza.sp.gov.br/cursos/fatec/sistemas-para-internet.asp)
+
+## Fatecs
+
+Fatecs que oferecem o curso Sistemas para Internet:
 
 - [Fatec Carapicuíba](http://www.fateccarapicuiba.edu.br/) (Carapicuíba-SP)
 - [Fatec Jales](http://www.fatecjales.edu.br/) (Jales-SP)
@@ -21,45 +30,64 @@ Fatecs que oferem o curso Sistemas para Internet
 - [Fatec de São Roque](http://www.fatecsaoroque.edu.br/) (São Roque-SP )
 - [Taquaritinga](http://www.fatectq.edu.br/) (Taquaritinga-SP)
 
-### Equipe
+## PPC (Projeto Pedagógico de Curso)
 
-- [@adammacias](https://github.com/adammacias/) - [FatecRL][fatecrl]
-- [@flaviacs](https://github.com/flaviacs/) - [FatecRL][fatecrl]
-- [ver todos os colaboradores](https://github.com/fatechub/fatecrl-curso-si/graphs/contributors)
+- [Baixar PPC - Projeto Pedagógico de Curso (2013 - Atual)](https://www.dropbox.com/s/nfysut0np0tck1b/si-ppc-2013.pdf?dl=0)
 
-## Contribua com o Projeto
+## Matriz Curricular
 
-Para contribuir basta clicar no botão **Fork**, criar um *Branch*, (criar/melhorar/arrumar) o código e enviá-lo com um **Pull Request**.
+![si-grade-2013](https://cloud.githubusercontent.com/assets/1139893/9028401/0e5fb80c-394e-11e5-82da-6b762d4be5a7.png)
+
+[Baixar em formato PDF](https://www.dropbox.com/s/wwovwz6347erkd4/si-grade-2013.pdf?dl=0)
+
+## Como contribuir com o projeto
+
+Existe duas formas de contribuir
+
+### Issues
+
+Simples como roubar doce de uma criança, [abria uma issue](https://github.com/fatechub/fatecrl-curso-si/issues/new) (tópico) e ajude com novo conteúdo, sugestões e etc.
+
+### Pull Request
+
+Requer um pouco de conhecimento de GIT, você pode contribuir através de **Pull Request**, clicando no botão **Fork**, criar um **Branch**, (criar/melhorar/arrumar) o código e nos enviar o **Pull Request**.
 
 Mais detalhes de como contribuir e enviar Pull Requests em [GitHub Collaborating](https://help.github.com/categories/63/articles).
 
 [Como colaborar com projetos opensource com GitHub](http://www.youtube.com/watch?v=H3olaBo83As)
 
-### Criando uma disciplina
+## Criando uma disciplina
 
-As disciplinas devem ser criada no diretório `_posts`, ter a extenção `.md` e o nome dos arquivos devem obedecer o formato abaixo:
+As disciplinas devem ser criada no diretório `disciplinas`, o arquivo deve ter o nomede de `index.md` e os nomes dos diretórios arquivos devem obedecer o formato abaixo:
 
-> data-ciclo-X-nome-da-disciplina-professor.md
+`cicloX_siglaX_nomedadisciplinaX_docenteX/`
 
-##### Data 
+**Veja um exemplo:**
 
-Sendo que a data necessita ser representava pelo "ano - semestre - 01".
+`disciplinas/ciclo5_ISW-011_desenvolvimento-para-dispositivos-moveis-I_chiara/index.md`
 
-- **Exemplos...**
-- **2013-01-01-...md** Iniciado em 2013, no 1º semestre
-- **2015-02-01-...md** Iniciado em 2015, no 2º semestre
+#### Front Matter
 
-##### Exemplo completo
+O arquivo deve conter antes de tudo, metadados para que o Jekyll possa rederizar de forma correta as disciplinas, veja um exemplo de **Front Matter**:
 
-> **Exemplo:** 2015-01-01-ciclo-5-programacao-para-dispositivos-moveis-chiara.md
+```
+---
+layout: disciplina
+title:  "Desenvolvimento para dispositivos móveis I"
+sigla: ISW-011
+teacher: Chiara
+date:   2015-01-01
+grade: 2013
+ciclo: 5
+fatec: fatec-rl
+categories: grade-2013 ciclo-5
+---
+```
 
-#### Categorias
+## Mantido por
 
-Veja categorias **obrigatórias** para disciplinas, Exemplo:
-
-- **ciclo-x** Ciclo em que a disciplina foi dada. *exemplo: ciclo-1, ciclo-2...*
-- **grade-xxxx** Quando o curso foi iniciado. *exemplo: grade-2013, grade-2015...*
-- **sigla** Sigla da disciplina. *exemplo: IAL-002, ISW-003...*
-
+- [@adammacias](https://github.com/adammacias/) - [FatecRL][fatecrl]
+- [@flaviacs](https://github.com/flaviacs/) - [FatecRL][fatecrl]
+- [ver todos os colaboradores](https://github.com/fatechub/curso-si/graphs/contributors)
 
 [fatecrl]:      http://fatecrl.edu.br/
