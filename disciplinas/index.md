@@ -4,7 +4,7 @@ tagline: ""
 layout: page
 ---
 
-<ul class="list-group">
+<div class="list-group">
     {% assign pages = (site.pages | sort: 'ciclo') %}
     {% for post in pages %}
     {% if post.title and post.layout == "disciplina" %}
@@ -15,5 +15,5 @@ layout: page
     </a> 
     {% endif %}
     {% endfor %}
-</ul>
+</div>
 
