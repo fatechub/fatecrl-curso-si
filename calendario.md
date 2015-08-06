@@ -6,7 +6,7 @@ layout: page
 
 ### Todos os Ciclos
 
-- **03/08 (Segunda-feira)** Início das aulas.
+- <s>**03/08 (Segunda-feira)** Início das aulas.</s>
 
 ### Ciclo 6
 
