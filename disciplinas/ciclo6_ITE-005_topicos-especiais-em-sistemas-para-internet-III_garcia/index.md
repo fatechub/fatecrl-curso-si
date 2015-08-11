@@ -15,7 +15,7 @@ categories: grade-2013 ciclo-6
 - [tutorialspoint](http://www.tutorialspoint.com/)
 - [Compilador de Haskell Online](http://www.tutorialspoint.com/compile_haskell_online.php)
 - http://www.tutorialspoint.com/
-- haskell-plataform (INSTALADOR WINDOWS)
+- [haskell-plataform](https://www.haskell.org/platform/) (INSTALADOR WINDOWS)
 - https://github.com/Webschool-io/workshop-js-funcional-free
 
 ## Função impuras
