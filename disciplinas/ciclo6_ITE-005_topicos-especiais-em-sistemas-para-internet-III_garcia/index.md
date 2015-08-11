@@ -16,8 +16,8 @@ categories: grade-2013 ciclo-6
 
 - [Informações IDEs Haskell](https://wiki.haskell.org/IDEs)
 - Compilador GHC (The Gorious Glasgow Haskell Compiler) 7.10.2 - obrigatório
-- IDE Eclipse FP (Eclipse for funcional programming) opcional
-- Plugin para *highlightinhg* (Colorer plugin for Eclipse IDE) opcional
+- IDE Eclipse FP (Eclipse for funcional programming) - opcional
+- Plugin para *highlightinhg* (Colorer plugin for Eclipse IDE) - opcional
 - [tutorialspoint](http://www.tutorialspoint.com/)
 - [Compilador de Haskell Online](http://www.tutorialspoint.com/compile_haskell_online.php)
 - [http://www.tutorialspoint.com/](http://www.tutorialspoint.com/)
@@ -27,6 +27,7 @@ categories: grade-2013 ciclo-6
 ***
 
 ## TPs e Provas
+
 ### Datas:
 - Prova final: 30/11/15 
 - Trabalho: 07/12/15  
@@ -42,6 +43,7 @@ categories: grade-2013 ciclo-6
 
 ## Ementa
 Intodução a linguagem Haskell. Operações com listas. List comprehension. Tipos e TypeClasses. Map, Reduce, Fold, e Filter. Pattern Matching e Guards. Recursão e funções de alta ordem. Criando Typeclasses. Estrutura de dados recursivas. I/O. Funtores e Monoids. **Monoids**. Framework para desenvolvimento Web. Conexão com o banco de dados. Deploy de uma aplicação na Web. Testes.
+
 *A partir de Monoids começa a entrada de código impuro na programação Haskell*
 
 ***
@@ -55,20 +57,21 @@ Intodução a linguagem Haskell. Operações com listas. List comprehension. Tip
 ***
 
 ## Comandos
-- **Terminal**
-    + *let*: defini o valor de uma "variável"
-    + *:* (chamado *cons*): adiciona o número/caracter na frente do vetor
-    + *++* (como identação): adiciona número/caracter em qualquer lugar do vetor. ´let a=[1,2]´ | ´let b=[3,4]´ | ´a ++ b´  // [1,2,3,4]
-    + *'* (aspas simples): representa string
-    + *"* (aspas duplas): representa vetor
-    + *!!*: deterninar a posição do vertor: ´a!!4´ == ´a[4]´
-    + *take*: pegar (pega parte do código)
-    + *drop*: solta (ignora uma parte do código)
-    + *cycle*: loop infinito (porém, pode ser definido até onde vai com o take: ´take 10 (cycle[1,2,3])´ //[1,2,3,1,2,3,1,2,3,1])
-    + *reverse*: irá apresentar os resultados ao contrários. Ex.: ´reverse fatec´ //cetaf
-    + *( )*: funciona como o operador matemático. Indica "por onde começar/dar preferencia" ´let y='fatec santos'´ | ´take 3 (drop 4 y)´ | ´take 3 (c santos)´ | ´take 3 'c santos'´ | //´c s´. 
-    + *$*: dá preferencia para a próxima função. Substitui o uso do *()*
-- **haskell**
+
+### Terminal
+- **let**: defini o valor de uma "variável"
+- **: (chamado *cons*)**: adiciona o número/caracter na frente do vetor
+- **++ (como identação)**: adiciona número/caracter em qualquer lugar do vetor. ```let a=[1,2] | let b=[3,4] | a ++ b  // [1,2,3,4]```
+- **' (aspas simples)**: representa string
+- **" (aspas duplas)**: representa vetor
+- **!!**: deterninar a posição do vertor: ```a!!4 == a[4]```
+- **take**: pegar (pega parte do código)
+- **drop**: solta (ignora uma parte do código)
+- **cycle**: loop infinito (porém, pode ser definido até onde vai com o take: ```take 10 (cycle[1,2,3]) //[1,2,3,1,2,3,1,2,3,1])```
+- **reverse**: irá apresentar os resultados ao contrários. Ex.: ```reverse fatec //cetaf```
+- **( )**: funciona como o operador matemático. Indica "por onde começar/dar preferencia". ```let y= fatec santos | take 3 (drop 4 y) | take 3 (c santos) | take 3 c santos | //c s``` 
+- **$**: dá preferencia para a próxima função. Substitui o uso do *()*
+
 
 ***
 
@@ -88,10 +91,10 @@ No Haskell, até o print é impuro. Então, ele se enquadrará em Monads.
 **Código impuro** é todo código que consegue ter acesso a códigos externos ou funções que podem alterar o resultado/comportamento de outra função.
 
 > **MONADS**
-> Monads are frequently encountered in Haskell: the IO system is constructed using a monad, a special syntax for monads has been provided (do expressions), and the standard libraries contain an entire module dedicated to monads. 
-> 
+Monads are frequently encountered in Haskell: the IO system is constructed using a monad, a special syntax for monads has been provided (do expressions), and the standard libraries contain an entire module dedicated to monads. 
+
 >The Prelude contains a number of classes defining monads are they are used in Haskell. These classes are based on the monad construct in category theory; whilst the category theoretic terminology provides the names for the monadic classes and operations, it is not necessary to delve into abstract mathematics to get an intuitive understanding of how to use the monadic classes. 
->
+
 >A monad is constructed on top of a polymorphic type such as IO. The monad itself is defined by instance declarations associating the type with the some or all of the monadic classes, Functor, Monad, and MonadPlus. None of the monadic classes are derivable. In addition to IO, two other types in the Prelude are members of the monadic classes: lists ([]) and Maybe.
 
 
