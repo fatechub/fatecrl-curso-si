@@ -10,7 +10,9 @@ fatec: fatec-rl
 categories: grade-2013 ciclo-6
 ---
 
-## Links
+***
+
+## Material, Apostilas e Ferramentas
 
 - [tutorialspoint](http://www.tutorialspoint.com/)
 - [Compilador de Haskell Online](http://www.tutorialspoint.com/compile_haskell_online.php)
@@ -18,7 +20,19 @@ categories: grade-2013 ciclo-6
 - [haskell-plataform](https://www.haskell.org/platform/) (INSTALADOR WINDOWS)
 - https://github.com/Webschool-io/workshop-js-funcional-free
 
-## Função impuras
+***
+
+## TPs e Provas
+- ...
+
+***
+
+## Aulas e Atividades
+
+### Contéudo da Disciplina
+...
+
+### Função impuras
 
 São funções que depende do "mundo exterior", ou seja, BD, HTML e etc.
 
@@ -26,7 +40,7 @@ São funções que depende do "mundo exterior", ou seja, BD, HTML e etc.
 
 **Exemplo**
 
-```java
+{% highlight java %}
 class Foo{
   private int a;
   public int bar(){
@@ -46,13 +60,13 @@ class Teste{
     syso(t.baz(3)); // 4
   }
 }
-```
+{% endhighlight %}
 
 Função `bar` e `baz` sao impuras, na visão do Haskell só é legal quando não tem atributos.
 
 ***
 
-```
+{% highlight haskell %}
 ghci
 
 ... terminal 
@@ -134,18 +148,18 @@ Prelude> [2*x | x <- [0..50], x > 12] // pega pares de 0 a 50 e que seja maior q
 
 Prelude> [2*x | x <- [0..50], x > 12, mod x 5 == 0] // pega pares de 0 a 50 e que seja maior que 12
 // [...] 
-```
+{% endhighlight %}
 
-```
+{% highlight haskell %}
 EXERCICIO O RESULTADO TEM QUE SER [9, 11, 13,15,17,19,21,23,25,27,29,31]
 SOLUCAO 1: [2*x+1 | x <- [4..15]] 
 SOLUCAO 2: [2*x+1 | x <- [0..50],x > 3, x < 16]
 SOLUCAO 3: [x | x <- [9..31], mod x 2 == 1]
-```
+{% endhighlight %}
 
 ## em http://www.tutorialspoint.com/compile_haskell_online.php
 
-```
+{% highlight haskell %}
 // PASSO 1
 // create file `Aula1.hs` e deleta `main.hs`
 Aula1.hs
@@ -175,8 +189,5 @@ meio 3 4 "FATEC SANTOS" = take n1 ( drop n2 y )
 take 3 ( drop 4 "FATEC SANTOS" )
 take 3 ( "C SANTOS" )
 "C S"
-
-
-
-```
+{% endhighlight %}
 
