@@ -11,7 +11,7 @@ categories: grade-2013 ciclo-6
 ---
 
 ## Material, Apostilas e Ferramentas
-- [E-book Intelligent business elementary PDF][http://pt.slideshare.net/DanielaSalvade/intelligentbusinesselementarycoursebook]
+- [E-book Intelligent business elementary PDF](http://pt.slideshare.net/DanielaSalvade/intelligentbusinesselementarycoursebook)
 
 ***
 
