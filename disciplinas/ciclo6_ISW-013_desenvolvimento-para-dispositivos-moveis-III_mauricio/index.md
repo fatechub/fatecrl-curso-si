@@ -10,19 +10,34 @@ fatec: fatec-rl
 categories: grade-2013 ciclo-6
 ---
 
+<span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
+
+- **Acesso PC LAB 7** login: `.\6si` senha: `maurício`
+- [mauricio.mario01@fatec.sp.gov.br](mauricio.mario01@fatec.sp.gov.br)
+
+
+***
+
 
 ## Material, Apostilas e Ferramentas
 
-- [Plano de Ensino Dispositivos Móveis II 2º sem 2015.pdf]({{ site.url_content }}AAA/Plano de Ensino Dispositivos Móveis II 2º sem 2015.pdf)
-- [Aplicações com Windows Phone I.pdf]({{ site.url_content }}AAA/Aplicações com Windows Phone I.pdf)
-- [Aplicações com Windows Phone II.pdf]({{ site.url_content }}AAA/Aplicações com Windows Phone II.pdf)
-- Baixar [Visual Studio Express - para WindowsPhone (>2013)](http://dev.windowsphone.com)(o emulador pode ou não funcionar dependendo do processador)
+- [Plano de Ensino Dispositivos Móveis II 2º sem 2015.pdf][plano-de-ensino-pdf]
+- [Aplicações com Windows Phone I.pdf][aplicacoes-com-windowsphone-I-pdf]
+- [Aplicações com Windows Phone II.pdf][aplicacoes-com-windowsphone-II-pdf]
+- [Downloads e ferramentas para Windows](https://dev.windows.com/pt-br/downloads)
+
+
+***
 
 
 ## Aulas e Atividades
->Linguagem de programação C# e XAML
+
+### Linguagens C# e XAML
+
 - **.xaml**: view, equivale a *.xml* do android
 - **.xaml.cs**: lógica do negócio, equivale ao *.java* do android
 
->login: .\6si
->senha: maurício
+
+[plano-de-ensino-pdf]: https://www.dropbox.com/s/3cojxz1m3iplwmr/Plano%20de%20Ensino%20Dispositivos%20M%C3%B3veis%20II%202%C2%BA%20sem%202015.pdf?dl=0
+[aplicacoes-com-windowsphone-I-pdf]: https://www.dropbox.com/s/q2huvuy3pjo85r4/Aplica%C3%A7%C3%B5es%20com%20Windows%20Phone%20I.pdf?dl=0
+[aplicacoes-com-windowsphone-II-pdf]: https://www.dropbox.com/s/vz4clwbknn95ggy/Aplica%C3%A7%C3%B5es%20com%20Windows%20Phone%20II.pdf?dl=0
