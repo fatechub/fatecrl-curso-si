@@ -74,3 +74,4 @@ RemoteSystemsTempFiles
 # Project
 _site
 .sass-cache
+_config-dev.yml
