@@ -1,6 +1,6 @@
 ---
 layout: disciplina
-title:  "Tópicos especiais em sistemas para Internet III (Tema: Programação funcional (Haskell))"
+title:  "Tópicos especiais em sistemas para Internet III (Tema: Programação funcional - Haskell)"
 sigla: ITE-005
 teacher: Garcia
 date:   2015-02-01
