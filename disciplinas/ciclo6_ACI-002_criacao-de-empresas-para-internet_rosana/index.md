@@ -70,3 +70,4 @@ Como são os empreendedores:
 4. O que significa o conceito de empreendedor mínimo viável?
 5. Descreva as dicas para se tornar um empreendedor viável.
 
+[Respostas](https://www.dropbox.com/sh/km7kuav4xej8jpu/).AABIFPxTSv29_SMt8bCoGKIRa?dl=0)
