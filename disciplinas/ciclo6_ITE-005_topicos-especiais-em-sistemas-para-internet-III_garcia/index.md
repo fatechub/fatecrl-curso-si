@@ -71,6 +71,12 @@ Intodução a linguagem Haskell. Operações com listas. List comprehension. Tip
 - **reverse**: irá apresentar os resultados ao contrários. Ex.: ```reverse fatec //cetaf```
 - **( )**: funciona como o operador matemático. Indica "por onde começar/dar preferencia". ```let y= fatec santos | take 3 (drop 4 y) | take 3 (c santos) | take 3 c santos | //c s``` 
 - **$**: dá preferencia para a próxima função. Substitui o uso do *()*
+- **/=**: sinal de negação / diferente
+- **,** (virgula): funciona como elemento *and*
+- **notElem**: Retira os caracteres (numeral, letra) da função
+- **--**: Comentário em uma linha
+- **{-** lalala **-}**: Comentário em múltiplas linhas
+
 
 
 ***
@@ -251,3 +257,183 @@ take 3 ( "C SANTOS" )
 "C S"
 {% endhighlight %}
 
+
+======================================
+<span class="label label-success text-uppercase">Aula 2</span>
+
+**no prompt**
+
+{% highlight haskell %}
+--lista de 0 a 100 os pares
+[2*x | x<-[o..100]]
+
+-- De zero a 10 sem o 5
+[x | x<-[o..10],x/=5]
+
+{% endhighlight %}
+
+**Usando o If**
+O if neste caso é uma função, não um desvio. Será a última vez que o if será usado.
+
+{% highlight haskell %}
+--Se for PAR mostra BANG, se for ÍMPAR imprimi BONG
+[if mod x == 0 then "bang" else "bong" | x<-[o..10]]
+{% endhighlight %}
+
+
+#### Concatenação em vetor usando uma String que varia
+
+{% highlight haskell %}
+-- concatenado cada letra da palavra "FATEC" com um "A"
+-- como tem caracter precisa usar o colchete
+[[x] ++ "A" | x<-"FATEC"]
+--saida: ["FA","AA","TA","EA","CA"]
+
+-- Alternativa: pode ser com o operador cons (:)
+-- como tem o : não precisa de colchete, vai direto
+[x:a"A" | x<-"FATEC"]
+{% endhighlight %}
+
+
+**Exercício**
+Ex. Faça uma *list compreenshion* que elimine as vogais de uma string:
+*Resposta*:
+
+{% highlight haskell %}
+[x | x<-"FACULDADE DE TECNOLOGIA",x/='A',x/='E',x/='I',x/='o',x/='u']
+-- Alternativa: Com *notElem*. Ele faz tudo automaticamente
+[x | x<-"FACULDADE DE TECNOLOGIA",notElem x "AEIOU"]
+{% endhighlight %}
+
+
+#### Tipagem
+*No código:*
+No haskell, é preciso dar o tipo de todos os parêmetros de entrada e um tipo (apenas) para a saída. 
+
+{% highlight haskell %}
+-- Esta função:
+dobro x = 2*x
+
+-- Será tipada assim:
+-- O primeiro Double é pro parametro x, o segundo Double é pro 2*x (saída)
+
+dobro :: Double -> Double
+dobro x = 2*x
+
+
+-- Função com três parâmetros
+Mult x y z = x * y * z
+
+-- Os três primeiros são para x,y,z. O ultimo double pro retorno
+Mult :: Double -> Double -> Double -> Double
+Mult x y z = x * y * z
+{% endhighlight %}
+
+É possível uma função de um tipo retornar outro. 
+Quando tem mais de um parametro, por padrão, adiciona-se um s depois de x (nome do parametro, no caso).
+
+**Função boomBang:**
+{% highlight haskell %}
+-- Tipando a função Boombang
+boomBang :: [Int] -> [String] 
+boomBang xs = [if mod x 2 == 0 then "BANG" else "BOOM" | x<-xs]
+{% endhighlight %}
+
+**Cola**
+É possível ver uma "colinha" da tipagem de algo. Basta adicionar ```:t nomeDaFuncao```. Porém ele apresentará o tipo mais genérico possível.
+
+
+**Função apenas com retorno**
+Isso é uma função (que não recebe nada e retorna um inteiro). ISSO NÃO É UMA variável. Aqui não existe void, ainda que o retorno seja vazio.
+
+{% highlight haskell %}
+-- Funcao que nao recebe nada e retorna um 9 -Int- (Não é uma atribuição nem variável)
+u :: Int
+u = 9
+{% endhighlight %}
+
+
+#### Tupla
+É uma estrutura coordenada, que não é uma lista. As tuplas são o único jeito de carregar coisas de tipagem diferentes (vetor não tem tipagem dinâmica). Porém, a tupla não é uma lista, ela é só uma jeito de carregar coisas de tipos diferentes. Os parametros devem ser enviados na ordem CERTA.
+
+{% highlight haskell %}
+-- tupla de Int e Int
+soma2 :: Int -> (Int, Int)
+soma2 x = (x-1, x+8)
+
+-- tupla de Int e String (a ordem dos parametros precisam ser a mesma)
+nomeIdade :: Int -> String -> (Int, String) 
+nomeIdade x y = (x+1, "OLA "++y)
+-- nomeIdade 3 "Ramon"
+-- (4, "OLA RAMON")
+
+-- EX2 - Faça uma função foo que recebe x, y e z como parâmetros e retorne
+-- (x*y, z:[z]++"A", y-x+5.9)
+-- foo :: Double -> Double -> Char -> (Double, [Char], Double)
+foo :: Double -> Double -> Char -> (Double, String], Double)
+foo x y z = ( x * y, z:[z]++"A", y-x+5.9 )
+-- OBS: dê o tipo
+{% endhighlight %}
+
+
+#### ALGEBRAIC DATA TYPES
+- **data** cria um novo tipo (enumeração = ENUM no java)
+- **deriving Show** é para mostrar na tela
+- ***"lado direito"*** (Segunda...) = values construct
+- **deriving** é como se um extends
+
+{% highlight haskell %}
+data Dia = Segunda | Terça | Quarta | Quinta | Sexta | Sábado | Domingo deriving Show
+-- :t Segunda
+-- Segunda :: Dia
+-- Segunda (erro se nao tiver `deriving Show`)
+{% endhighlight %}
+
+##### PATTERN MATCHING
+Funciona como um if. Sempre que se pensar em if, usa-lo.
+Aqui, cada linha com uma expressão corresponde a um *if*. Para representar o *else*, usa-se o **_** (underline). O underline representa cada parametro, caso haja mais de um, deve haver mais underlines.
+
+{% highlight haskell %}
+-- Agendar as datas como um if no java. Apenas se joga umvalor. Não podem ser defindas funções. 
+
+agenda :: Dia -> String
+agenda Domingo = "Faustão"
+agenda Sabado = "Futebol"
+agenda Sexta = "Cerveja"
+agenda _ = "Trabalho"       -- ignora, else
+
+-- entrada:> agenda "Sexta"
+-- saida:> "Cerveja"
+
+
+-- Em uma empresa um funcionario ganha por dia um salario fixo
+-- porem aos domingos, ele ganha 50% a mais
+-- aos sabados, 30% e nos demais dias, nenhum acrescido
+-- fala uma funcao que represente esta situacao
+salExtra :: Dia -> Double
+salExtra Domingo = 1.5
+salExtra Sabado = 1.3
+salExtra _ = 0
+
+calSal :: Double -> Dia -> Double
+calSal x d = x + (x * salExtra)
+
+--modo 2
+salFla :: Dia -> Double -> Double
+salFla Domingo x = x + (x * 0.5)
+salFla Sabado x = x + (x * 0.3)
+salFla _ x = x
+
+
+-- como são passados dois parametros (dia,cargo) pra função fator, no else 
+-- deve conter um underline para cada um.
+fator :: Dia -> Cargo -> Double
+fator Domingo Chefe = 2.0
+fator Domingo Peao = 1.5
+fator Sexta Chefe = 1.1
+fator _ _ = 1.0
+{% entradaa:> endhighlight %}
+
+> Gists:
+- [Anotações da Flávia](https://gist.github.com/flaviacs/0173a73ee72be4ac98b7)
+- [Anotações do Adam](https://gist.github.com/anonymous/7957349af8185f3a53df)
