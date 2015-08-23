@@ -259,7 +259,7 @@ take 3 ( "C SANTOS" )
 
 
 ======================================
-<span class="label label-success text-uppercase">Aula 2</span>
+<span class="label label-success text-uppercase">Aula 2 - 17/08</span>
 
 **no prompt**
 
