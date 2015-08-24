@@ -259,6 +259,7 @@ take 3 ( "C SANTOS" )
 
 
 ======================================
+
 <span class="label label-success text-uppercase">Aula 2 - 17/08</span>
 
 **no prompt**
@@ -272,7 +273,9 @@ take 3 ( "C SANTOS" )
 
 {% endhighlight %}
 
+
 **Usando o If**
+
 O if neste caso é uma função, não um desvio. Será a última vez que o if será usado.
 
 {% highlight haskell %}
@@ -296,6 +299,7 @@ O if neste caso é uma função, não um desvio. Será a última vez que o if se
 
 
 **Exercício**
+
 Ex. Faça uma *list compreenshion* que elimine as vogais de uma string:
 *Resposta*:
 
@@ -307,7 +311,8 @@ Ex. Faça uma *list compreenshion* que elimine as vogais de uma string:
 
 
 #### Tipagem
-*No código:*
+
+*No código:* 
 No haskell, é preciso dar o tipo de todos os parêmetros de entrada e um tipo (apenas) para a saída. 
 
 {% highlight haskell %}
@@ -332,18 +337,23 @@ Mult x y z = x * y * z
 É possível uma função de um tipo retornar outro. 
 Quando tem mais de um parametro, por padrão, adiciona-se um s depois de x (nome do parametro, no caso).
 
+
 **Função boomBang:**
+
 {% highlight haskell %}
 -- Tipando a função Boombang
 boomBang :: [Int] -> [String] 
 boomBang xs = [if mod x 2 == 0 then "BANG" else "BOOM" | x<-xs]
 {% endhighlight %}
 
-**Cola**
+
+##### Cola
+
 É possível ver uma "colinha" da tipagem de algo. Basta adicionar ```:t nomeDaFuncao```. Porém ele apresentará o tipo mais genérico possível.
 
 
 **Função apenas com retorno**
+
 Isso é uma função (que não recebe nada e retorna um inteiro). ISSO NÃO É UMA variável. Aqui não existe void, ainda que o retorno seja vazio.
 
 {% highlight haskell %}
@@ -354,6 +364,7 @@ u = 9
 
 
 #### Tupla
+
 É uma estrutura coordenada, que não é uma lista. As tuplas são o único jeito de carregar coisas de tipagem diferentes (vetor não tem tipagem dinâmica). Porém, a tupla não é uma lista, ela é só uma jeito de carregar coisas de tipos diferentes. Os parametros devem ser enviados na ordem CERTA.
 
 {% highlight haskell %}
@@ -377,6 +388,7 @@ foo x y z = ( x * y, z:[z]++"A", y-x+5.9 )
 
 
 #### ALGEBRAIC DATA TYPES
+
 - **data** cria um novo tipo (enumeração = ENUM no java)
 - **deriving Show** é para mostrar na tela
 - ***"lado direito"*** (Segunda...) = values construct
@@ -389,7 +401,9 @@ data Dia = Segunda | Terça | Quarta | Quinta | Sexta | Sábado | Domingo derivi
 -- Segunda (erro se nao tiver `deriving Show`)
 {% endhighlight %}
 
+
 ##### PATTERN MATCHING
+
 Funciona como um if. Sempre que se pensar em if, usa-lo.
 Aqui, cada linha com uma expressão corresponde a um *if*. Para representar o *else*, usa-se o **_** (underline). O underline representa cada parametro, caso haja mais de um, deve haver mais underlines.
 
@@ -434,6 +448,7 @@ fator Sexta Chefe = 1.1
 fator _ _ = 1.0
 {% endhighlight %}
 
-> Gists:
+
+***Gists:***
 - [Anotações da Flávia](https://gist.github.com/flaviacs/0173a73ee72be4ac98b7)
 - [Anotações do Adam](https://gist.github.com/anonymous/7957349af8185f3a53df)
