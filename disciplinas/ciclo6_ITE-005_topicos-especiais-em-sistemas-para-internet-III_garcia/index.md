@@ -432,7 +432,7 @@ fator Domingo Chefe = 2.0
 fator Domingo Peao = 1.5
 fator Sexta Chefe = 1.1
 fator _ _ = 1.0
-{% entradaa:> endhighlight %}
+{% endhighlight %}
 
 > Gists:
 - [Anotações da Flávia](https://gist.github.com/flaviacs/0173a73ee72be4ac98b7)
