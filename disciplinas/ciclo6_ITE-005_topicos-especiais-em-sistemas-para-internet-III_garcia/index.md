@@ -452,3 +452,264 @@ fator _ _ = 1.0
 ***Gists:***
 - [Anotações da Flávia](https://gist.github.com/flaviacs/0173a73ee72be4ac98b7)
 - [Anotações do Adam](https://gist.github.com/anonymous/7957349af8185f3a53df)
+
+======================================
+
+<span class="label label-success text-uppercase">Aula 3 - 24/08</span>
+
+{% highlight haskell %}
+module AULA3 where
+--module Aula33 where
+
+-- currying
+-- pattern match
+
+-- O tipo Pessoa possui dois value construtores 
+-- Fisica e Juridica
+{-
+O value constructor Fisica possui dois campos de String e de tipo Int. O Value conctruutor Juridica possui um campo
+String
+-}
+-- O Show da "poderes" de ser mostrado na tela via ghci
+-- O value construtor Pessoa eh uma funcao que Recebe dois parametros, um string e um Int
+
+data Pessoa = Fisica String Int | Juridica String deriving Show
+
+-- Fisica "JOAO" 30
+-- :t (Fisica "JOAO" 30)
+-- :t (Juridica "FATEC" 30)
+-- :t Fisica -- Fisica :: String -> Int -> Pessoa -- esse paramentro tem que ter String Int e devolver uma pessoa
+
+rel :: Pessoa -> (String, String)
+rel (Fisica x y) = ("Nome :" ++ x, "Idade: " ++ show y) -- o show equivalente toString
+rel (Juridica x) = ("Nome :" ++ x, "PJ NAO POSSUI IDade")
+-- RESTE: rel (Fisica "RAMON" 25) 
+
+-- EX1
+-- Faça uma funcao aniversario, que recebe uma Pessoa e retorna uma mensagem de aniversário com a idade atualizada a mais em um ano a mais.
+-- ex: aniversario (Fisica "Ramon" 22) = "Parabens pelo seus 22 anos Ramon"
+-- ex: aniversario (Juridica "Fatec" 22) = "Erro"
+aniversario :: Pessoa -> String
+aniversario (Fisica x y) = "Parabens pelo seus " ++ show (y+1) ++ " anos " ++ x
+aniversario (Juridica x) = "ERRO"
+
+module Aula33 where
+
+{-
+
+** Topicos ** 
+
+- parseion function - Não user
+- currying
+- pattern match
+- Record syntax
+
+O tipo Pessoa possui dois value construtores `Fisica` e `Juridica`.
+
+O value constructor Fisica possui dois campos de String e de tipo Int. O Value conctruutor Juridica possui um campo
+String
+
+O Show da "poderes" de ser mostrado na tela via ghci
+
+O value construtor Pessoa eh uma funcao que Recebe dois parametros, um string e um Int
+
+-}
+
+data Pessoa = Fisica String Int | Juridica String deriving Show
+
+-- Fisica "JOAO" 30
+-- :t (Fisica "JOAO" 30)
+-- :t (Juridica "FATEC" 30)
+-- :t Fisica -- Fisica :: String -> Int -> Pessoa -- esse paramentro tem que ter String Int e devolver uma pessoa
+
+rel :: Pessoa -> (String, String)
+rel (Fisica x y) = ("Nome :" ++ x, "Idade: " ++ show y) -- o show equivalente toString
+rel (Juridica x) = ("Nome :" ++ x, "PJ não possui idade")
+-- TESTE: rel (Fisica "RAMON" 25) 
+
+{-
+    EX1
+    Faça uma funcao aniversario, que recebe uma Pessoa e retorna uma mensagem de aniversário com a idade atualizada a mais em um ano a mais.
+    TESTE: aniversario (Fisica "Ramon" 22) = "Parabens pelo seus 22 anos Ramon"
+    TESTE: aniversario (Juridica "Fatec" 22) = "Erro"
+-}
+aniversario :: Pessoa -> String
+aniversario (Fisica x y) = "Parabens pelo seus " ++ show (y+1) ++ " anos " ++ x
+aniversario _ = "ERRO" -- ou aniversario (Juridica x) = "ERRO"
+
+
+
+---------------------------------
+
+{- 
+É possível ter um value constructor com o mesmo nome de um data constructor 
+
+Linha abaixo equivale = data Ponto = Ponto Double Double deriving Show
+Esta usando: Record syntax
+-}
+data Ponto = Ponto {xval, yval :: Double} deriving Show 
+-- com mais de um campo: {xval, yval :: Double, aval :: String}
+
+-- Ponto 1.0 1.2
+-- :t (Ponto 1.0 1.2)
+-- :t (Ponto 5.0)
+-- :t Ponto
+
+-- let p = Ponto 2.4 5.5
+-- p
+-- xval p
+-- yval p
+-- :t xval -- ate o nome do campo tem tipo
+
+-------
+
+--distOrig
+norma :: Ponto -> Double
+norma (Ponto x y) = sqrt(x**2 + y**2)
+-- norma (Ponto 2.0 1.0)
+-- ^ int 2^2 ... ** double 2**2
+
+-- normalinha
+norma' :: Ponto -> Double
+norma' (Ponto {xval=x, yval=y}) = sqrt(x**2 + y**2)
+
+-- normalinhalinha
+norma'' :: Ponto -> Double
+norma'' p = sqrt(xval p**2 + yval p**2) -- nao ta usando pattern match pq o PM da uma forma ja pronta, exemplo (Ponto x y) ou (Ponto {xval=x, yval=y})
+
+-- EX2
+-- Faça uma função de translação que recebe um ponto, e dois doubles. Este ponto  deve ser empurrado na diração dos parametros double. A funcao retorna um ponto
+-- translacao (Ponto 2 1) 1 1 = Ponto 3 2
+
+translacao :: Ponto -> Double -> Double -> Ponto
+translacao (Ponto x y) a b = Ponto (x+a) (y+b)
+
+
+-- Metro, Litro, Kilograma são tipos de ENUMERACOES
+data UnidadeSI = Metro | Litro | Kilograma deriving Show
+data UnidadeImp = Jarda | Galao | Libra deriving Show
+data Medida = MedidaMetrico Double UnidadeSI | 
+              MedidaImperial Double UnidadeImp
+              deriving Show
+
+           -- MedidaMetrico 2 Metro
+           -- t: (MedidaMetrico 2 Metro)
+           -- MedidaImperial 2 Jarda
+
+converter :: Medida -> Medida
+converter (MedidaMetrico x Metro) = MedidaImperial (1.0936*x) Jarda
+converter (MedidaMetrico x Litro) = MedidaImperial (0.264172052*x) Galao
+converter (MedidaMetrico x Kilograma) = MedidaImperial (2.20462262*x) Libra
+
+converter (MedidaImperial x Jarda) = MedidaMetrico (0.9144*x) Metro
+converter (MedidaImperial x Galao) = MedidaMetrico (3.78541178*x) Litro
+converter (MedidaImperial x Libra) = MedidaMetrico (0.45359237*x) Kilograma
+
+-- TESTE converter (MedidaMetrico 2 Metro)
+-- No Google 1m to yd
+
+---------------------------------
+
+
+soma :: Int -> Int -> Int -- soma :: Int -> (Int -> Int) agrupa parametro = funcao
+soma x y = x + y
+
+{-
+:t (soma 4) -- currying
+
+let u = soma 4
+:t u
+u 10
+u 1
+
+soma 4 = 4+y -- uma funcao
+soma Int -> (Int -> Int)
+
+let u = soma 4
+let soma4 = soma 4
+soma4 5 -- 9
+
+-- CURRYING é uma tecnica que consiste em passar um número menor de parametros para a funcao, fazendo com que ela te retorna uma outra funcao com um valor fixo
+
+-}
+
+```javascript
+function soma(x){
+    return function(y){
+        return x+y;
+    }
+}
+
+var x = soma(4);
+```
+------------
+
+--Qualquer funcao que possua dois parametros pode ser escrita em notacao infixa
+(^-^) :: Int -> Int -> Int
+(^-^) x y = x+y+7
+-- teste 4 ^-^ 3 -- 14
+-- teste (^-^) 4 3 -- 14
+
+-- transformando mod igual do JAVA
+(%) = mod
+-- teste 4 % 3 -- 1
+
+(!!!!) = (+)
+-- teste 4 !!!! 1 -- 5
+
+-- Currying com carinha feliz
+let k = (4 ^-^)
+k 10 -- 21
+
+let y = (3 +)
+y 2 -- 5
+
+
+---------------------------------------
+
+--Foo tipo de data
+--Bar e Baz constructs
+--String Int Campos
+--data Foo = Bar String Int | Baz Int Int
+data Foo = String :?: Int | Int :!: Int deriving Show
+-- teste :t ("Raira":?:70)
+-- teste :t (9:?:18)
+-- teste :t (:?:)
+-- teste :t (:!:)
+
+foo :: Foo -> Foo
+foo (x :?: y) = y :!: y
+foo (x :!: y) = "" :?: (x+y)
+-- foo ("Raira" :?: 70)
+-- foo (90 :?: 90)
+
+
+--[1,2,3,4] -- uma lista
+--1:2:3:4:[] -- pro haskell enxerga assim
+
+----------------------
+
+fn :: [Int] -> Int 
+fn (x:xs) = x -- LISTA NAO VAZIA
+fn [] = 0 -- LISTA VAZIA
+-- fn [3,2,1] -- 3
+-- fn (3:2:1:[]) -- 3
+{-
+x:xs
+1:2:3
+x=1
+xs=2:3
+-}
+
+
+-----------------------
+
+-- LAMBDA *funcao anonima* EM haskell
+
+let l = \x -> x+1
+l 2 -- 3
+:t l
+
+-- LAMBBA FOD RECURSAO MAPPINg
+{% endhighlight %}
+
