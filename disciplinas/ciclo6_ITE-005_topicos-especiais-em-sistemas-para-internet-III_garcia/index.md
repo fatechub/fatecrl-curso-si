@@ -83,6 +83,8 @@ Intodução a linguagem Haskell. Operações com listas. List comprehension. Tip
 
 ## Aulas e Atividades
 
+- [Lista 1 - Adam](TP1Adam.hs)
+
 ### Contéudo da Disciplina
 
 #### Definições
@@ -712,4 +714,3 @@ l 2 -- 3
 
 -- LAMBBA FOD RECURSAO MAPPINg
 {% endhighlight %}
-
