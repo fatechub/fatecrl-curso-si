@@ -83,7 +83,8 @@ Intodução a linguagem Haskell. Operações com listas. List comprehension. Tip
 
 ## Aulas e Atividades
 
-- [Lista 1 - Adam](https://github.com/fatechub/fatecrl-curso-si/blob/gh-pages/disciplinas/ciclo6_ITE-005_topicos-especiais-em-sistemas-para-internet-III_garcia/TP1Adam.hs)
+- [Lista 1 - Adam](https://github.com/fatechub/fatecrl-curso-si/blob/gh-pages/disciplinas/ciclo6_ITE-005_topicos-especiais-em-sistemas-para-internet-III_garcia/TP1Adam.hs) nota: 100.00
+- [Lista 2 - Adam](https://github.com/fatechub/fatecrl-curso-si/blob/gh-pages/disciplinas/ciclo6_ITE-005_topicos-especiais-em-sistemas-para-internet-III_garcia/TP2Adam.hs) nota: 100.00
 
 ### Contéudo da Disciplina
 
