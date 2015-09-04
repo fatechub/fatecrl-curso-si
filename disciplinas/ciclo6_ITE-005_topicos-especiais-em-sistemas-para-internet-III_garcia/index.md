@@ -715,3 +715,179 @@ l 2 -- 3
 
 -- LAMBBA FOD RECURSAO MAPPINg
 {% endhighlight %}
+
+
+======================================
+
+<span class="label label-success text-uppercase">Aula 4 - 31/08</span>
+
+{% highlight haskell %}
+ module Aula4 where
+
+{- Notação infixa no meio -} 
+
+--(^-^) :: Int -> Int -> Int
+--(^-^) x y = x+y+2
+
+--(%) = mod
+--(!!!) = (+)
+
+{- Currying : Técnica da prog. funcional no qual, a função pode receber parametros a menos que o
+declaro. usar let para atribuir a uma nova função
+Gera nova função com os parametros que falta -}
+
+--{ let somaDoisTres = somarTresNum 2 3 - esta linha fixa x e y, e deixa z livre. O retorno é uma funcao
+--Int -> Int
+
+--somaTresNum :: Int -> Int -> Int -> Int
+--somaTresNum x y z = x + y + z
+
+----------------------------------------------------------------
+
+# TOPICOS
+- high order functions
+
+-- LAMBDA
+-- do lado esquerdo `\x y = parametros`
+-- do lado direito `espressão`
+
+-- com nome
+let u = \x y -> x+y
+u 3 4 -- 7
+
+```javascript
+var u = function(x, y){ return x+y; }
+u(3,4)
+```
+
+-- sem nome (anonima)
+(\x y -> x+y) 3 4 -- 7
+
+```javascript
+function(x, y){ return x+y; }(3,4)
+```
+--
+
+let w = \f x -> f(x+1)
+w (\x->3*x) 4 -- 15
+-- TESTE DE MESA
+-- w (\x->3*x) 4 = 
+-- w (\x->3*x) (4+1) =
+-- (\x->3*x) 5 =
+-- 3*5 = 15
+
+triplo :: Int -> Int
+triplo = x*3
+
+--            |--------------|¹
+--            |¹     |²-------------|²
+aplicFoo :: (Int -> Int) -> Int -> Int
+aplicFoo f x = f(x+1) 
+
+-- Com LAMBDA
+aplicFoo' :: (Int -> Int) -> Int -> Int
+aplicFoo' \f x = f(x+1)
+-- aplicFoo' triplo 4
+
+-- 
+
+-- let c = (\x y -> x+y) 3
+-- c 5 -- 8
+
+-- Mapper é um metodo que aplica uma função em todos os parametros
+-- map triplo [1,2,3] --[3,6,9]
+-- map (\x->1+x) [1,2,3,4] --[2,3,4,5]
+-- map (+1) [1,2,3,4] --[2,3,4,5]
+-- map (3*) [1,2,3,4] --[3,5,9,12]
+-- filter (\x -> notEleme x "AEIOU") "FATEC" --"FTC" filter é o map disfarçado
+-- filter (\x -> mod x 2 == 0) [1,2,3,4] --[2,4]
+-- filter (\x -> mod x 2 == 1) [1,2,3,4] --[1,3]
+
+-- :t map
+-- map :: (a -> b) -> [a] -> [b]
+-- uma função que recebe algo do tipo `a` e retorna algo do tipo `b`
+-- [a]: lista de elemento do tipo a, mesma coisa para [b]
+
+-- :t filter
+-- filter :: (a -> Bool) -> [a] -> [a]
+-- Só é do tipo `a` e se for verdadeiro mostra `a` se não, não!
+
+-- Expressão que elimine os negativos de -5 a 5
+-- filter (\x -> x > 0) [-5..5]
+-- filter (>0) [-5..5]
+
+-- Expressão ou Função que tranforme a String AABCAACB em [1,1,2,3,1,1,3,2]
+
+
+{-
+letra :: Char -> Int
+letra 'A' = 1
+letra 'B' = 2
+letra 'C' = 3
+map letra "AABCAACB"
+-}
+
+-- TIP
+-- expressão GHCI
+-- função no arquivo
+
+`foldl (+) 0 [1,2,3,4]` --10
+-- foldl pega uma funcao acumuladora, essa funcao deve conter dois parametros sempre, um valor inicial e uma lista a ser percorrida ao contrario
+-- TESTE DE MESA
+-- (+) 0 1 [2,3,4]
+-- (+) 1 2 [3,4]
+-- (+) 3 3 [4]
+-- (+) 6 4 []
+-- (+) 10 []
+--
+-- exemplo'
+-- foldl (*) [1..6] --720 fatorial
+--
+-- exemplo''
+-- foldl (\xs x -> x:xs) [] "FATEC" --"CETAF"
+-- TESTE DE MESA
+foldl (\xs x -> x:xs) [] "FATEC"
+      -------|------- 
+             f
+
+-- TIP
+-- 'A':'F':[] = "AF"
+
+-- exemplo'''
+-- Expressão que conta os elementos de um vetor de inteiros
+-- 
+-- foldl (\xs x -> xs+1) 0 [1,2,3,4,5,6]
+-- foldl (\xs _ -> xs+1) 0 [1,2,3,4,5,6]
+-- length [1..10]
+--
+-- foldl (\c _ -> c+1) 0 [1..33]
+-- `c` é o 0
+-- `_` é cada valor da lista          
+
+
+
+--------------------------------
+
+
+-- COMPOSIÇÃO
+
+:t (.)
+(.) :: (b -> c) -. (a -> b) -> (a -> c)
+       ---f----    ----g---
+
+       f: b -> c
+       g: a -> b
+       f.g a -> c
+       (.) `a` entrada da função `f.g` é a entrada de `g` e `a` saída de `f`
+
+-- exemplo
+let u = \x -> x+1
+let v = \x -> x^2 -- eleva ao quadrado
+(u.v) 2 -- u.2^2 -- 4+1 -- 5 
+u(v(2))
+u.v $ 2
+u $ v(2)
+u $ v $ 2
+(u.v.u) 2 -- 10
+
+{% endhighlight %}
