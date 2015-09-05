@@ -71,3 +71,47 @@ Como são os empreendedores:
 5. Descreva as dicas para se tornar um empreendedor viável.
 
 [Respostas](https://www.dropbox.com/sh/km7kuav4xej8jpu/).AABIFPxTSv29_SMt8bCoGKIRa?dl=0)
+
+
+<span class="label label-success text-uppercase">Aula 3 - 04/09</span>
+
+
+#### O que o empreendedor tem:
+
+- estrégias mercadológicas
+- missão pessoal
+- competência interpessoal
+- visão macro
+- visão de futuro
+- domínio pessoal
+- conhecimento (do negócio)
+- arrojamento
+
+#### Tipos de empreendedor:
+- Empreendedor interno (que cresce dentro da empresa: (Ex.: alguém que começou como motoboy vai subindo de cargo e chega à gerência))
+- Empreendedor de negócios 
+- Empreendedor comunitário/social (ongs, coletivismo)
+
+#### Ações:
+- Idéias
+- Atitudes, concretização
+
+#### Nível de atitudes:
+- Sempre corre riscos **médios**
+- curioso
+- ter iniciativa
+- saber organizar
+- ter liderança
+
+#### Empreendedorismo na internet
+- investimento baixo
+- menos estrutura
+- trabalho a distância ou até de casa
+
+#### Apresentação de 3 filmes:
+- [Pequenas empresas, Grandes negócios - Crescimento de e-commerce no Brasil](https://www.youtube.com/watch?v=c_jp1MXe5Wc)
+- [Pequenas empresas, Grandes negócios - Sobre o Mercado Bilionário da Internet](https://www.youtube.com/watch?v=GsCi4EdxTME)
+- [Programa da Ana maria Braga - Sobre regularização de empresas, diferenças do Micro Empresa Individual, Micro Empresa e Pequena Empresa. (segundo vídeo)](http://gshow.globo.com/programas/mais-voce/O-programa/noticia/2013/09/xo-informalidade-veja-passo-a-passo-para-regularizar-sua-microempresa.html)
+
+#### Ler
+- [Veja o passo a passo para abrir uma empresa na internet (matéria do G1)](http://g1.globo.com/economia/pme/noticia/2014/08/veja-o-passo-passo-para-abrir-uma-empresa-na-internet.html)
