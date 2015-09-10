@@ -28,7 +28,9 @@ MAXIMINIANO, Antonio H Cesar Amaru. Administração para empreendedores. Prentic
 
 
 ## Material, Apostilas e Ferramentas
-*Em breve informações do moodle*
+*Em breve mais informações do moodle*
+- [abc-maxdvd.pdf](https://www.dropbox.com/s/zvqkq99wc87b348/abc-maxdvd.pdf?dl=0)
+- [abc-bplano_de_negocio.pdf](https://www.dropbox.com/s/b5mwjpcv2hpib6t/abc-bplano_de_negocio.pdf?dl=0)
 
 
 ## TPs e Provas
@@ -49,9 +51,8 @@ MAXIMINIANO, Antonio H Cesar Amaru. Administração para empreendedores. Prentic
 
 Empreendedorismo é a teoria criativa.
 
->     - É a ideia e abertura de empresa
-
->     - Ou empresa aberta que queira inovar
+> "É a ideia e abertura de empresa"
+> "Empresa aberta que queira inovar"
  
 - Plano de negócio
 - pesquisa com consumidor
