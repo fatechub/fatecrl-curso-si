@@ -12,6 +12,7 @@ layout: page
 
 - **23/09 (Quarta-seira)** TCC - Entrega terceira ficha de atendimento
 - **30/09 (Quarta-feira)** P1 (Prova 5pts) - Prova [Inglês Eveline](http://fatechub.github.io/fatecrl-curso-si//disciplinas/ciclo6_LIN-600_ingles-vi_eveline/index.html).
+- **03/10 (Sabádo)** P1 - Prova [Windows Phone Mauricio](http://fatechub.github.io/fatecrl-curso-si//disciplinas/ciclo6_ISW-013_desenvolvimento-para-dispositivos-moveis-III_mauricio/index.html).
 - **07/10 (Quarta-seira)** A1 - Entrega 50% do TCC (3 capítulos)
 - **14/10 (Quarta-seira)** TCC - Entrega quarta ficha de atendimento
 - **28/10 (Quarta-feira)** P1² (Prova em Dupla 5pts) - Prova [Inglês Eveline](http://fatechub.github.io/fatecrl-curso-si//disciplinas/ciclo6_LIN-600_ingles-vi_eveline/index.html).
