@@ -25,7 +25,8 @@ categories: grade-2013 ciclo-6
 - [Aplicações com Windows Phone I.pdf][aplicacoes-com-windowsphone-I-pdf]
 - [Aplicações com Windows Phone II.pdf][aplicacoes-com-windowsphone-II-pdf]
 - [Aplicações com Windows Phone III.pdf][aplicacoes-com-windowsphone-III-pdf]
-- [aplicacoes com windowsphone V.pdf][aplicacoes-com-windowsphone-V-pdf]
+- [Aplicações com Windows Phone IV.pdf][aplicacoes-com-windowsphone-IV-pdf]
+- [Aplicacoes com Windows Phone V.pdf][aplicacoes-com-windowsphone-V-pdf]
 - [lista de exercicios 1bim.pdf][lista-de-exercicios-1bim-pdf]
 - [Downloads e ferramentas para Windows](https://dev.windows.com/pt-br/downloads)
 
@@ -67,5 +68,6 @@ categories: grade-2013 ciclo-6
 [aplicacoes-com-windowsphone-I-pdf]: https://www.dropbox.com/s/q2huvuy3pjo85r4/Aplica%C3%A7%C3%B5es%20com%20Windows%20Phone%20I.pdf?dl=0
 [aplicacoes-com-windowsphone-II-pdf]: https://www.dropbox.com/s/vz4clwbknn95ggy/Aplica%C3%A7%C3%B5es%20com%20Windows%20Phone%20II.pdf?dl=0
 [aplicacoes-com-windowsphone-III-pdf]: https://www.dropbox.com/s/6q8shf2tzw3x10t/Aplica%C3%A7%C3%B5es%20com%20Windows%20Phone%20III.pdf?dl=0
+[aplicacoes-com-windowsphone-IV-pdf]: https://www.dropbox.com/s/ba3xk5abat49ks4/Aplica%C3%A7%C3%B5es%20com%20Windows%20Phone_navega%C3%A7%C3%A3o_telas_IV.pdf?dl=0
 [aplicacoes-com-windowsphone-V-pdf]: https://www.dropbox.com/s/s3ruizasph51jas/Aplica%C3%A7%C3%B5es%20com%20Windows%20Phone_Listas_V.pdf?dl=0
 [lista-de-exercicios-1bim-pdf]: https://www.dropbox.com/s/k9zahkicwu6ssnt/Dispositivos%20M%C3%B3veis%20II_lista%20de%20exerc%C3%ADcios%20do%201%C2%BA%20bimestre_2015_2.pdf?dl=0
