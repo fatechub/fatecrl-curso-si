@@ -70,12 +70,14 @@ Importante para tcc (tcc é um produto que precisa ser vendido para a banca, que
 - teste alfa
 - teste beta:
 	+ stress;
-	+ usabilidade...
+	+ usabilidade
+	+ ...
 
 
 ### Modelo Canvas
 
 Responde as perguntas:
+
 - Como?;
 	+ parcerias principais;
 	+ atividades principais;
@@ -94,7 +96,9 @@ Responde as perguntas:
 ### TCO
 
 Total cost of ownership (custo total de propriedade).
+
 **EXEMPLO**: Você comprou um carro de $25.000,00. Porém, os custos vão além disso:
+
 - Doc;
 - Combustível;
 - Manutenção;
@@ -107,4 +111,5 @@ Total cost of ownership (custo total de propriedade).
 - garagem;
 - habilitação;
 - pedágio;
+
 ***
