@@ -38,9 +38,15 @@ Intensão se transforma em venda.
 
 <span class="label label-success text-uppercase">Aula 3 (sábado) - 05/12</span>
 
-> |       SISTEMAS DE BUSCA        |       |          BUSCADORES                  |
-> | São motores de busca:          |   X   | Fazem busca usando outros sistemas   |
-> | Google, bing, baidu, ask.com   |       | Yahoo, uol...                        |
+> SISTEMAS DE BUSCA
+> São motores de busca:
+> Google, bing, baidu, ask.com
+>
+> VERSUS
+>
+> BUSCADORES
+> Fazem busca usando outros sistemas
+> Yahoo, uol...
 
 
 ### Pontos importantes para pesquisa:
