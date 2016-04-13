@@ -1,3 +1,15 @@
+---
+layout: disciplina
+title:  "Legislação Aplicada a Internet"
+sigla: DDI-004
+teacher: Paulo
+date:   2016-01-01
+grade: 2013
+ciclo: 2
+fatec: fatec-rl
+categories: grade-2013 ciclo-2
+---
+
 
 <span class="label label-warning text-uppercase"><span class="glyphicon glyphicon glyphicon-star"></span> Fixo</span>
 
